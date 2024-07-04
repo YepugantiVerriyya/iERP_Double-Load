@@ -1,0 +1,58 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata/sap/Z_UXGET_IP_ADDRESS_SRV/%24metadata"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c12_@z@c1_@pre billing application - @z@b@r@e_@o@r@i@g@i@n@a@l_@o@l@d/%resources%/recorded-artifacts/a11b7e96-8e6e-43fe-b20a-bab727b91acb.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="a11b7e96-8e6e-43fe-b20a-bab727b91acb">
+    <embedded-action>56fcc1d9-12ae-4611-a51b-b5866a23898f</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_e401883b-7e5b-457b-8748-2d21629b33e7.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/xml"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 20 Mar 2024 19:15:13 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/opu/odata/sap/Z_UXGET_IP_ADDRESS_SRV/$metadata"
+    path="/sap/opu/odata/sap/Z_UXGET_IP_ADDRESS_SRV/$metadata"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c12_@z@c1_@pre billing application - @z@b@r@e_@o@r@i@g@i@n@a@l_@o@l@d/%resources%/recorded-artifacts/a11b7e96-8e6e-43fe-b20a-bab727b91acb.zip"
+    recordedResponseCode="200" responseSize="2441"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="56fcc1d9-12ae-4611-a51b-b5866a23898f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_5931c8cb-fa28-4f40-8e92-7a603cc60ead.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5931c8cb-fa28-4f40-8e92-7a603cc60ead.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en"/>
+    <header name="accept" value="application/xml"/>
+    <header name="maxdataserviceversion" value="3.0"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sap-cancel-on-close" value="true"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="sap-contextid-accept" value="header"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000756E64657465726D696E6564202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E64657465726D696E65645F737461727475705F302020202020202020202020202020202020200005756E64657465726D696E6564202020202020202020202020202020202020202036353741353541344241353234333644394336324233303530324432463132322020200007D3CC9DDA9B554D88AA2FC94041ECC64A0000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/xml&#xd;
+content-length: 658&#xd;
+last-modified: Wed, 07 Feb 2024 16:29:51 GMT&#xd;
+cache-control: max-age=0&#xd;
+dataserviceversion: 2.0&#xd;
+sap-context-timeout: 180&#xd;
+sap-contextid: SID:ANON:icc1oqyc4ap02_YC4_03:u53NREj4x8lRaMsBjnsrpLBIVF07T9FZFoq90b5X-NEW&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=,MedCacheHub=,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 48018.000000&#xd;
+content-encoding: br</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
