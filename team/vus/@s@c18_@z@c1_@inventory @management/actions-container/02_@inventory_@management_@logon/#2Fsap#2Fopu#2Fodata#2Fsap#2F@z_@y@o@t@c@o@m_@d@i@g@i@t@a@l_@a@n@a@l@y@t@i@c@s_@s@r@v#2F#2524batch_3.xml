@@ -1,0 +1,90 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata/sap/Z_YOTCOM_DIGITAL_ANALYTICS_SRV/%24batch_3"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c18_@z@c1_@inventory @management/%resources%/recorded-artifacts/f6bcf1fb-5022-42e6-ab22-4ec3e84dc072.zip"
+    slaProfileEnabled="false" thinkTime="79"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="f6bcf1fb-5022-42e6-ab22-4ec3e84dc072">
+    <embedded-action>f7dbe958-3bec-4d74-87d9-d054300d8f3f</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_914128a6-7ff8-4121-b3ee-faf7b4ac835e.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="multipart/mixed; boundary=EF5CA6EBCA1BB08E2AB153A338BC14450"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/sap/opu/odata/sap/Z_YOTCOM_DIGITAL_ANALYTICS_SRV/$batch"
+    path="/sap/opu/odata/sap/Z_YOTCOM_DIGITAL_ANALYTICS_SRV/$batch"
+    postType="5"
+    recordedArtifactZipFileName="team/vus/@s@c18_@z@c1_@inventory @management/%resources%/recorded-artifacts/f6bcf1fb-5022-42e6-ab22-4ec3e84dc072.zip"
+    recordedResponseCode="202" responseSize="98163"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="f7dbe958-3bec-4d74-87d9-d054300d8f3f" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[DQotLWJhdGNoXzczMmMtMjBlOC0xNDA2DQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2h0dHANCkNvbnRlbnQtVHJhbnNmZXItRW5jb2Rpbmc6IGJpbmFyeQ0KDQpHRVQgQ291bnRyeVNldC8kY291bnQgSFRUUC8xLjENCnNhcC1jYW5jZWwtb24tY2xvc2U6IHRydWUNCnNhcC1jb250ZXh0aWQtYWNjZXB0OiBoZWFkZXINCkFjY2VwdDogdGV4dC9wbGFpbiwgKi8qO3E9MC41DQp4LWNzcmYtdG9rZW46IC1TZ19zTXExT3lrRFJFMjdGbzREMmc9PQ0KQWNjZXB0LUxhbmd1YWdlOiBlbg0KRGF0YVNlcnZpY2VWZXJzaW9uOiAyLjANCk1heERhdGFTZXJ2aWNlVmVyc2lvbjogMi4wDQpYLVJlcXVlc3RlZC1XaXRoOiBYTUxIdHRwUmVxdWVzdA0KDQoNCi0tYmF0Y2hfNzMyYy0yMGU4LTE0MDYNCkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vaHR0cA0KQ29udGVudC1UcmFuc2Zlci1FbmNvZGluZzogYmluYXJ5DQoNCkdFVCBDb3VudHJ5U2V0PyRza2lwPTAmJHRvcD0zMDAgSFRUUC8xLjENCnNhcC1jYW5jZWwtb24tY2xvc2U6IHRydWUNCnNhcC1jb250ZXh0aWQtYWNjZXB0OiBoZWFkZXINCkFjY2VwdDogYXBwbGljYXRpb24vanNvbg0KeC1jc3JmLXRva2VuOiAtU2dfc01xMU95a0RSRTI3Rm80RDJnPT0NCkFjY2VwdC1MYW5ndWFnZTogZW4NCkRhdGFTZXJ2aWNlVmVyc2lvbjogMi4wDQpNYXhEYXRhU2VydmljZVZlcnNpb246IDIuMA0KWC1SZXF1ZXN0ZWQtV2l0aDogWE1MSHR0cFJlcXVlc3QNCg0KDQotLWJhdGNoXzczMmMtMjBlOC0xNDA2DQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2h0dHANCkNvbnRlbnQtVHJhbnNmZXItRW5jb2Rpbmc6IGJpbmFyeQ0KDQpHRVQgTWFya2V0U2V0LyRjb3VudCBIVFRQLzEuMQ0Kc2FwLWNhbmNlbC1vbi1jbG9zZTogdHJ1ZQ0Kc2FwLWNvbnRleHRpZC1hY2NlcHQ6IGhlYWRlcg0KQWNjZXB0OiB0ZXh0L3BsYWluLCAqLyo7cT0wLjUNCngtY3NyZi10b2tlbjogLVNnX3NNcTFPeWtEUkUyN0ZvNEQyZz09DQpBY2NlcHQtTGFuZ3VhZ2U6IGVuDQpEYXRhU2VydmljZVZlcnNpb246IDIuMA0KTWF4RGF0YVNlcnZpY2VWZXJzaW9uOiAyLjANClgtUmVxdWVzdGVkLVdpdGg6IFhNTEh0dHBSZXF1ZXN0DQoNCg0KLS1iYXRjaF83MzJjLTIwZTgtMTQwNg0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9odHRwDQpDb250ZW50LVRyYW5zZmVyLUVuY29kaW5nOiBiaW5hcnkNCg0KR0VUIE1hcmtldFNldD8kc2tpcD0wJiR0b3A9MzAwIEhUVFAvMS4xDQpzYXAtY2FuY2VsLW9uLWNsb3NlOiB0cnVlDQpzYXAtY29udGV4dGlkLWFjY2VwdDogaGVhZGVyDQpBY2NlcHQ6IGFwcGxpY2F0aW9uL2pzb24NCngtY3NyZi10b2tlbjogLVNnX3NNcTFPeWtEUkUyN0ZvNEQyZz09DQpBY2NlcHQtTGFuZ3VhZ2U6IGVuDQpEYXRhU2VydmljZVZlcnNpb246IDIuMA0KTWF4RGF0YVNlcnZpY2VWZXJzaW9uOiAyLjANClgtUmVxdWVzdGVkLVdpdGg6IFhNTEh0dHBSZXF1ZXN0DQoNCg0KLS1iYXRjaF83MzJjLTIwZTgtMTQwNg0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9odHRwDQpDb250ZW50LVRyYW5zZmVyLUVuY29kaW5nOiBiaW5hcnkNCg0KR0VUIEJpc191blNldC8kY291bnQgSFRUUC8xLjENCnNhcC1jYW5jZWwtb24tY2xvc2U6IHRydWUNCnNhcC1jb250ZXh0aWQtYWNjZXB0OiBoZWFkZXINCkFjY2VwdDogdGV4dC9wbGFpbiwgKi8qO3E9MC41DQp4LWNzcmYtdG9rZW46IC1TZ19zTXExT3lrRFJFMjdGbzREMmc9PQ0KQWNjZXB0LUxhbmd1YWdlOiBlbg0KRGF0YVNlcnZpY2VWZXJzaW9uOiAyLjANCk1heERhdGFTZXJ2aWNlVmVyc2lvbjogMi4wDQpYLVJlcXVlc3RlZC1XaXRoOiBYTUxIdHRwUmVxdWVzdA0KDQoNCi0tYmF0Y2hfNzMyYy0yMGU4LTE0MDYNCkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vaHR0cA0KQ29udGVudC1UcmFuc2Zlci1FbmNvZGluZzogYmluYXJ5DQoNCkdFVCBCaXNfdW5TZXQ/JHNraXA9MCYkdG9wPTMwMCBIVFRQLzEuMQ0Kc2FwLWNhbmNlbC1vbi1jbG9zZTogdHJ1ZQ0Kc2FwLWNvbnRleHRpZC1hY2NlcHQ6IGhlYWRlcg0KQWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uDQp4LWNzcmYtdG9rZW46IC1TZ19zTXExT3lrRFJFMjdGbzREMmc9PQ0KQWNjZXB0LUxhbmd1YWdlOiBlbg0KRGF0YVNlcnZpY2VWZXJzaW9uOiAyLjANCk1heERhdGFTZXJ2aWNlVmVyc2lvbjogMi4wDQpYLVJlcXVlc3RlZC1XaXRoOiBYTUxIdHRwUmVxdWVzdA0KDQoNCi0tYmF0Y2hfNzMyYy0yMGU4LTE0MDYNCkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vaHR0cA0KQ29udGVudC1UcmFuc2Zlci1FbmNvZGluZzogYmluYXJ5DQoNCkdFVCBVc2VyQ01CU2V0KCcwJykgSFRUUC8xLjENCnNhcC1jYW5jZWwtb24tY2xvc2U6IHRydWUNCnNhcC1jb250ZXh0aWQtYWNjZXB0OiBoZWFkZXINCkFjY2VwdDogYXBwbGljYXRpb24vanNvbg0KeC1jc3JmLXRva2VuOiAtU2dfc01xMU95a0RSRTI3Rm80RDJnPT0NCkFjY2VwdC1MYW5ndWFnZTogZW4NCkRhdGFTZXJ2aWNlVmVyc2lvbjogMi4wDQpNYXhEYXRhU2VydmljZVZlcnNpb246IDIuMA0KWC1SZXF1ZXN0ZWQtV2l0aDogWE1MSHR0cFJlcXVlc3QNCg0KDQotLWJhdGNoXzczMmMtMjBlOC0xNDA2LS0NCg==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_fafc3ab3-5f25-4f50-8e69-b94bf70cc59d</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_fafc3ab3-5f25-4f50-8e69-b94bf70cc59d.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en"/>
+    <header name="origin" value="https://ierp-yc4.pce.ibm.com:44391"/>
+    <header name="accept" value="multipart/mixed"/>
+    <header name="maxdataserviceversion" value="2.0"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;122&quot;, &quot;Not(A:Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;122&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sap-cancel-on-close" value="true"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="sap-contextid-accept" value="header"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000756E64657465726D696E6564202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E64657465726D696E65645F737461727475705F302020202020202020202020202020202020200005756E64657465726D696E6564202020202020202020202020202020202020202034303643424141423938424134343235383342314438314231363243423735462020200007A7F96E87E6C943648B91682EE89199A20000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="content-type" value="multipart/mixed;boundary=batch_732c-20e8-1406"/>
+    <header name="x-csrf-token" value="${c_csrf_Token}=="/>
+    <header name="dataserviceversion" value="2.0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 202&#xd;
+content-type: multipart/mixed; boundary=EF5CA6EBCA1BB08E2AB153A338BC14450&#xd;
+content-length: 4862&#xd;
+dataserviceversion: 2.0&#xd;
+cache-control: no-cache, no-store, must-revalidate&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=X,MedCacheHub=,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 101234.000000&#xd;
+content-encoding: br</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <multiparts>
+        <multipart-mimefile
+            attachedFilename="recorded-resources/1709711783874_134"
+            contentType="application/http" filename="1709711783874_134"
+            name="Part0" transferEncoding="binary"/>
+        <multipart-mimefile
+            attachedFilename="recorded-resources/1709711783901_647"
+            contentType="application/http" filename="1709711783901_647"
+            name="Part1" transferEncoding="binary"/>
+        <multipart-mimefile
+            attachedFilename="recorded-resources/1709711783915_945"
+            contentType="application/http" filename="1709711783915_945"
+            name="Part2" transferEncoding="binary"/>
+        <multipart-mimefile
+            attachedFilename="recorded-resources/1709711783917_429"
+            contentType="application/http" filename="1709711783917_429"
+            name="Part3" transferEncoding="binary"/>
+        <multipart-mimefile
+            attachedFilename="recorded-resources/1709711783948_259"
+            contentType="application/http" filename="1709711783948_259"
+            name="Part4" transferEncoding="binary"/>
+        <multipart-mimefile
+            attachedFilename="recorded-resources/1709711783965_968"
+            contentType="application/http" filename="1709711783965_968"
+            name="Part5" transferEncoding="binary"/>
+        <multipart-mimefile
+            attachedFilename="recorded-resources/1709711783967_698"
+            contentType="application/http" filename="1709711783967_698"
+            name="Part6" transferEncoding="binary"/>
+    </multiparts>
+</http-action>

@@ -1,0 +1,179 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata/sap/ZFIORIANALYTICS_SRV/%24metadata"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c06#2E3_@z@c1_@sales_@order_@v@a02_@change @s@o_1@t@o4/%resources%/recorded-artifacts/01e525d9-fe0e-43f2-911c-babb54c7ec26.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="01e525d9-fe0e-43f2-911c-babb54c7ec26">
+    <embedded-action>35463413-50fd-4de7-a072-23cf4230a9ab</embedded-action>
+    <embedded-action>b474f209-ee8c-4890-8602-91f4f20ffc4b</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_61109f6a-2fe1-4a28-923a-69ee7e5d75be.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/xml"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 20 Mar 2024 19:15:13 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/sap/opu/odata/sap/ZFIORIANALYTICS_SRV/$metadata"
+    path="/sap/opu/odata/sap/ZFIORIANALYTICS_SRV/$metadata" postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c06#2E3_@z@c1_@sales_@order_@v@a02_@change @s@o_1@t@o4/%resources%/recorded-artifacts/01e525d9-fe0e-43f2-911c-babb54c7ec26.zip"
+    recordedResponseCode="200" responseSize="12988"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="35463413-50fd-4de7-a072-23cf4230a9ab" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f4541ab7-abf5-4ae8-9c32-87b31ede8971.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f4541ab7-abf5-4ae8-9c32-87b31ede8971.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en"/>
+    <header name="accept" value="application/xml"/>
+    <header name="maxdataserviceversion" value="3.0"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sap-cancel-on-close" value="true"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="sap-contextid-accept" value="header"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000757368656C6C2E72656E6465726572732E66696F72693240312E3130382E323500005341505F4532455F54415F5573657220202020202020202020202020202020206C64496E5368656C6C2D696E7075742D706F7075702D7461626C655F6974656D50726573735F32370005757368656C6C2E72656E6465726572732E66696F72693240312E3130382E3235343937424441323045374532344246303932343643373434333130424332313720202000077B295F9117534C5BA2E420D60AA079540000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/xml&#xd;
+content-length: 1403&#xd;
+last-modified: Wed, 07 Feb 2024 16:29:51 GMT&#xd;
+cache-control: max-age=0&#xd;
+dataserviceversion: 2.0&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=,MedCacheHub=Table,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 43007.000000&#xd;
+content-encoding: br</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif" enabled="false"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/cm" path="/cm" postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c06#2E3_@z@c1_@sales_@order_@v@a02_@change @s@o_1@t@o4/%resources%/recorded-artifacts/01e525d9-fe0e-43f2-911c-babb54c7ec26.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="data.coremetrics.com" slaProfileEnabled="false"
+    uid="b474f209-ee8c-4890-8602-91f4f20ffc4b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b474f209-ee8c-4890-8602-91f4f20ffc4b.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_caeb6ee1-edf7-4e5d-804a-f9f97ef40aff.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="tid"
+        recordRawValue="15" separator="=" value="15" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ci"
+        recordRawValue="51040000%7CIBMTESTW3" separator="="
+        value="51040000|IBMTESTW3" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="vn2"
+        recordRawValue="e4.0" separator="=" value="e4.0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="st"
+        recordRawValue="1707729077170" separator="="
+        value="1707729077170" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="vn1"
+        recordRawValue="4.23.201" separator="=" value="4.23.201" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ec"
+        recordRawValue="utf-8" separator="=" value="utf-8" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="eid"
+        recordRawValue="null" separator="=" value="null" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ecat"
+        recordRawValue="Search" separator="=" value="Search" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pi"
+        recordRawValue="ierp-yc4.pce.ibm.com%3A44391%2Fsap%2Fbc%2Fui2%2Fflp"
+        separator="=" value="ierp-yc4.pce.ibm.com:44391/sap/bc/ui2/flp" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="rnd"
+        recordRawValue="1707730324137" separator="="
+        value="1707730324137" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="e_a1"
+        recordRawValue="Search" separator="=" value="Search" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="e_a2"
+        recordRawValue="null" separator="=" value="null" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="e_a3"
+        recordRawValue="United%20States" separator="="
+        value="United States" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="e_a4"
+        recordRawValue="Not%20applicable" separator="="
+        value="Not applicable" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="e_a5"
+        recordRawValue="UI5%20Application" separator="="
+        value="UI5 Application" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="e_a6"
+        recordRawValue="Not%20applicable" separator="="
+        value="Not applicable" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="e_a7"
+        recordRawValue="null" separator="=" value="null" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="e_a8"
+        recordRawValue="Manage%20IBM%20Sales%20Documents" separator="="
+        value="Manage IBM Sales Documents" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="e_a9"
+        recordRawValue="null" separator="=" value="null" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="e_a12"
+        recordRawValue="ierp-yc4.pce.ibm.com%3A44391%2Fsap%2Fbc%2Fui2%2Fflp"
+        separator="=" value="ierp-yc4.pce.ibm.com:44391/sap/bc/ui2/flp" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="e_a13"
+        recordRawValue="undefined" separator="=" value="undefined" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="e_a14"
+        recordRawValue="undefined" separator="=" value="undefined" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="e_a15"
+        recordRawValue="undefined" separator="=" value="undefined" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="e_a18"
+        recordRawValue="1707729077007" separator="="
+        value="1707729077007" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="e_a19"
+        recordRawValue="https%3A%2F%2Fierp-yc4.pce.ibm.com%3A44391%2Fsap%2Fbc%2Fui2%2Fflp%3Fsaml2%3Ddisabled%26sap-client%3D330%26sap-language%3DEN%23ZSalesOrder-custom"
+        separator="="
+        value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN#ZSalesOrder-custom" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="e_a20"
+        recordRawValue="1707729106641" separator="="
+        value="1707729106641" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="e_a21"
+        recordRawValue="undefined" separator="=" value="undefined" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ul"
+        recordRawValue="https%3A%2F%2Fierp-yc4.pce.ibm.com%3A44391%2Fsap%2Fbc%2Fui2%2Fflp%3Fsaml2%3Ddisabled%26sap-client%3D330%26sap-language%3DEN%23ZSalesOrder-custom"
+        separator="="
+        value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN#ZSalesOrder-custom" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="rf"
+        recordRawValue="https%3A%2F%2Fierp-yc4.pce.ibm.com%3A44391%2Fsap%2Fbc%2Fui2%2Fflp%3Fsaml2%3Ddisabled%26sap-client%3D330%26sap-language%3DEN"
+        separator="="
+        value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="cjen"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="cjuid"
+        recordRawValue="77332462999517035740906" separator="="
+        value="77332462999517035740906" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="cjsid"
+        recordRawValue="88227651707729077747" separator="="
+        value="88227651707729077747" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="cjvf"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="data.coremetrics.com"/>
+    <header name="Referer" value="https://ierp-yc4.pce.ibm.com:44391/"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="image"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 12 Feb 2024 09:11:46 GMT&#xd;
+Server: Apache&#xd;
+Vary: Host&#xd;
+Expires: Sun, 11 Feb 2024 09:11:46 GMT&#xd;
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0, proxy-revalidate, no-transform, pre-check=0, post-check=0, private&#xd;
+Pragma: no-cache&#xd;
+Content-Length: 43&#xd;
+P3P: CP="NON DSP COR CUR ADMo DEVo PSAo PSDo OUR IND ONL UNI PUR COM NAV INT DEM STA"&#xd;
+Connection: close&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,187 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata/ui2/PAGE_BUILDER_PERS/%24metadata"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c17_@z@c1_@display @document - @f@b03/%resources%/recorded-artifacts/9c571979-67a9-463b-b122-24ebaeb64271.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="9c571979-67a9-463b-b122-24ebaeb64271">
+    <embedded-action>af387e35-382e-42c1-8414-02e0520a4299</embedded-action>
+    <embedded-action>1e2d4684-f3c8-4509-b239-955f5b827c4c</embedded-action>
+    <embedded-action>1fa22643-f608-456d-aa65-d212f61fb5bd</embedded-action>
+    <embedded-action>70af91f8-29a1-4fbf-b01f-8bab4b2df3e8</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_07d0f2e6-ef35-4b5f-9ab9-b367b1b58333.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/xml"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 20 Mar 2024 19:15:13 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/sap/opu/odata/ui2/PAGE_BUILDER_PERS/$metadata"
+    path="/sap/opu/odata/ui2/PAGE_BUILDER_PERS/$metadata" postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c17_@z@c1_@display @document - @f@b03/%resources%/recorded-artifacts/9c571979-67a9-463b-b122-24ebaeb64271.zip"
+    recordedResponseCode="200" responseSize="23565"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="af387e35-382e-42c1-8414-02e0520a4299" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6ed65b2b-d9b4-4587-b85d-ab2e39045790.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6ed65b2b-d9b4-4587-b85d-ab2e39045790.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="sap-client"
+        recordRawValue="100" separator="=" value="${P_Client.ID}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sap-language"
+        recordRawValue="EN" separator="=" value="EN" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-zc1.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en"/>
+    <header name="accept" value="application/xml"/>
+    <header name="maxdataserviceversion" value="3.0"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sap-cancel-on-close" value="true"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="sap-contextid-accept" value="header"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000756E64657465726D696E6564202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E64657465726D696E65645F737461727475705F302020202020202020202020202020202020200005756E64657465726D696E6564202020202020202020202020202020202020202033363841323934313636313934323533424644444131464236423843443342422020200007A64217AA24E644DC9B384F0AE96F79670000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/xml&#xd;
+content-length: 2397&#xd;
+last-modified: Thu, 06 Jul 2023 12:11:40 GMT&#xd;
+cache-control: max-age=0&#xd;
+dataserviceversion: 2.0&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=,MedCacheHub=Table,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 35676.000000&#xd;
+content-encoding: br&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/plain; charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 02 Nov 2022 13:03:09 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/bc/ui5_ui5/ui2/ushell/resources/~20231115080100~/sap/tnt/messagebundle_en.properties"
+    path="/sap/bc/ui5_ui5/ui2/ushell/resources/~20231115080100~/sap/tnt/messagebundle_en.properties"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c17_@z@c1_@display @document - @f@b03/%resources%/recorded-artifacts/9c571979-67a9-463b-b122-24ebaeb64271.zip"
+    recordedResponseCode="200" responseSize="510"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="1e2d4684-f3c8-4509-b239-955f5b827c4c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b48eb955-626e-4aab-ad44-a487df1be48c</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b48eb955-626e-4aab-ad44-a487df1be48c.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-zc1.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="accept" value="text/plain"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="sap-passport" value="2A54482A0300E60000756E64657465726D696E6564202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E64657465726D696E65645F737461727475705F302020202020202020202020202020202020200005756E64657465726D696E6564202020202020202020202020202020202020202030424346423343413131323034454539394241423033303431443544393435422020200007A64217AA24E644DC9B384F0AE96F79670000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/plain; charset=ISO-8859-1&#xd;
+content-length: 510&#xd;
+x-xss-protection: 0&#xd;
+last-modified: Wed, 02 Nov 2022 13:03:09 GMT&#xd;
+cache-control: max-age=315360000, public&#xd;
+sap-server: true&#xd;
+date: Fri, 02 Feb 2024 04:54:54 GMT&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Mon, 11 Mar 2024 13:08:58 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/xRayControls/resources/sap/dfa/help/utils/adapters/fiori/Component-preload.js"
+    path="/xRayControls/resources/sap/dfa/help/utils/adapters/fiori/Component-preload.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c17_@z@c1_@display @document - @f@b03/%resources%/recorded-artifacts/9c571979-67a9-463b-b122-24ebaeb64271.zip"
+    recordedResponseCode="200" responseSize="2030188"
+    serverUid="xray.hana.ondemand.com" slaProfileEnabled="false"
+    uid="1fa22643-f608-456d-aa65-d212f61fb5bd" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_1e403cd1-270e-4388-a9bf-879e329fae5f</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1e403cd1-270e-4388-a9bf-879e329fae5f.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="xray.hana.ondemand.com"/>
+    <header name="Referer" value="https://ierp-zc1.pce.ibm.com:44391/"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="script"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Cache-Control: max-age=172800, public&#xd;
+Last-Modified: Mon, 22 Jan 2024 12:38:32 GMT&#xd;
+vary: accept-encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Type: application/javascript&#xd;
+Transfer-Encoding: chunked&#xd;
+Date: Fri, 02 Feb 2024 04:54:54 GMT&#xd;
+Keep-Alive: timeout=20&#xd;
+Connection: keep-alive&#xd;
+Server: SAP&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload&#xd;
+Origin-Trial: Avu6rn7emV5gK8gvyGHlX8TMqM9uo1FacP2j/RWTq+8j+yKnqcTO0TQh0bXJ/7QntxD4/JzXv8aXoqxxZQuqXgYAAABdeyJvcmlnaW4iOiJodHRwczovL29uZGVtYW5kLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHBjZCIsImV4cGlyeSI6MTczNTM0Mzk5OSwiaXNTdWJkb21haW4iOnRydWV9&#xd;
+Critical-Origin-Trial: Tpcd</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/plain; charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 08 Mar 2024 14:41:19 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/bc/ui5_ui5/ui2/ushell/resources/~20231115080100~/sap/ui/comp/messagebundle_en.properties"
+    path="/sap/bc/ui5_ui5/ui2/ushell/resources/~20231115080100~/sap/ui/comp/messagebundle_en.properties"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c17_@z@c1_@display @document - @f@b03/%resources%/recorded-artifacts/9c571979-67a9-463b-b122-24ebaeb64271.zip"
+    recordedResponseCode="200" responseSize="19227"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="70af91f8-29a1-4fbf-b01f-8bab4b2df3e8" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4109c7d0-728b-40c4-8d91-dbd24a79be48</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4109c7d0-728b-40c4-8d91-dbd24a79be48.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-zc1.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="accept" value="text/plain"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="sap-passport" value="2A54482A0300E60000756E64657465726D696E6564202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E64657465726D696E65645F737461727475705F302020202020202020202020202020202020200005756E64657465726D696E6564202020202020202020202020202020202020202045324236344646433934423934433142423344324441393833324233373332462020200007A64217AA24E644DC9B384F0AE96F79670000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/plain; charset=ISO-8859-1&#xd;
+content-length: 5435&#xd;
+x-xss-protection: 0&#xd;
+last-modified: Fri, 08 Sep 2023 16:00:36 GMT&#xd;
+cache-control: max-age=315360000, public&#xd;
+sap-server: true&#xd;
+content-encoding: br&#xd;
+date: Fri, 02 Feb 2024 04:54:57 GMT&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

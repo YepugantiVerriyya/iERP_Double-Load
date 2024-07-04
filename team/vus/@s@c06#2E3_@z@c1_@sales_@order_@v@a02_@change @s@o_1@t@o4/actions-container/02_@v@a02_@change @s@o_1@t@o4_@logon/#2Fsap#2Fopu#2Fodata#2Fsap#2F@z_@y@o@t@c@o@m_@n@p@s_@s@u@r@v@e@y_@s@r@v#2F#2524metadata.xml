@@ -1,0 +1,56 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata/sap/Z_YOTCOM_NPS_SURVEY_SRV/%24metadata"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c06#2E3_@z@c1_@sales_@order_@v@a02_@change @s@o_1@t@o4/%resources%/recorded-artifacts/d74d8992-f6f4-49e1-b42d-bcf491a11987.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d74d8992-f6f4-49e1-b42d-bcf491a11987">
+    <embedded-action>fbf41b7a-33c0-418c-ae82-b31febaae179</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_2891735c-7cf4-4b19-8d79-325b36d8b471.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/xml"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 20 Mar 2024 19:15:13 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/opu/odata/sap/Z_YOTCOM_NPS_SURVEY_SRV/$metadata"
+    path="/sap/opu/odata/sap/Z_YOTCOM_NPS_SURVEY_SRV/$metadata"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c06#2E3_@z@c1_@sales_@order_@v@a02_@change @s@o_1@t@o4/%resources%/recorded-artifacts/d74d8992-f6f4-49e1-b42d-bcf491a11987.zip"
+    recordedResponseCode="200" responseSize="9044"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="fbf41b7a-33c0-418c-ae82-b31febaae179" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6e57c20d-9a72-41e7-bef7-0f7853ab3739.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6e57c20d-9a72-41e7-bef7-0f7853ab3739.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en"/>
+    <header name="accept" value="application/xml"/>
+    <header name="maxdataserviceversion" value="3.0"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sap-cancel-on-close" value="true"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="sap-contextid-accept" value="header"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000756E64657465726D696E6564202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E64657465726D696E65645F737461727475705F302020202020202020202020202020202020200005756E64657465726D696E65642020202020202020202020202020202020202020373736343244374645393442343139313934413836354146343039324339303520202000077B295F9117534C5BA2E420D60AA079540000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/xml&#xd;
+content-length: 975&#xd;
+last-modified: Wed, 07 Feb 2024 16:29:51 GMT&#xd;
+cache-control: max-age=0&#xd;
+dataserviceversion: 2.0&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=,MedCacheHub=Table,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 33715.000000&#xd;
+content-encoding: br</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,101 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata/sap/ESH_SEARCH_SRV/%24metadata"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c16_@z@c1_@display @working @times - @c@a@t@s_@d@a_@o@l@d/%resources%/recorded-artifacts/50c05f59-6a74-4133-a96c-801c16d0f7c3.zip"
+    slaProfileEnabled="false" thinkTime="16"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="50c05f59-6a74-4133-a96c-801c16d0f7c3">
+    <embedded-action>affc3b25-29c7-4980-b6d2-4042564f4e3d</embedded-action>
+    <embedded-action>d052f2a2-5d3b-4dc6-b49b-c36739317146</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_dadd7b2e-6a97-43af-b7a3-cf75fc27f8fb.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/xml"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 20 Mar 2024 19:15:13 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/sap/opu/odata/sap/ESH_SEARCH_SRV/$metadata"
+    path="/sap/opu/odata/sap/ESH_SEARCH_SRV/$metadata" postType="4"
+    recordedArtifactZipFileName="team/vus/@s@c16_@z@c1_@display @working @times - @c@a@t@s_@d@a_@o@l@d/%resources%/recorded-artifacts/50c05f59-6a74-4133-a96c-801c16d0f7c3.zip"
+    recordedResponseCode="200" responseSize="226460"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="affc3b25-29c7-4980-b6d2-4042564f4e3d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_1e8318c0-23a6-43bb-93aa-6eed3deab2b3.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1e8318c0-23a6-43bb-93aa-6eed3deab2b3.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="accept" value="application/xml"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;122&quot;, &quot;Not(A:Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;122&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000756E64657465726D696E6564202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E64657465726D696E65645F737461727475705F302020202020202020202020202020202020200005756E64657465726D696E6564202020202020202020202020202020202020202034433631323742334532374134323944383542463639333039463337313134422020200007077E45F1ADEB4BA9B7EBCDD68293110B0000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="content-type" value="application/xml"/>
+    <header name="x-csrf-token" value="${c_yc4_CATS_DA_x-csrf-token}=="/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/xml&#xd;
+content-length: 15561&#xd;
+last-modified: Fri, 16 Feb 2024 08:38:17 GMT&#xd;
+cache-control: max-age=0&#xd;
+dataserviceversion: 2.0&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=,MedCacheHub=Table,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 169393.000000&#xd;
+content-encoding: br</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/x-javascript"
+    eTag="&quot;c94cbb8b014b96b0c18febda55b8c7fa:1672865396.055967&quot;"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 13 Apr 2017 12:33:46 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/common/stats/w3_nondojo_eluminate.js"
+    path="/common/stats/w3_nondojo_eluminate.js" postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c16_@z@c1_@display @working @times - @c@a@t@s_@d@a_@o@l@d/%resources%/recorded-artifacts/50c05f59-6a74-4133-a96c-801c16d0f7c3.zip"
+    recordedResponseCode="200" responseSize="16152"
+    serverUid="www.ibm.com" slaProfileEnabled="false"
+    uid="d052f2a2-5d3b-4dc6-b49b-c36739317146" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_5fdb4abd-0458-4101-a56f-c89d1b994b2a</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5fdb4abd-0458-4101-a56f-c89d1b994b2a.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;122&quot;, &quot;Not(A:Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;122&quot;"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+accept-ranges: bytes&#xd;
+content-md5: yUy7iwFLlrDBj+vaVbjH+g==&#xd;
+content-type: application/x-javascript&#xd;
+etag: "c94cbb8b014b96b0c18febda55b8c7fa:1672865396.055967"&#xd;
+last-modified: Thu, 13 Apr 2017 12:33:46 GMT&#xd;
+server: AkamaiNetStorage&#xd;
+content-encoding: gzip&#xd;
+content-length: 4805&#xd;
+cache-control: max-age=142660&#xd;
+expires: Fri, 23 Feb 2024 00:23:17 GMT&#xd;
+date: Wed, 21 Feb 2024 08:45:37 GMT&#xd;
+vary: Accept-Encoding&#xd;
+access-control-allow-origin: *&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+content-security-policy: upgrade-insecure-requests&#xd;
+strict-transport-security: max-age=31536000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

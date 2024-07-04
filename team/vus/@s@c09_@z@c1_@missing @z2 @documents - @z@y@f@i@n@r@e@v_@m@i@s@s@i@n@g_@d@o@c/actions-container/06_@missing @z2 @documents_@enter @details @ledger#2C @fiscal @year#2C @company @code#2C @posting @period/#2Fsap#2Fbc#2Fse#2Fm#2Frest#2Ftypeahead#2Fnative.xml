@@ -1,0 +1,59 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/bc/se/m/rest/typeahead/native"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c09_@z@c1_@missing @z2 @documents - @z@y@f@i@n@r@e@v_@m@i@s@s@i@n@g_@d@o@c/%resources%/recorded-artifacts/190b146f-99c7-478c-ac1e-878b0e76e31b.zip"
+    slaProfileEnabled="false" thinkTime="29720"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="190b146f-99c7-478c-ac1e-878b0e76e31b">
+    <embedded-action>2e02d857-18f8-48fe-b9eb-193463e1648e</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_3f113ce8-3c77-48f4-a8f4-5f26ecab87ac.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/sap/bc/se/m/rest/typeahead/native"
+    path="/sap/bc/se/m/rest/typeahead/native" postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c09_@z@c1_@missing @z2 @documents - @z@y@f@i@n@r@e@v_@m@i@s@s@i@n@g_@d@o@c/%resources%/recorded-artifacts/190b146f-99c7-478c-ac1e-878b0e76e31b.zip"
+    recordedResponseCode="200" responseSize="466"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="2e02d857-18f8-48fe-b9eb-193463e1648e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_bfa49753-8f67-4706-bd00-7bd6cb9777ae</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_bfa49753-8f67-4706-bd00-7bd6cb9777ae.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="dy_field"
+        recordRawValue="P_RBUKRS" separator="=" value="P_RBUKRS" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="main_program"
+        recordRawValue="ZYRFINRR_MISSING_DOC" separator="="
+        value="ZYRFINRR_MISSING_DOC" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="screennum"
+        recordRawValue="1000" separator="=" value="1000" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="limit"
+        recordRawValue="9" separator="=" value="9" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ok"
+        recordRawValue="7" separator="=" value="7" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pattern"
+        recordRawValue="7" separator="=" value="7" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="tcode"
+        recordRawValue="ZYFINREV_MISSING_DOC" separator="="
+        value="ZYFINREV_MISSING_DOC" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/se/m/index.html?sap-personas-flavor=9AB09B91720B1ED8B5E0E6AD6FF64788&amp;sap-personas-hidden=X&amp;sap-se-csrf-parameter=moin&amp;sap-se-hide-splashscreen=X&amp;sap-se-showkeys=visible&amp;~transaction=SMEN"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json&#xd;
+content-length: 466&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 66916.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

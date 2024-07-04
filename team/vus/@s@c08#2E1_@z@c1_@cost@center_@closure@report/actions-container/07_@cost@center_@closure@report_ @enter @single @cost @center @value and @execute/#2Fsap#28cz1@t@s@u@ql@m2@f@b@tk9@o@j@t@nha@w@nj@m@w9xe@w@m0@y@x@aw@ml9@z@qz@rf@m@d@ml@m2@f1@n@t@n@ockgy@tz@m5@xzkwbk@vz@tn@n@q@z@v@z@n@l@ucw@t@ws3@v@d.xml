@@ -1,0 +1,54 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap(cz1TSUQlM2FBTk9OJTNhaWNjMW9xeWM0YXAwMl9ZQzRfMDMlM2F1NTNOckgyTzM5XzkwbkVzTnNQZVZNLUcwTWs3VD"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c08#2E1_@z@c1_@cost@center_@closure@report/%resources%/recorded-artifacts/e73dbfb7-f3bd-4de4-8b58-2495dfc2e49a.zip"
+    slaProfileEnabled="false" thinkTime="3677"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e73dbfb7-f3bd-4de4-8b58-2495dfc2e49a">
+    <embedded-action>3663f84a-07a9-47c3-9e0f-1119f247788d</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_f9b22ea8-bdd3-4c6d-825b-7cd8908c88a4.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/sap(cz1TSUQlM2FBTk9OJTNhaWNjMW9xeWM0YXAwMl9ZQzRfMDMlM2F1NTNOckgyTzM5XzkwbkVzTnNQZVZNLUcwTWs3VDlGWFZJckhOcW1NLUFUVA==)/bc/se/rg/batch/json"
+    path="/sap(cz${c_sap_cz}==)/bc/se/rg/batch/json" postType="4"
+    recordedArtifactZipFileName="team/vus/@s@c08#2E1_@z@c1_@cost@center_@closure@report/%resources%/recorded-artifacts/e73dbfb7-f3bd-4de4-8b58-2495dfc2e49a.zip"
+    recordedResponseCode="200" responseSize="74588"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="3663f84a-07a9-47c3-9e0f-1119f247788d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_24b4f174-3305-4b51-afdd-c5c77f8e4626</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_24b4f174-3305-4b51-afdd-c5c77f8e4626.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="moin"
+        recordRawValue="ADB6B419770AC990" separator="="
+        value="${c_moin}" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/se/m/index.html?sap-personas-flavor=9AB09B91720B1ED8B5E0E6AD6FF64788&amp;sap-personas-hidden=X&amp;sap-se-csrf-parameter=moin&amp;sap-se-hide-splashscreen=X&amp;sap-se-showkeys=visible&amp;~transaction=SMEN"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://ierp-yc4.pce.ibm.com:44391"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json;charset=UTF-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json; charset=utf-8&#xd;
+content-length: 7335&#xd;
+expires: Sat, 6 May 1995 12:00:00 GMT&#xd;
+cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0&#xd;
+pragma: no-cache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+sap-perf-fesrec: 127775.000000&#xd;
+content-encoding: br</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[[{"post":"focus/wnd[0]/usr/ctxtS_KOSTL-HIGH"},{"post":"value/wnd[0]/usr/ctxtS_KOSTL-LOW","content":"${p_SC8_ClosureReport_Data.Cost Center}"},{"post":"action/3/wnd[0]/tbar[1]/btn[8]"},{"post":"recalculate"},{"get":"mobile/state/json","ord":"get-state"},{"get":"personas/state/xml/PERSONAS/THEME"},{"get":"personas/state/xml/PERSONAS/CONTEXT"},{"get":"personas/state/xml/PERSONAS/MDUI"}]]]></textPostContent>
+</http-action>

@@ -1,0 +1,28 @@
+<virtual-user errorPolicy="GO_TO_NEXT_ITERATION"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="SC16_ZC1_Display Working Times - CATS_DA">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="50"
+        pacingMode="MODE_PACING_RANGE" pacingStart="45" pacingValue="10"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="9c10ac75-ad4d-4005-9cfe-726d096f410b"/>
+        <weighted-embedded-action uid="8f38af7a-355d-4602-8393-1dfd0a45bcba"/>
+        <weighted-embedded-action uid="c4df2e22-e64c-469c-b32e-060f3432c4f8"/>
+        <weighted-embedded-action uid="537473fc-3e86-468f-b39e-45d20f20d425"/>
+        <weighted-embedded-action uid="89773d1e-114f-4627-a1e3-e2bb213e94d3"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

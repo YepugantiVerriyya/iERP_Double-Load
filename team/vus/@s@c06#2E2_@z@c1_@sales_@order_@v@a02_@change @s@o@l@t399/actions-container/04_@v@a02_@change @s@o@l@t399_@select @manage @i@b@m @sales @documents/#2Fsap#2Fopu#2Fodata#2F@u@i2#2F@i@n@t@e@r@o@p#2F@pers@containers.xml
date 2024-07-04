@@ -1,0 +1,58 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata/UI2/INTEROP/PersContainers"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c06#2E2_@z@c1_@sales_@order_@v@a02_@change @s@o@l@t399/%resources%/recorded-artifacts/7e117fe0-ba01-4eba-a09c-4a6864ef45a9.zip"
+    slaProfileEnabled="false" thinkTime="16"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="7e117fe0-ba01-4eba-a09c-4a6864ef45a9">
+    <embedded-action>5caf29c6-e71a-4c2c-957c-b16344fd650d</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_8b008276-a921-4f46-a079-6fcd401efe58.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/sap/opu/odata/UI2/INTEROP/PersContainers"
+    path="/sap/opu/odata/UI2/INTEROP/PersContainers" postType="4"
+    recordedArtifactZipFileName="team/vus/@s@c06#2E2_@z@c1_@sales_@order_@v@a02_@change @s@o@l@t399/%resources%/recorded-artifacts/7e117fe0-ba01-4eba-a09c-4a6864ef45a9.zip"
+    recordedResponseCode="201" responseSize="2444"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="5caf29c6-e71a-4c2c-957c-b16344fd650d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_90215361-db51-4a9a-b3ae-d6d0dd215da7</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_90215361-db51-4a9a-b3ae-d6d0dd215da7.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="EN"/>
+    <header name="origin" value="https://ierp-yc4.pce.ibm.com:44391"/>
+    <header name="sap-client" value="${P_Client.ID}"/>
+    <header name="accept" value="application/json"/>
+    <header name="maxdataserviceversion" value="3.0"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sap-language" value="EN"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000756E646566696E6564202020202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E646566696E6564202020202020202020202020202020202020202020202020202020202020200005756E646566696E65642020202020202020202020202020202020202020202020424541434633424543313030343635383837354341423831384433453037354320202000077B295F9117534C5BA2E420D60AA079540000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="content-type" value="application/json"/>
+    <header name="x-csrf-token" value="${c_yc4_va02_x-csrf-token}=="/>
+    <header name="dataserviceversion" value="1.0"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 201&#xd;
+content-type: application/json; charset=utf-8&#xd;
+content-length: 842&#xd;
+location: https://IERP-YC4.PCE.IBM.COM:44391/sap/opu/odata/UI2/INTEROP/PersContainers(id='sap.ushell.services.UserRecents',category='U')&#xd;
+dataserviceversion: 2.0&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=,MedCacheHub=Table,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 54095.000000&#xd;
+content-encoding: br</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"__metadata":{"id":"https://IERP-YC4.PCE.IBM.COM:44391/sap/opu/odata/UI2/INTEROP/PersContainers(id='sap.ushell.services.UserRecents',category='U')","uri":"https://IERP-YC4.PCE.IBM.COM:44391/sap/opu/odata/UI2/INTEROP/PersContainers(id='sap.ushell.services.UserRecents',category='U')","type":"INTEROP.PersContainer"},"id":"sap.ushell.services.UserRecents","category":"U","validity":0,"clientExpirationTime":"\/Date(253373464800000)\/","component":"","appName":"","PersContainerItems":[{"value":"{\"recentDay\":\"2024/2/12\",\"recentUsageArray\":[{\"oItem\":{\"title\":\"Manage IBM Sales Documents\",\"appType\":\"Application\",\"url\":\"#ZSalesOrder-custom\",\"appId\":\"#ZSalesOrder-custom\",\"timestamp\":1707729109040,\"icon\":\"sap-icon://product\"},\"iTimestamp\":1707729109040,\"aUsageArray\":[1,1,5],\"iCount\":7},{\"oItem\":{\"title\":\"Change Sales Orders - VA02\",\"appType\":\"Application\",\"url\":\"#SalesDocument-change?%24.basicSearch=&BillingBlock=&BillingDate=2024-01-01T00%3A00%3A00.000Z&CreatedOn=2024-02-06T00%3A00%3A00.000Z&Currency=USD&Customer=S033984190&CustomerReference=2407%20Tax%20Israel%20002&DistributionChannel=00&EndCustomer=&NetValue=2982003.48&RequestedDeliveryDate=2024-01-01T00%3A00%3A00.000Z&SalesDocument=7346832788&SalesDocumentType=ZGOR&sap-app-origin-hint=&sap-xapp-state=TASCWRINT5331VF6X4KWDCAD012R3Q5FCQVYO73TV&sap.suite.ui.generic.template.genericData=%5Bobject%20Object%5D\",\"appId\":\"#SalesDocument-change\",\"timestamp\":1707728790077,\"icon\":\"sap-icon://product\"},\"iTimestamp\":1707728790077,\"aUsageArray\":[3],\"iCount\":3,\"desktop\":true},{\"oItem\":{\"title\":\"Z_IERP_ZBRE-launch\",\"appType\":\"Application\",\"url\":\"#Z_IERP_ZBRE-launch\",\"appId\":\"#Z_IERP_ZBRE-launch\",\"timestamp\":1707325698115,\"icon\":\"sap-icon://product\"},\"iTimestamp\":1707325698115,\"aUsageArray\":[1,0,0,0],\"iCount\":1,\"desktop\":true}]}","id":"RecentActivity","category":"I","containerId":"sap.ushell.services.UserRecents","containerCategory":"U"}]}]]></textPostContent>
+</http-action>

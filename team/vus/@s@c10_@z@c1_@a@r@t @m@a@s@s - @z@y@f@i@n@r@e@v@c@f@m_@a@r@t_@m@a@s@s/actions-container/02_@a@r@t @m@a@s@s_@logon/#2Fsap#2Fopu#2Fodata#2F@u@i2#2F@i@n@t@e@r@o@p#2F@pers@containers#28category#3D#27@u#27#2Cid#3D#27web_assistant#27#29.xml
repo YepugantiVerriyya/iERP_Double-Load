@@ -1,0 +1,155 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata/UI2/INTEROP/PersContainers(category='U',id='web_assistant')"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c10_@z@c1_@a@r@t @m@a@s@s - @z@y@f@i@n@r@e@v@c@f@m_@a@r@t_@m@a@s@s/%resources%/recorded-artifacts/cd4311b6-1e70-4e19-99f9-60e3e5b6bd49.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="cd4311b6-1e70-4e19-99f9-60e3e5b6bd49">
+    <embedded-action>1dd483a4-af3d-4f23-adc7-4451a53969ab</embedded-action>
+    <embedded-action>6b629ad1-797c-4b93-8ab9-e613b682f511</embedded-action>
+    <embedded-action>bd54f5af-30ee-4271-af0f-793b1a777ceb</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_23dfc714-4da0-40a2-a5db-45668157fc40.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/opu/odata/UI2/INTEROP/PersContainers(category='U',id='web_assistant')"
+    path="/sap/opu/odata/UI2/INTEROP/PersContainers(category='U',id='web_assistant')"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c10_@z@c1_@a@r@t @m@a@s@s - @z@y@f@i@n@r@e@v@c@f@m_@a@r@t_@m@a@s@s/%resources%/recorded-artifacts/cd4311b6-1e70-4e19-99f9-60e3e5b6bd49.zip"
+    recordedResponseCode="200" responseSize="1004"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="1dd483a4-af3d-4f23-adc7-4451a53969ab" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c8a84b9e-a94c-4887-8230-c332ba2ca180</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c8a84b9e-a94c-4887-8230-c332ba2ca180.txt</requestContentFileDescription>
+    <parameter encodeName="false" encodeValue="true" name="$expand"
+        recordRawValue="PersContainerItems" separator="="
+        value="PersContainerItems" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-zc1.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=100&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="EN"/>
+    <header name="sap-client" value="${P_Client.ID}"/>
+    <header name="accept" value="application/json"/>
+    <header name="maxdataserviceversion" value="3.0"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;123&quot;, &quot;Not:A-Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;123&quot;"/>
+    <header name="sap-language" value="EN"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000756E64657465726D696E6564202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E64657465726D696E65645F737461727475705F302020202020202020202020202020202020200005756E64657465726D696E656420202020202020202020202020202020202020203435453032463845464233463434354338363134443737383934413542393943202020000757DA0950C4114CF0A5194763657BE00C0000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="x-csrf-token" value="Fetch"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json; charset=utf-8&#xd;
+content-length: 1004&#xd;
+x-csrf-token: P42cZfVHADXzdl7bPV43nw==&#xd;
+dataserviceversion: 2.0&#xd;
+sap-metadata-last-modified: Wed, 20 Mar 2024 19:15:13 GMT&#xd;
+pragma: no-cache&#xd;
+cache-control: no-store, no-cache&#xd;
+expires: -1&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=,MedCacheHub=Table,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 55231.000000&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css" enabled="false"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 11 Mar 2024 13:06:44 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/xRayControls/resources/sap/dfa/help/wpb/less/default.css"
+    path="/xRayControls/resources/sap/dfa/help/wpb/less/default.css"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c10_@z@c1_@a@r@t @m@a@s@s - @z@y@f@i@n@r@e@v@c@f@m_@a@r@t_@m@a@s@s/%resources%/recorded-artifacts/cd4311b6-1e70-4e19-99f9-60e3e5b6bd49.zip"
+    recordedResponseCode="200" responseSize="346925"
+    serverUid="xray.hana.ondemand.com" slaProfileEnabled="false"
+    uid="6b629ad1-797c-4b93-8ab9-e613b682f511" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_521c3009-4ba7-4399-af3f-3c72627608aa.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_521c3009-4ba7-4399-af3f-3c72627608aa.txt</requestContentFileDescription>
+    <header name="Accept" value="text/css,*/*;q=0.1"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="xray.hana.ondemand.com"/>
+    <header name="Referer" value="https://ierp-zc1.pce.ibm.com:44391/"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;123&quot;, &quot;Not:A-Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;123&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="style"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Cache-Control: max-age=172800, public&#xd;
+Last-Modified: Mon, 11 Mar 2024 13:06:44 GMT&#xd;
+vary: accept-encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Type: text/css&#xd;
+Transfer-Encoding: chunked&#xd;
+Date: Thu, 04 Apr 2024 17:21:46 GMT&#xd;
+Keep-Alive: timeout=20&#xd;
+Connection: keep-alive&#xd;
+Server: SAP&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload&#xd;
+Origin-Trial: Avu6rn7emV5gK8gvyGHlX8TMqM9uo1FacP2j/RWTq+8j+yKnqcTO0TQh0bXJ/7QntxD4/JzXv8aXoqxxZQuqXgYAAABdeyJvcmlnaW4iOiJodHRwczovL29uZGVtYW5kLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHBjZCIsImV4cGlyeSI6MTczNTM0Mzk5OSwiaXNTdWJkb21haW4iOnRydWV9&#xd;
+Critical-Origin-Trial: Tpcd</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css" enabled="false"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 11 Mar 2024 13:06:00 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/xRayControls/resources/sap/dfa/help/wpb/less/text_styles_default.css"
+    path="/xRayControls/resources/sap/dfa/help/wpb/less/text_styles_default.css"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c10_@z@c1_@a@r@t @m@a@s@s - @z@y@f@i@n@r@e@v@c@f@m_@a@r@t_@m@a@s@s/%resources%/recorded-artifacts/cd4311b6-1e70-4e19-99f9-60e3e5b6bd49.zip"
+    recordedResponseCode="200" responseSize="13688"
+    serverUid="xray.hana.ondemand.com" slaProfileEnabled="false"
+    uid="bd54f5af-30ee-4271-af0f-793b1a777ceb" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_894feee9-3394-49bc-894f-fe9778ae4df0.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_894feee9-3394-49bc-894f-fe9778ae4df0.txt</requestContentFileDescription>
+    <header name="Accept" value="text/css,*/*;q=0.1"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="xray.hana.ondemand.com"/>
+    <header name="Referer" value="https://ierp-zc1.pce.ibm.com:44391/"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;123&quot;, &quot;Not:A-Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;123&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="style"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Cache-Control: max-age=172800, public&#xd;
+Last-Modified: Mon, 11 Mar 2024 13:06:00 GMT&#xd;
+vary: accept-encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Type: text/css&#xd;
+Transfer-Encoding: chunked&#xd;
+Date: Thu, 04 Apr 2024 17:21:46 GMT&#xd;
+Keep-Alive: timeout=20&#xd;
+Connection: keep-alive&#xd;
+Server: SAP&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload&#xd;
+Origin-Trial: Avu6rn7emV5gK8gvyGHlX8TMqM9uo1FacP2j/RWTq+8j+yKnqcTO0TQh0bXJ/7QntxD4/JzXv8aXoqxxZQuqXgYAAABdeyJvcmlnaW4iOiJodHRwczovL29uZGVtYW5kLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHBjZCIsImV4cGlyeSI6MTczNTM0Mzk5OSwiaXNTdWJkb21haW4iOnRydWV9&#xd;
+Critical-Origin-Trial: Tpcd</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

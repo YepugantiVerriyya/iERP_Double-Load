@@ -1,0 +1,35 @@
+<custom-action actionType="SapClick" isHit="true"
+    name="Click GuiButton (Transfer   (Enter))" uid="ad8ddc52-0334-4e37-93ec-7c02e8f417db">
+    <description>This action simulates a click action on an SAP GUI object.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/".&#xd;
+- menuItem (optional): The id of the menu item.&#xd;
+- toolbarButton (optional): The id of the toolbar button.&#xd;
+- toolbarContextButton (optional): The id of the toolbar context button.&#xd;
+- contextButton (optional): The id of the context button.&#xd;
+- contextMenuItem (optional): The context menu item to select in a toolbar.&#xd;
+- contextMenuItemText (optional): The context menu item text to select in a toolbar.&#xd;
+- contextMenuItemPosition (optional): The context menu item position to select in a toolbar.&#xd;
+- column (optional): The column index of a table or the column name of a grid.&#xd;
+- row (optional): The row index of a grid or a table.&#xd;
+- nodeKey (optional): The node key of a tree.&#xd;
+- indexes (optional): The indexes separated by "/" to reference a tree path. Example: 0/1/1/2.&#xd;
+- itemName (optional): The item name of a tree.&#xd;
+- buttonPress (optional): If set to "true", a press button will be performed on a tree or on the current cell of a grid. Default value is "false".&#xd;
+- clickLink (optional): If set to "true", a click link will be performed on a tree. Default value is "false".&#xd;
+- changeCheckbox (optional): The value to set in a checkbox of a tree.&#xd;
+- modifyCheckbox (optional): Change the checkbox value of a grid cell identified by row and column.&#xd;
+- x (optional): The x coordinate when clicking on a picture.&#xd;
+- y (optional): The y coordinate when clicking on a picture.&#xd;
+- caretPosition (optional): The caret position on a label.&#xd;
+- ignoreErrors (optional): If set to "true", the action won't be in error if object is not found, type is not supported or an exception is thrown. Default value is "false".&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[1]/tbar[0]/btn[0]"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="btn[0]"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiButton"/>
+    <responsePageFileDescription>recorded-responses/res_ad8ddc52-0334-4e37-93ec-7c02e8f417db</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/@z@c1_@p@a@s@s@w@o@r@d_@c@h@a@n@g@e/%resources%/recorded-screenshots/sc_1b4c58b0-f690-409b-bfee-3e42177e18ae.jpg</screenshotFileDescription>
+</custom-action>

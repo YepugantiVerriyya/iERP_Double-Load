@@ -1,0 +1,63 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata/UI2/INTEROP/PersContainers(category='U',id='ushellSearchPersoServiceContainer')"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c11_@z@c1_@correspondence#3A @print @int#2E@documents - @f#2E62_@o@l@d/%resources%/recorded-artifacts/5af20782-f833-46ab-a841-724a0bd3221d.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="5af20782-f833-46ab-a841-724a0bd3221d">
+    <embedded-action>162c4b3e-8e8d-4172-9981-59744ddbab1c</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_0e346255-275d-423c-92d1-a95d7ac75752.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/opu/odata/UI2/INTEROP/PersContainers(category='U',id='ushellSearchPersoServiceContainer')"
+    path="/sap/opu/odata/UI2/INTEROP/PersContainers(category='U',id='ushellSearchPersoServiceContainer')"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c11_@z@c1_@correspondence#3A @print @int#2E@documents - @f#2E62_@o@l@d/%resources%/recorded-artifacts/5af20782-f833-46ab-a841-724a0bd3221d.zip"
+    recordedResponseCode="200" responseSize="1122"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="162c4b3e-8e8d-4172-9981-59744ddbab1c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_1f74e540-2c3e-4be8-bd34-1063494ab4e1</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1f74e540-2c3e-4be8-bd34-1063494ab4e1.txt</requestContentFileDescription>
+    <parameter encodeName="false" encodeValue="true" name="$expand"
+        recordRawValue="PersContainerItems" separator="="
+        value="PersContainerItems" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="EN"/>
+    <header name="sap-client" value="${P_Client.ID}"/>
+    <header name="accept" value="application/json"/>
+    <header name="maxdataserviceversion" value="3.0"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sap-language" value="EN"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000756E64657465726D696E6564202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E64657465726D696E65645F737461727475705F302020202020202020202020202020202020200005756E64657465726D696E656420202020202020202020202020202020202020203134463934333844323330323445323941334536443142423144364239304145202020000734AAA8D0BBD54A4FA8CF7730893A93290000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="x-csrf-token" value="Fetch"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json; charset=utf-8&#xd;
+content-length: 325&#xd;
+x-csrf-token: VGDOLqRZVOw-0CSkqpGVWA==&#xd;
+dataserviceversion: 2.0&#xd;
+sap-metadata-last-modified: Wed, 07 Feb 2024 16:29:51 GMT&#xd;
+pragma: no-cache&#xd;
+cache-control: no-store, no-cache&#xd;
+expires: -1&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=,MedCacheHub=Table,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 41103.000000&#xd;
+content-encoding: br</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

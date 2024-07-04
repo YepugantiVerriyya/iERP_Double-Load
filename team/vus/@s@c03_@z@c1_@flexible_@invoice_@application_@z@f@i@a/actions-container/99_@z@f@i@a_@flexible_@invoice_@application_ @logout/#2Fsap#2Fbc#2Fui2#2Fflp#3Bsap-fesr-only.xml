@@ -1,0 +1,68 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/bc/ui2/flp;sap-fesr-only"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c03_@z@c1_@flexible_@invoice_@application_@z@f@i@a/%resources%/recorded-artifacts/d3cd372e-c2d3-4646-8070-f1af1af1339a.zip"
+    slaProfileEnabled="false" thinkTime="12"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d3cd372e-c2d3-4646-8070-f1af1af1339a">
+    <embedded-action>2dd2cdb9-fbcb-4971-ba18-fb4b961472f3</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_d8bc9f4a-ef30-48b9-a5fa-94fc10a97eb6.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/sap/bc/ui2/flp;sap-fesr-only"
+    path="/sap/bc/ui2/flp;sap-fesr-only" postCharset="UTF-8"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@s@c03_@z@c1_@flexible_@invoice_@application_@z@f@i@a/%resources%/recorded-artifacts/d3cd372e-c2d3-4646-8070-f1af1af1339a.zip"
+    recordedResponseCode="200" responseSize="1452"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="2dd2cdb9-fbcb-4971-ba18-fb4b961472f3" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[c2FwLWZlc3Itb25seT0xJlNBUC1QZXJmLUZFU1JlYz04RDJBNTcyRjE4Qzc0NDM2QUQ2QjNCQTcwRUNGRDRCRSxDQUU2QTI0NDgzNTY0QjJBOTNFMkNENEQyQjQxNDFFRCwwLDAsMzIsMCxtZUFyZWFIZWFkZXJCdXR0b25fcHJlc3NfOCwwLDAsd2luXzEwLFNBUF9VSTVTQVAtUGVyZi1GRVNSZWMtb3B0WkZJQSAoVFIpLGVhSGVhZGVyQnV0dG9uX3ByZXNzLCxjcl8xMjIsMCwwLCwsMzIsWCwsLCwsMCwyLDEsLDIwMjQwMzA1MTE0NjQ5MzY0LHNhcC51c2hlbGwucmVuZGVyZXJzLmZpb3JpMiZTQVAtUGVyZi1GRVNSZWM9OEQyQTU3MkYxOEM3NDQzNkFENkIzQkE3MEVDRkQ0QkUsLDAsMCwxMywwLF9fbGlzdDIyLTYtbG9nb3V0QnRuX3ByZXNzXzksMCwwLHdpbl8xMCxTQVBfVUk1U0FQLVBlcmYtRkVTUmVjLW9wdFpGSUEgKFRSKSwyMi02LWxvZ291dEJ0bl9wcmVzcywsY3JfMTIyLDAsMCwsLDEzLFgsLCwsLDAsMiwxLCwyMDI0MDMwNTExNDY1MDQyMyxzYXAudXNoZWxsLnJlbmRlcmVycy5maW9yaTImU0FQLVBlcmYtRkVTUmVjPThEMkE1NzJGMThDNzQ0MzZBRDZCM0JBNzBFQ0ZENEJFLDg1OUU5MTE0MzMzRjRCM0RBREJDNUJBODUwQUFCNUNBLDIsNDgxLDgxNSwxLF9fbWJveC1idG4tMF9wcmVzc18xMCw0MTYsNDgxLHdpbl8xMCxTQVBfVUk1U0FQLVBlcmYtRkVTUmVjLW9wdFpGSUEgKFRSKSxfX21ib3gtYnRuLTBfcHJlc3MsLGNyXzEyMiw2NTYsNDMzLCwsMzMzLFgsLCwsLDAsMiwxLCwyMDI0MDMwNTExNDY1MzUyNyxzYXAudXNoZWxsLnJlbmRlcmVycy5maW9yaTI=]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_051a3d99-859f-458c-96bc-d44c5503e21c.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_051a3d99-859f-458c-96bc-d44c5503e21c.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="sap-fesr-only"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false"
+        name="SAP-Perf-FESRec"
+        recordRawValue="8D2A572F18C74436AD6B3BA70ECFD4BE,CAE6A24483564B2A93E2CD4D2B4141ED,0,0,32,0,meAreaHeaderButton_press_8,0,0,win_10,SAP_UI5SAP-Perf-FESRec-optZFIA (TR),eaHeaderButton_press,,cr_122,0,0,,,32,X,,,,,0,2,1,,20240305114649364,sap.ushell.renderers.fiori2"
+        separator="="
+        value="8D2A572F18C74436AD6B3BA70ECFD4BE,CAE6A24483564B2A93E2CD4D2B4141ED,0,0,32,0,meAreaHeaderButton_press_8,0,0,win_10,SAP_UI5SAP-Perf-FESRec-optZFIA (TR),eaHeaderButton_press,,cr_122,0,0,,,32,X,,,,,0,2,1,,20240305114649364,sap.ushell.renderers.fiori2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false"
+        name="SAP-Perf-FESRec"
+        recordRawValue="8D2A572F18C74436AD6B3BA70ECFD4BE,,0,0,13,0,__list22-6-logoutBtn_press_9,0,0,win_10,SAP_UI5SAP-Perf-FESRec-optZFIA (TR),22-6-logoutBtn_press,,cr_122,0,0,,,13,X,,,,,0,2,1,,20240305114650423,sap.ushell.renderers.fiori2"
+        separator="="
+        value="8D2A572F18C74436AD6B3BA70ECFD4BE,,0,0,13,0,__list22-6-logoutBtn_press_9,0,0,win_10,SAP_UI5SAP-Perf-FESRec-optZFIA (TR),22-6-logoutBtn_press,,cr_122,0,0,,,13,X,,,,,0,2,1,,20240305114650423,sap.ushell.renderers.fiori2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false"
+        name="SAP-Perf-FESRec"
+        recordRawValue="8D2A572F18C74436AD6B3BA70ECFD4BE,859E9114333F4B3DADBC5BA850AAB5CA,2,481,815,1,__mbox-btn-0_press_10,416,481,win_10,SAP_UI5SAP-Perf-FESRec-optZFIA (TR),__mbox-btn-0_press,,cr_122,656,433,,,333,X,,,,,0,2,1,,20240305114653527,sap.ushell.renderers.fiori2"
+        separator="="
+        value="8D2A572F18C74436AD6B3BA70ECFD4BE,859E9114333F4B3DADBC5BA850AAB5CA,2,481,815,1,__mbox-btn-0_press_10,416,481,win_10,SAP_UI5SAP-Perf-FESRec-optZFIA (TR),__mbox-btn-0_press,,cr_122,656,433,,,333,X,,,,,0,2,1,,20240305114653527,sap.ushell.renderers.fiori2" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://ierp-yc4.pce.ibm.com:44391"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;122&quot;, &quot;Not(A:Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;122&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/x-www-form-urlencoded;charset=utf-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 1452&#xd;
+cache-control: no-cache, no-store, must-revalidate, private&#xd;
+pragma: no-cache&#xd;
+expires: Thu, 01 Jan 1970 00:00:00 GMT&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 27342.000000&#xd;
+set-cookie: oucfarsvsrvorxsqoreeeobwdcocsvrtezcvuvt=POST%23MIID1AYJKoZIhvcNAQcDoIIDxTCCA8ECAQAxggIYMIICFAIBADB8MHAxCzAJBgNVBAYTAkRFMRwwGgYDVQQKExNTQVAgVHJ1c3QgQ29tbXVuaXR5MRMwEQYDVQQLEwpTQVAgV2ViIEFTMRQwEgYDVQQLEwtJMDAyMTI4Nzg3NTEYMBYGA1UEAwwPWUM0X1NTRkFfUzJTVlBFAggKICMIFhUVATANBgkqhkiG9w0BAQEFAASCAYCANSQLi%2fh82HVU70tSl3aCrF8zGd1xD6U1aDM2t%2fOhjKwR2VJ72zmsDHw0y3dl8%2bA%2fYlr9%2blUk6xcjktk9YAADidxxfHeHLHDD5%2b6xw2ni0btF80JpsJyf4x1QbJnBSw6vuyGQM1SOgvAS43CY6WW9L1yffk8UOORlS5obm%2f3%2fl11LL%2fnYno%2byZ8ODJHCkkcTViCadUBwUmUIzg7Z096x4%2b2ZcbXKUY3xg4MtWj%2fIVUPLc64tXgHIkNRfsG6xnWuitm7wT9GPHzIdauOLJRoaG%2bIUVJJ8OwvkxWVLct0KyUsEyzt5FKUN20UDmIHVyBb%2fvPO2iOQkiEthnRGmPnxv5biuBBQqZ5AMxsMDj%2fJgbgfMt8cWJpe73lmBlXFkAmTLJVkfEc8yp%2fjtMo2BRke2Xc%2fvkuxqQhJq5q6tyhf2Z0bBJrzkrLIWDrTUW6JnPDSby80j2q1oHKY2%2f1SJlQgYSoSCRsk61eisK27Tmhv20QnrFXoPRUN198Ld5N1Qr9f4wggGeBgkqhkiG9w0BBwEwHQYJYIZIAWUDBAECBBCNyTuJVz%2f2NkPKph%2fdQa3PgIIBcAubdRpOHXGRyAyT4i%2bacXdzV%2b7nRvta9N8kUQFc%2blbXJJ%2fS8QYl%2bFFnCEU%2fOTSMV6nk1qxwIxtjxm0o15Gm7tp1eQOcwtoRGs2gANu%2f1pT56pl6VnXmGjIFK42ImxwdKrhzJ8Po3Ssmk%2fpnhUXo1qpZu7zKJk%2bovJJ0BLCNfn%2firAD3kz1bxLCRRmOg5XkuxXSoWTktvNqkb2MJfUGsr6rChgvNOq%2fCnf034yTQ3NjJjQ8vqM4liNrYTHzadNprnuXeHqBZO4l3mJpgpk0T4pkhSfng3Yoan0WCQTlpcngfrXKnoXu6e%2b8p%2bVuUgHR672GmMPxyJ%2fIoX1XbOQqABoGZ40DCvMBLKRGAxy6ciJfAFJNQXAjOZzmjiZ8KFp81%2fVk6d%2b%2bRLIeT5d%2fOpeF1JWADTzCto3bkAZljrG0%2fiq2ZkSo9oN5xa8Y%2fT0N9TOofxywOWAOgVy7nuN6oTkqRhzgV82vK0N%2fRW0Tgxs22ju85; expires=Tue, 05-Mar-2024 12:01:58 GMT; path=/; secure; HttpOnly; SameSite=None; Domain=.ibm.com;SameSite=Strict; Secure&#xd;
+set-cookie: sap-usercontext=sap-client=330; path=/; SameSite=None; secure; Domain=.ibm.com;SameSite=Strict; Secure</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

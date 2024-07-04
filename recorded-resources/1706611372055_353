@@ -1,0 +1,10 @@
+GET C_BillingDocument_F0797('91416566')?sap-client=100&$expand=to_BillingDocumentType%2cto_SoldToParty%2cto_PayerParty%2cto_OverallBillingStatus%2cto_BillingIssueType%2cto_CompanyCode%2cto_IncotermsClassification%2cto_CustomerPaymentTerms%2cto_SalesOrganization%2cto_PaymentMethod%2cto_DistributionChannel%2cto_Division%2cto_CustomerAccountAssgmtGroup%2cto_DunningBlockingReason%2cto_DunningKey%2cto_Country%2cto_SalesDistrict%2cto_InvoiceListType%2cto_ShippingCondition%2cto_TaxDepartureCountry%2cto_VATRegistrationOrigin%2cto_Region%2cto_County_2%2cto_CityCode%2cto_CustomerGroup%2cto_CustomerPriceGroup%2cto_AccountingTransferStatus%2cto_PriceListType%2cto_VATRegistrationCountry%2cto_SDPricingProcedure%2cto_InvoiceClearingStatus%2cto_IncotermsVersion HTTP/1.1
+sap-cancel-on-close: true
+sap-contextid-accept: header
+Accept: application/json
+x-csrf-token: TvjO8479_w8g1Ss5-7Ka1w==
+Accept-Language: en
+DataServiceVersion: 2.0
+MaxDataServiceVersion: 2.0
+X-Requested-With: XMLHttpRequest
+

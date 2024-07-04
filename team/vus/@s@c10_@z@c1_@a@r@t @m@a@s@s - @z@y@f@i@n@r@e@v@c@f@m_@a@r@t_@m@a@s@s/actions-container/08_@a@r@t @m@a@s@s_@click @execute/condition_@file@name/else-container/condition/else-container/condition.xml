@@ -1,0 +1,18 @@
+<if-action name="condition" uid="f39c501f-5d8b-404d-8fa6-4f16b1e89804">
+    <then-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the condition is true.</description>
+        <weighted-embedded-action uid="55682b11-855d-4eb0-ac31-be578746e728"/>
+    </then-container>
+    <else-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the condition is false.</description>
+        <weighted-embedded-action uid="c140fcdd-cbe0-43d8-9d78-e90cddde1ef2"/>
+    </else-container>
+    <conditions match-type="1">
+        <condition operand1="${p_SC10_ArtMass_Data_FileNames.FileName}"
+            operand2="MASS ART FIORI YC4 One StepFile3.txt" operator="EQUALS"/>
+    </conditions>
+</if-action>

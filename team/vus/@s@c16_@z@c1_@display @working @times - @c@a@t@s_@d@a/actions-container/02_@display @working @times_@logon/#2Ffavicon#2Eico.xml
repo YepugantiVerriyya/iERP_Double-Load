@@ -1,0 +1,40 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/favicon.ico"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c16_@z@c1_@display @working @times - @c@a@t@s_@d@a/%resources%/recorded-artifacts/c1d59ff5-f7aa-4682-b7fa-322e494ecba9.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="c1d59ff5-f7aa-4682-b7fa-322e494ecba9">
+    <embedded-action>44c5f01b-4226-41b1-aecb-fd86ded1354b</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_d6720467-9e45-4174-9273-8f9fa0aca61f.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/favicon.ico" path="/favicon.ico" postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c16_@z@c1_@display @working @times - @c@a@t@s_@d@a/%resources%/recorded-artifacts/c1d59ff5-f7aa-4682-b7fa-322e494ecba9.zip"
+    recordedResponseCode="404" responseSize="9314"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="44c5f01b-4226-41b1-aecb-fd86ded1354b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_3baf6dc4-9152-4c52-add7-7a0521b75662.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_3baf6dc4-9152-4c52-add7-7a0521b75662.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;122&quot;, &quot;Not(A:Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;122&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 404&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 9314&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 2235.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

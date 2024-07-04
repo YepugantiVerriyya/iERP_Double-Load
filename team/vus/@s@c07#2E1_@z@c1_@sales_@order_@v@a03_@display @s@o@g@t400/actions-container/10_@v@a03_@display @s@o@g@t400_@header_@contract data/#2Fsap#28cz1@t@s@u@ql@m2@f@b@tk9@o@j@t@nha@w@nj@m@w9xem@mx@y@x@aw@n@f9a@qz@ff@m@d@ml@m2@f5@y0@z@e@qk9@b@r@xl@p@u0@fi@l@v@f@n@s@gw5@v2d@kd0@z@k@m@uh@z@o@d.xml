@@ -1,0 +1,63 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap(cz1TSUQlM2FBTk9OJTNhaWNjMW9xemMxYXAwNF9aQzFfMDMlM2F5Y0ZEQk9BRXlPU0FiLVFNSGw5V2dKd0ZKMUhZOD"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c07#2E1_@z@c1_@sales_@order_@v@a03_@display @s@o@g@t400/%resources%/recorded-artifacts/eae8991f-315a-440a-87d2-a584c2605692.zip"
+    slaProfileEnabled="false" thinkTime="12764"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="eae8991f-315a-440a-87d2-a584c2605692">
+    <embedded-action>4bb63813-55ec-4489-abbd-60b9f28164a0</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_867770b0-4e88-475b-8e88-47dc4fd61982.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="multipart/mixed; boundary=SAP_RESTGUI_BATCH_STEP; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/sap(cz1TSUQlM2FBTk9OJTNhaWNjMW9xemMxYXAwNF9aQzFfMDMlM2F5Y0ZEQk9BRXlPU0FiLVFNSGw5V2dKd0ZKMUhZODhfandBd2JUUDJ0LUFUVA==)/bc/gui/sap/its/webgui/batch/json"
+    path="/sap(${c_action_sap})/bc/gui/sap/its/webgui/batch/json"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@s@c07#2E1_@z@c1_@sales_@order_@v@a03_@display @s@o@g@t400/%resources%/recorded-artifacts/eae8991f-315a-440a-87d2-a584c2605692.zip"
+    recordedResponseCode="200" responseSize="301292"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="4bb63813-55ec-4489-abbd-60b9f28164a0" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0f78f2b2-db9e-4465-9efe-99bb0eba72cd</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0f78f2b2-db9e-4465-9efe-99bb0eba72cd.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="false" encodeValue="true"
+        name="~RG_WEBGUI" recordRawValue="X" separator="=" value="X" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="sap-statistics" recordRawValue="true" separator="="
+        value="true" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-zc1.pce.ibm.com:44391/sap/bc/gui/sap/its/webgui;~sysid=ZC1;~service=3203?sap-iframe-hint=GUI"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://ierp-zc1.pce.ibm.com:44391"/>
+    <header name="accept" value="multipart/mixed"/>
+    <header name="sec-ch-ua" value="&quot;Not_A Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;120&quot;, &quot;Google Chrome&quot;;v=&quot;120&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sap-cancel-on-close" value="true"/>
+    <header name="moin" value="${c_main}"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="sap-passport" value="2A54482A0300E60000564130335F5341504D563435412020202020202020202020202020202020202000005341505F4532455F54415F55736572202020202020202020202020202020202074616270545C30325F5462536C63745F3220202020202020202020202020202020202020202020200005564130335F5341504D563435412020202020202020202020202020202020202041373441323934444146424442373031453631324543363837363030303030302020200007056173B99B834E14B9E97A6FC7747C080000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="content-type" value="application/json;charset=UTF-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: multipart/mixed; boundary=SAP_RESTGUI_BATCH_STEP; charset=utf-8&#xd;
+content-length: 24823&#xd;
+origin-agent-cluster: ?1&#xd;
+expires: Sat, 6 May 1995 12:00:00 GMT&#xd;
+cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0&#xd;
+pragma: no-cache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+sap-statistics: itstotal=351,itsgendiag=4,itsgenhtml=12,itsrestgui=12,itsagiparse=2,itsagiunparse=0,itsext=335,icftotal=400,icfauth=0,icfext=102,icmtotal=405,icmreqrcv=49,icmext=356,icmssl=0,wdtotal=410,wdreqrcv=50,wdext=357,wdssl=3&#xd;
+sap-perf-fesrec: 400911.000000&#xd;
+content-encoding: br&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[[{"post":"focus/wnd[0]/usr/subSUBSCREEN_HEADER:SAPMV45A:4012/ctxtVBAK-VBELN","logic":"ignore"},{"post":"action/304/wnd[0]/usr/subSUBSCREEN_HEADER:SAPMV45A:4012/ctxtVBAK-VBELN","content":"position=0","logic":"ignore"},{"content":"firstvisibleindex=0","post":"action/4/wnd[0]/usr/tabsTAXI_TABSTRIP*/tabpT\\02"},{"get":"state/ur"}]]]></textPostContent>
+</http-action>

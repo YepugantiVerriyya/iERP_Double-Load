@@ -1,0 +1,45 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/favicon.ico"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c01_@z@c1_@trial_@balance_@f@a@g@l@b03/%resources%/recorded-artifacts/68bbc6d7-1e44-471f-b7e1-0d6c61995227.zip"
+    slaProfileEnabled="false" thinkTime="28"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="68bbc6d7-1e44-471f-b7e1-0d6c61995227">
+    <embedded-action>4bae4554-5190-4e9d-9330-523b75b1780a</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_f5ff9ead-5edc-4f31-8789-b71caec4b578.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/favicon.ico" path="/favicon.ico" postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c01_@z@c1_@trial_@balance_@f@a@g@l@b03/%resources%/recorded-artifacts/68bbc6d7-1e44-471f-b7e1-0d6c61995227.zip"
+    recordedResponseCode="404" responseSize="9314"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="4bae4554-5190-4e9d-9330-523b75b1780a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_109177cc-2e40-4788-b471-815ac8811747.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_109177cc-2e40-4788-b471-815ac8811747.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://ierp-zc1.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="sec-ch-ua-arch" value="&quot;x86&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="sec-ch-ua" value="&quot;Not_A Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;120&quot;, &quot;Google Chrome&quot;;v=&quot;120&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="sec-ch-ua-model" value="&quot;&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-ch-ua-platform-version" value="&quot;15.0.0&quot;"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="sec-ch-ua-full-version" value="&quot;120.0.6099.217&quot;"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 404&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 9314&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 1854.000000&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

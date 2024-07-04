@@ -1,0 +1,58 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata4/iwngw/notification/default/iwngw/notification_srv/0001/NotificationTypePersonal"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c03_@z@c1_@flexible_@invoice_@application_@z@f@i@a/%resources%/recorded-artifacts/4942ba01-f480-4271-a4a4-8b145faf7912.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="4942ba01-f480-4271-a4a4-8b145faf7912">
+    <embedded-action>14f7bbf2-550a-4b75-b992-e69717d8e7db</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_614f51e7-cfce-4602-b89c-ab4fec8f597e.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json;odata.metadata=minimal;charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/opu/odata4/iwngw/notification/default/iwngw/notification_srv/0001/NotificationTypePersonalizationSet"
+    path="/sap/opu/odata4/iwngw/notification/default/iwngw/notification_srv/0001/NotificationTypePersonalizationSet"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c03_@z@c1_@flexible_@invoice_@application_@z@f@i@a/%resources%/recorded-artifacts/4942ba01-f480-4271-a4a4-8b145faf7912.zip"
+    recordedResponseCode="200" responseSize="121"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="14f7bbf2-550a-4b75-b992-e69717d8e7db" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e0af7ada-0864-4c5a-894c-6802f87c5fe4</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e0af7ada-0864-4c5a-894c-6802f87c5fe4.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-zc1.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="sec-ch-ua-arch" value="&quot;x86&quot;"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en"/>
+    <header name="accept" value="application/atomsvc+xml;q=0.8, application/json;odata=fullmetadata;q=0.7, application/json;q=0.5, */*;q=0.1"/>
+    <header name="maxdataserviceversion" value="3.0"/>
+    <header name="sec-ch-ua" value="&quot;Not_A Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;120&quot;, &quot;Google Chrome&quot;;v=&quot;120&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000756E64657465726D696E6564202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E64657465726D696E65645F737461727475705F302020202020202020202020202020202020200005756E64657465726D696E65642020202020202020202020202020202020202020413944343642444437334536343035324243304638353345343234344433393320202000079762F7D33696429B9C2EB811A00FFDBB0000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="x-csrf-token" value="fetch"/>
+    <header name="sec-ch-ua-model" value="&quot;&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-ch-ua-platform-version" value="&quot;15.0.0&quot;"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="sec-ch-ua-full-version" value="&quot;120.0.6099.225&quot;"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json;odata.metadata=minimal;charset=utf-8&#xd;
+content-length: 121&#xd;
+x-csrf-token: izDtzvhCNIT4D7CS5b7zvg==&#xd;
+odata-version: 4.0&#xd;
+cache-control: no-cache, no-store, must-revalidate&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 21369.000000&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

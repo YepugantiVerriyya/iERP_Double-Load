@@ -1,0 +1,16 @@
+GET https://ierp-yc4.pce.ibm.com:44391/sap/bc/apc/iwngw/notification_push_apc HTTP/1.1
+Host: ierp-yc4.pce.ibm.com:44391
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Upgrade: websocket
+Origin: https://ierp-yc4.pce.ibm.com:44391
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: CoreID6=77332462999517035740906&ci=51040000|IBMTESTW3; wguOptionsFileEnc=2; sap-usercontext=sap-language=EN&sap-client=330; MYSAPSSO2=AjQxMDMBABhQAEYAVABFAFMAVAAwADEANAAgACAAIAACAAYzADMAMAADABBZAEMANAAgACAAIAAgACAABAAYMgAwADIANAAwADMAMAA5ADIAMAAxADUABQAEAAAACAYAAlgACQACRQD%2fAVYwggFSBgkqhkiG9w0BBwKgggFDMIIBPwIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYIBHjCCARoCAQEwcDBkMQswCQYDVQQGEwJERTEcMBoGA1UEChMTU0FQIFRydXN0IENvbW11bml0eTETMBEGA1UECxMKU0FQIFdlYiBBUzEUMBIGA1UECxMLSTAwMjEyODc4NzUxDDAKBgNVBAMTA1lDNAIICiAjBycWVQEwCQYFKw4DAhoFAKBdMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTI0MDMwOTIwMTU1MVowIwYJKoZIhvcNAQkEMRYEFALXAt7baouBUr19MFxhgocbYD4lMAkGByqGSM44BAMELjAsAhRp4igsqQNVkTaN%213ic4WBAM2rsVAIUFEfiJUckcrGVlSzpmW%2fFL2kSWt0%3d; SAP_SESSIONID_YC4_330=vpKvUuVfL5l1BrL_sWPR-tNW6VneURHutFP6ElIVFyA%3d; rxVisitor=17100153557075HCR0NCTL4ML6G54GU2KQMJ9ID7FV9QM; dtSa=-; rxvt=1710017156691|1710015355712; dtPC=7$15355701_916h-vNCVHSVBWEMQAVLHVFTUCFEOFEMNNLLBJ-0e0; dtCookie=v_4_srv_7_sn_3E10E0C605900E412092EBB1B353DE6D_app-3Aea7c4b59f27d43eb_0_app-3A99cef2d580cc323c_1_ol_0_perc_100000_mul_1_rcs-3Acss_0; CMAVID=none; cmTPSet=Y; 51040000_clogin=l=95426901710015357730&v=3&e=1710017158705
+Sec-WebSocket-Key: g/67CIZ0Qde8dwvT+CdwMQ==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+Sec-WebSocket-Protocol: v10.pcp.sap.com
+

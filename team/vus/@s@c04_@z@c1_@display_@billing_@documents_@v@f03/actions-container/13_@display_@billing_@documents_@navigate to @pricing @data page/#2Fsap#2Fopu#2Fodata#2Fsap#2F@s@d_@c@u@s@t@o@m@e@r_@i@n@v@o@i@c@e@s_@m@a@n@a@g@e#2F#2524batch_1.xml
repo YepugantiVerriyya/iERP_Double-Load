@@ -1,0 +1,82 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata/sap/SD_CUSTOMER_INVOICES_MANAGE/%24batch_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c04_@z@c1_@display_@billing_@documents_@v@f03/%resources%/recorded-artifacts/645ba879-dba4-48fe-930f-b3ac1ca76082.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="645ba879-dba4-48fe-930f-b3ac1ca76082">
+    <embedded-action>2abb4c57-e203-4739-8920-a77e1079f894</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_1a3725d4-b0a9-425d-8078-411ec32a96ec.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="multipart/mixed; boundary=86CDE0C86C80B375252869ADC329675E0"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/sap/opu/odata/sap/SD_CUSTOMER_INVOICES_MANAGE/$batch"
+    path="/sap/opu/odata/sap/SD_CUSTOMER_INVOICES_MANAGE/$batch"
+    postType="5"
+    recordedArtifactZipFileName="team/vus/@s@c04_@z@c1_@display_@billing_@documents_@v@f03/%resources%/recorded-artifacts/645ba879-dba4-48fe-930f-b3ac1ca76082.zip"
+    recordedResponseCode="202" responseSize="30786"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="2abb4c57-e203-4739-8920-a77e1079f894" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[DQotLWJhdGNoX2MyZGMtYTk4MC0wM2QxDQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2h0dHANCkNvbnRlbnQtVHJhbnNmZXItRW5jb2Rpbmc6IGJpbmFyeQ0KDQpHRVQgQ19CaWxsaW5nRG9jdW1lbnRfRjA3OTcoJzkxNDE2NTY2JykvVmFsdWVIZWxwVGV4dElkU2V0P3NhcC1jbGllbnQ9MTAwJiRza2lwPTAmJHRvcD0yMCYkaW5saW5lY291bnQ9YWxscGFnZXMgSFRUUC8xLjENCnNhcC1jYW5jZWwtb24tY2xvc2U6IHRydWUNCnNhcC1jb250ZXh0aWQtYWNjZXB0OiBoZWFkZXINCkFjY2VwdDogYXBwbGljYXRpb24vanNvbg0KeC1jc3JmLXRva2VuOiBUdmpPODQ3OV93OGcxU3M1LTdLYTF3PT0NCkFjY2VwdC1MYW5ndWFnZTogZW4NCkRhdGFTZXJ2aWNlVmVyc2lvbjogMi4wDQpNYXhEYXRhU2VydmljZVZlcnNpb246IDIuMA0KWC1SZXF1ZXN0ZWQtV2l0aDogWE1MSHR0cFJlcXVlc3QNCg0KDQotLWJhdGNoX2MyZGMtYTk4MC0wM2QxDQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2h0dHANCkNvbnRlbnQtVHJhbnNmZXItRW5jb2Rpbmc6IGJpbmFyeQ0KDQpHRVQgVmFsdWVIZWxwTGFuZ3VhZ2VTZXQ/c2FwLWNsaWVudD0xMDAmJHNraXA9MCYkdG9wPTIwMCYkaW5saW5lY291bnQ9YWxscGFnZXMgSFRUUC8xLjENCnNhcC1jYW5jZWwtb24tY2xvc2U6IHRydWUNCnNhcC1jb250ZXh0aWQtYWNjZXB0OiBoZWFkZXINCkFjY2VwdDogYXBwbGljYXRpb24vanNvbg0KeC1jc3JmLXRva2VuOiBUdmpPODQ3OV93OGcxU3M1LTdLYTF3PT0NCkFjY2VwdC1MYW5ndWFnZTogZW4NCkRhdGFTZXJ2aWNlVmVyc2lvbjogMi4wDQpNYXhEYXRhU2VydmljZVZlcnNpb246IDIuMA0KWC1SZXF1ZXN0ZWQtV2l0aDogWE1MSHR0cFJlcXVlc3QNCg0KDQotLWJhdGNoX2MyZGMtYTk4MC0wM2QxDQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2h0dHANCkNvbnRlbnQtVHJhbnNmZXItRW5jb2Rpbmc6IGJpbmFyeQ0KDQpHRVQgQ19CaWxsaW5nRG9jdW1lbnRfRjA3OTcoJzkxNDE2NTY2JykvVGV4dFNldD9zYXAtY2xpZW50PTEwMCYkc2tpcD0wJiR0b3A9MTAwJiRpbmxpbmVjb3VudD1hbGxwYWdlcyBIVFRQLzEuMQ0Kc2FwLWNhbmNlbC1vbi1jbG9zZTogdHJ1ZQ0Kc2FwLWNvbnRleHRpZC1hY2NlcHQ6IGhlYWRlcg0KQWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uDQp4LWNzcmYtdG9rZW46IFR2ak84NDc5X3c4ZzFTczUtN0thMXc9PQ0KQWNjZXB0LUxhbmd1YWdlOiBlbg0KRGF0YVNlcnZpY2VWZXJzaW9uOiAyLjANCk1heERhdGFTZXJ2aWNlVmVyc2lvbjogMi4wDQpYLVJlcXVlc3RlZC1XaXRoOiBYTUxIdHRwUmVxdWVzdA0KDQoNCi0tYmF0Y2hfYzJkYy1hOTgwLTAzZDEtLQ0K]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_72dd03d0-def6-45f9-973d-5bbb0a4d72b6</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_72dd03d0-def6-45f9-973d-5bbb0a4d72b6.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="sap-client" recordRawValue="100" separator="="
+        value="${P_Client.ID}" valueMode="USE_VALUE"/>
+    <header name="referer" value="https://ierp-zc1.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="origin" value="https://ierp-zc1.pce.ibm.com:44391"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sap-contextid-accept" value="header"/>
+    <header name="content-type" value="multipart/mixed;boundary=batch_c2dc-a980-03d1"/>
+    <header name="sec-ch-ua-platform-version" value="&quot;15.0.0&quot;"/>
+    <header name="sec-ch-ua-full-version" value="&quot;120.0.6099.227&quot;"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="sec-ch-ua-arch" value="&quot;x86&quot;"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="accept-language" value="en"/>
+    <header name="accept" value="multipart/mixed"/>
+    <header name="maxdataserviceversion" value="2.0"/>
+    <header name="sec-ch-ua" value="&quot;Not_A Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;120&quot;, &quot;Google Chrome&quot;;v=&quot;120&quot;"/>
+    <header name="sap-cancel-on-close" value="true"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000756E646566696E6564202020202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E646566696E6564202020202020202020202020202020202020202020202020202020202020200005756E646566696E6564202020202020202020202020202020202020202020202042423241463139453532303134413741423239434333303635304445364437342020200007C3AE8C0767E646B7860BE3BC8BAD06C30000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="x-csrf-token" value="${c_x-csrf-token}"/>
+    <header name="dataserviceversion" value="2.0"/>
+    <header name="sec-ch-ua-model" value="&quot;&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 202&#xd;
+content-type: multipart/mixed; boundary=86CDE0C86C80B375252869ADC329675E0&#xd;
+content-length: 1973&#xd;
+dataserviceversion: 2.0&#xd;
+cache-control: no-cache, no-store, must-revalidate&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=X,MedCacheHub=,MedCacheBEP=Table,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 254826.000000&#xd;
+content-encoding: br&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <multiparts>
+        <multipart-mimefile
+            attachedFilename="recorded-resources/1706611674349_203"
+            contentType="application/http" filename="1706611674349_203"
+            name="Part0" transferEncoding="binary"/>
+        <multipart-mimefile
+            attachedFilename="recorded-resources/1706611674387_448"
+            contentType="application/http" filename="1706611674387_448"
+            name="Part1" transferEncoding="binary"/>
+        <multipart-mimefile
+            attachedFilename="recorded-resources/1706611674409_942"
+            contentType="application/http" filename="1706611674409_942"
+            name="Part2" transferEncoding="binary"/>
+    </multiparts>
+</http-action>

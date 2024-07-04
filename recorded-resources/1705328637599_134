@@ -1,0 +1,10 @@
+GET C_JournalEntryItemBrowser(P_DisplayCurrency='EUR',P_ExchangeRateType='M',P_ExchangeRateDate=datetime'2019-01-01T00%3A00%3A00',P_KeyDate=datetime'2024-01-15T00%3A00%3A00',P_ClearingStatusSelection='2')/Results?sap-client=100&$select=CompanyCode,GLAccount,ChartOfAccounts,AssignmentReference,FiscalYear,AccountingDocument,AccountingDocumentItem,AccountingDocumentType,AccountingDocumentCategory,PostingDate,LedgerFiscalYear,FiscalPeriod,PostingKey,TaxCode,ClearingAccountingDocument,ClearingJournalEntry,ProfitCenter,Segment,DocumentItemText,LedgerGLLineItem,ControllingArea,ClearingDate,ClearingDocFiscalYear,ClearingJournalEntryFiscalYear,IsOpenItemManaged,Ledger,SourceLedger&$filter=(((Ledger%20eq%20%270L%27)%20and%20((CompanyCode%20eq%20%270147%27))%20and%20((GLAccount%20eq%20%27${p_SC2_TestData.GL Account}%27))))&$top=0&$inlinecount=allpages HTTP/1.1
+sap-cancel-on-close: true
+sap-contextid-accept: header
+Accept: application/json
+x-csrf-token: 0cTkRzQsrNNkbDsetzVqmw==
+Accept-Language: en
+DataServiceVersion: 2.0
+MaxDataServiceVersion: 2.0
+X-Requested-With: XMLHttpRequest
+

@@ -1,0 +1,58 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap(cz1TSUQlM2FBTk9OJTNhaWNjMW9xeWM0YXAwMV9ZQzRfMDMlM2F1NTNOWFdHRjNOQTQxRmtEaXN3V29RdlhmX1E2VD"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c06#2E3_@z@c1_@sales_@order_@v@a02_@change @s@o_1@t@o4/%resources%/recorded-artifacts/f7e93d17-a9b8-4064-8c72-8e375347b1a4.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="f7e93d17-a9b8-4064-8c72-8e375347b1a4">
+    <embedded-action>b3e1c513-04c1-47ea-96e2-387e5666d0ae</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_31de7441-83b8-4daa-b0bd-775f20e6799c.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/sap(cz1TSUQlM2FBTk9OJTNhaWNjMW9xeWM0YXAwMV9ZQzRfMDMlM2F1NTNOWFdHRjNOQTQxRmtEaXN3V29RdlhmX1E2VDlFN1ZvckFXZ3R1LUFUVA==)/bc/gui/sap/its/webgui/"
+    path="/sap(${c_yc4_va02_sap action})/bc/gui/sap/its/webgui/"
+    postCharset="UTF-8" postType="1"
+    recordedArtifactZipFileName="team/vus/@s@c06#2E3_@z@c1_@sales_@order_@v@a02_@change @s@o_1@t@o4/%resources%/recorded-artifacts/f7e93d17-a9b8-4064-8c72-8e375347b1a4.zip"
+    recordedResponseCode="200" responseSize="116"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="b3e1c513-04c1-47ea-96e2-387e5666d0ae" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[bW9pbj0zREIxREEzMjdEMTcwNEJDJnNhcC1zZXNzaW9uY21kPUNBTkNFTDI=]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_6152ab9e-0bd7-46a8-9510-b2d06ba2f4ef.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6152ab9e-0bd7-46a8-9510-b2d06ba2f4ef.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="moin"
+        recordRawValue="3DB1DA327D1704BC" separator="="
+        value="${c_yc4_va02_main}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="sap-sessioncmd" recordRawValue="CANCEL2" separator="="
+        value="CANCEL2" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="moin"
+        recordRawValue="3DB1DA327D1704BC" separator="="
+        value="${c_yc4_va02_main}" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="sap-sessioncmd" recordRawValue="CANCEL2" separator="="
+        value="CANCEL2" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/gui/sap/its/webgui;~sysid=YC4;~service=3203?sap-iframe-hint=GUI"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://ierp-yc4.pce.ibm.com:44391"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/x-www-form-urlencoded;charset=utf-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Mon, 12 Feb 2024 09:13:38 GMT&#xd;
+content-length: 116&#xd;
+content-type: text/html</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,39 @@
+<websocket-channel-action actionType="1" enabled="false"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="websocket_channel"
+    path="/sap/bc/apc/iwngw/notification_push_apc" postType="6"
+    pushType="WEBSOCKET" recordedResponseCode="101" responseSize="0"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="8824b27b-0aa6-429c-ad3f-70bd9532edb9" useKeepAlive="false">
+    <response-matching extractionMethod="REGEXP_ONLY" regexp="" template="$1$"/>
+    <responsePageFileDescription>team/vus/@s@c11_@z@c1_@correspondence#3A @print @int#2E@documents - @f#2E62_@o@l@d/%resources%/recorded-responses/res_8824b27b-0aa6-429c-ad3f-70bd9532edb9</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@s@c11_@z@c1_@correspondence#3A @print @int#2E@documents - @f#2E62_@o@l@d/%resources%/recorded-requests/req_922f38c1-6373-4d16-b7e4-2a084afc28fc.txt</requestContentFileDescription>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Upgrade"/>
+    <header name="Host" value="ierp-yc4.pce.ibm.com:44391"/>
+    <header name="Origin" value="https://ierp-yc4.pce.ibm.com:44391"/>
+    <header name="Pragma" value="no-cache"/>
+    <header name="Sec-WebSocket-Extensions" value="permessage-deflate; client_max_window_bits"/>
+    <header name="Sec-WebSocket-Key" value="qrY7lNGUemyf3eSOBGiLYw=="/>
+    <header name="Sec-WebSocket-Protocol" value="v10.pcp.sap.com"/>
+    <header name="Sec-WebSocket-Version" value="13"/>
+    <header name="Upgrade" value="websocket"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 101 Switching Protocols&#xd;
+sec-websocket-accept: JzpeX6Im6/mHIqW/nR4YdVgwwDY=&#xd;
+upgrade: WebSocket&#xd;
+connection: Upgrade&#xd;
+sec-websocket-protocol: v10.pcp.sap.com&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 4153.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <push-handler filecount="0"
+        filename="team/vus/@s@c11_@z@c1_@correspondence#3A @print @int#2E@documents - @f#2E62_@o@l@d/%resources%/recorded-responses/websocket_a268dcfe-26fe-47d2-8ecd-52ce613fe3da_1707732210841_1707816870290_1707827262102_1707907288155_1715250193961.dat" pushType="WEBSOCKET">
+        <result-handler responseSource="MESSAGE" type="REGEXP"/>
+    </push-handler>
+</websocket-channel-action>

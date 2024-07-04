@@ -1,0 +1,61 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata/sap/Z_YOTCOM_DIGITAL_ANALYTICS_SRV/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c05#2E1_@z@c1_@sales_@order_@v@a01_@create @s@o@g@t400/%resources%/recorded-artifacts/c27f8564-ca8d-44c0-b095-724e6da0b3ef.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="c27f8564-ca8d-44c0-b095-724e6da0b3ef">
+    <embedded-action>5594e547-30e4-4705-86b9-a79b3db83ad9</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_e117b2c0-8a90-4d3f-9a7b-eac7b8221252.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="HEAD"
+    name="/sap/opu/odata/sap/Z_YOTCOM_DIGITAL_ANALYTICS_SRV/"
+    path="/sap/opu/odata/sap/Z_YOTCOM_DIGITAL_ANALYTICS_SRV/"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@s@c05#2E1_@z@c1_@sales_@order_@v@a01_@create @s@o@g@t400/%resources%/recorded-artifacts/c27f8564-ca8d-44c0-b095-724e6da0b3ef.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="5594e547-30e4-4705-86b9-a79b3db83ad9" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_5594e547-30e4-4705-86b9-a79b3db83ad9.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_33d12db4-68ae-4c50-bcd0-6b29ae708914.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="sap-client"
+        recordRawValue="330" separator="=" value="${P_Client.ID}" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en"/>
+    <header name="accept" value="application/json"/>
+    <header name="maxdataserviceversion" value="2.0"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sap-cancel-on-close" value="true"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="sap-contextid-accept" value="header"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000756E64657465726D696E6564202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E64657465726D696E65645F737461727475705F302020202020202020202020202020202020200005756E64657465726D696E6564202020202020202020202020202020202020202042433936313943383639344234423845384145423538374441414231453341342020200007F1EAD7EF100B40E08633046D0CBEFF1A0000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="content-type" value="application/json"/>
+    <header name="x-csrf-token" value="Fetch"/>
+    <header name="dataserviceversion" value="2.0"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/html&#xd;
+Content-Length: 0&#xd;
+x-csrf-token: cFOaqlHmUEMMb-7RL8gpkw==&#xd;
+dataserviceversion: 2.0&#xd;
+cache-control: no-store, no-cache, must-revalidate, max-age=0, post-check=0, pre-check=0&#xd;
+pragma: no-cache&#xd;
+expires: Tue, 03 Jul 2001 06:00:00 GMT&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=,MedCacheHub=,codeployed=,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 7701.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

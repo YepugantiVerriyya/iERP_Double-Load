@@ -1,0 +1,30 @@
+<virtual-user errorPolicy="GO_TO_NEXT_ITERATION"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="SC13_ZC1_Change WBS Elements - ZYOTC_CHGWBS">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="610"
+        pacingMode="MODE_PACING_RANGE" pacingStart="600" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="c91ed36b-988e-4941-a38c-3e47d3ce9e36"/>
+        <weighted-embedded-action uid="ec9cdf1f-349f-405d-be45-3e8ad93d77b1"/>
+        <weighted-embedded-action uid="dd37ea11-1939-40aa-b644-f3463081e68b"/>
+        <weighted-embedded-action uid="354b4525-8a8c-4c5d-8760-5ef0dec68f21"/>
+        <weighted-embedded-action uid="bee31105-b04e-4bc2-9fc5-68935000f58c"/>
+        <weighted-embedded-action uid="9353d6b9-e15a-4db4-baad-b6b8b57c508d"/>
+        <weighted-embedded-action uid="daa3da90-2123-496f-b7d4-124e524e9d6d"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

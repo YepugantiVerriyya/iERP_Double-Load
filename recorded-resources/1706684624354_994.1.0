@@ -1,0 +1,11 @@
+GET OverallSDProcessStatus?sap-client=100&$skip=0&$top=300&$orderby=OverallSDProcessStatus_Text%20asc&$select=OverallSDProcessStatus%2cOverallSDProcessStatus_Text%2cOverallSDProcessStatus_Text&$inlinecount=allpages HTTP/1.1
+sap-cancel-on-close: true
+sap-contextid-accept: header
+Accept: application/json
+x-csrf-token: wYbAn5JyLfm-4EWxoFA7bg==
+Accept-Language: en
+DataServiceVersion: 2.0
+MaxDataServiceVersion: 2.0
+X-Requested-With: XMLHttpRequest
+sap-message-scope: BusinessObject
+

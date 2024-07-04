@@ -1,0 +1,40 @@
+<virtual-user errorPolicy="GO_TO_NEXT_ITERATION"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="SC02_ZC1_GL_Account_Line_Items_FAGLL03">
+    <description>Final Working script, Tested with test ID PFTEST005</description>
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="70"
+        pacingMode="MODE_PACING_SIMPLE" pacingStart="60"
+        pacingValue="10" slaProfileEnabled="false" weightsEnabled="false">
+        <description>cache id changed</description>
+        <weighted-embedded-action uid="8744de33-2179-49d2-a42b-b1d73b75cd50"/>
+        <weighted-embedded-action uid="8197ad0b-5e84-4f0a-bfb7-8a9871a52e56"/>
+        <weighted-embedded-action uid="d1633c22-bafe-4138-a135-385c0cd0a38c"/>
+        <weighted-embedded-action uid="824bf8c0-0a4c-4a59-a60a-3b36c8094bdd"/>
+        <weighted-embedded-action uid="4a9b0e78-090a-4d96-82ae-a4dca135353f"/>
+        <weighted-embedded-action uid="45f7111f-739b-4980-998d-1dfbfef689a4"/>
+        <weighted-embedded-action uid="373d9abc-384d-4e72-b9bd-4360ecd86be1"/>
+        <weighted-embedded-action uid="2fbb033c-3e5b-4445-b985-3d353861fd27"/>
+        <weighted-embedded-action uid="0e3282d3-5175-4d46-b055-5f61c8d23480"/>
+        <weighted-embedded-action uid="36c92245-8154-4e89-a1b4-939c25cb534b"/>
+        <weighted-embedded-action uid="814fd26c-5375-4759-b61f-820239257b2f"/>
+        <weighted-embedded-action uid="e854df36-b154-49a7-bc39-7f5b1c35c672"/>
+        <weighted-embedded-action uid="c5e57b73-b8e2-43e7-bce8-61ca6498cd01"/>
+        <weighted-embedded-action uid="375ca388-2472-4fea-9f3b-06eddf459705"/>
+        <weighted-embedded-action uid="7cba4df3-2923-456c-a102-995b88cc0a37"/>
+        <weighted-embedded-action uid="83c75bd0-7329-4386-88ae-e1b61950577d"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="" thinktimeValue=""/>
+</virtual-user>

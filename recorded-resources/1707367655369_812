@@ -1,0 +1,18 @@
+--changeset_8467-a37a-b65d
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST trackerSet HTTP/1.1
+sap-contextid-accept: header
+Accept: application/json
+x-csrf-token: nIx_TrkMqPzOUfCp575T5g==
+Accept-Language: en
+DataServiceVersion: 2.0
+MaxDataServiceVersion: 2.0
+X-Requested-With: XMLHttpRequest
+Content-Type: application/json
+Content-ID: id-1707367654915-298
+Content-Length: 543
+
+{"Username":"003NYA744","Country":"United States","Market":"Not applicable","CatalogId":"Z_BC_CEOTCOTCGBL_STS_E2E","CatalogTitle":"Z_BC_CEOTCOTCGBL_STS_E2E","OpenMethod":"Search","SpaceTitle":"","PageTitle":"","SectionTitle":"","AppName":"Pre Billing Application","AppType":"Transaction","Browser":"Chrome","BrowserVersion":"121.0.0.0","YplRole":"YBH:CECOEGENGBL_E2E_TESTER","RoleDesc":"COE End 2 End Tester Role consisting of all business roles (excluding COE roles)","Email":"EHRTEST@AU1.IBM.COM","Unit":"Public Cloud Platform","BspName":""}
+--changeset_8467-a37a-b65d--

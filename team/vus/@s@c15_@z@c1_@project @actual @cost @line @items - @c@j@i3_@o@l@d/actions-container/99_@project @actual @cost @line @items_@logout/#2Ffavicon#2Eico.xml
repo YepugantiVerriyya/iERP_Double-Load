@@ -1,0 +1,41 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/favicon.ico"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c15_@z@c1_@project @actual @cost @line @items - @c@j@i3_@o@l@d/%resources%/recorded-artifacts/77f866cc-fdd0-4a44-b39f-c0c9bb9ef79a.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="77f866cc-fdd0-4a44-b39f-c0c9bb9ef79a">
+    <embedded-action>2ff9163c-99e3-4a92-9d7a-f31af859518f</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_a9eec98c-4928-4e60-b638-43770c6ff3e9.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/favicon.ico" path="/favicon.ico" postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c15_@z@c1_@project @actual @cost @line @items - @c@j@i3_@o@l@d/%resources%/recorded-artifacts/77f866cc-fdd0-4a44-b39f-c0c9bb9ef79a.zip"
+    recordedResponseCode="404" responseSize="9314"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="2ff9163c-99e3-4a92-9d7a-f31af859518f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_24d31d14-d370-41cf-88b4-13de4fa596f0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_24d31d14-d370-41cf-88b4-13de4fa596f0.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://ierp-zc1.pce.ibm.com:44391/sap/public/bc/icf/logoff?sap-client=${P_Client.ID}"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 404&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 9314&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 1357.000000&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

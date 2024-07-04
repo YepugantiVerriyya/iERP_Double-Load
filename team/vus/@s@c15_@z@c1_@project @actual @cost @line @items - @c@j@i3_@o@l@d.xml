@@ -1,0 +1,36 @@
+<virtual-user errorPolicy="GO_TO_NEXT_ITERATION"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="SC15_ZC1_Project Actual Cost Line Items - CJI3_OLD">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="a0853dde-cbf7-486a-b4c3-6f532b0b0875"/>
+        <weighted-embedded-action uid="7c229910-6313-4041-b5ad-4d58195db622"/>
+        <weighted-embedded-action uid="84822db8-7436-4717-839f-59694eff8232"/>
+        <weighted-embedded-action uid="3c748085-704d-437a-b642-845a9bf4033f"/>
+        <weighted-embedded-action uid="1cd38068-2338-4dd1-abe7-fda42a7d0834"/>
+        <weighted-embedded-action uid="dc7f8d13-71b9-4afc-ace3-6cf6d78a0913"/>
+        <weighted-embedded-action uid="a9b06a06-c6fe-4d53-9e79-8dc8a8d50662"/>
+        <weighted-embedded-action uid="e00a8efd-fa49-467b-9938-53bbc0e78889"/>
+        <weighted-embedded-action uid="08c02b2e-66ad-404b-884a-f033c63c045b"/>
+        <weighted-embedded-action uid="52d57a74-ded8-4c5f-abb5-eefd6429d381"/>
+        <weighted-embedded-action uid="bf51b63e-e730-4627-88bd-8556d1c033d6"/>
+        <weighted-embedded-action uid="190c63dd-16f9-4ac3-a9fd-41182705ff0f"/>
+        <weighted-embedded-action uid="321a3af4-fa49-4cb9-8311-c34057448483"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

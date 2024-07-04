@@ -1,0 +1,59 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap(cz1TSUQlM2FBTk9OJTNhaWNjMW9xemMxYXAwM19aQzFfMDMlM2FtQk1fckZGYWpfSE81cTBXR3VKYWJxU3A5UmF0ZD_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c14_@z@c1_@customer @line @items - @f@b@l5@n/%resources%/recorded-artifacts/7aa4bd51-12ea-4070-a717-2ee002a149d4.zip"
+    slaProfileEnabled="false" thinkTime="2696"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="7aa4bd51-12ea-4070-a717-2ee002a149d4">
+    <embedded-action>1e9fb45c-819e-4fdb-a490-47ac9ae12403</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_8ce45206-5316-4e91-9adc-0e70c7915a72.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="multipart/mixed; boundary=SAP_RESTGUI_BATCH_STEP; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/sap(cz1TSUQlM2FBTk9OJTNhaWNjMW9xemMxYXAwM19aQzFfMDMlM2FtQk1fckZGYWpfSE81cTBXR3VKYWJxU3A5UmF0ZDIxX3RnWXB5cWhvLUFUVA==)/bc/gui/sap/its/webgui/batch/json"
+    path="/sap(${c_fbl1n_action=/sap})/bc/gui/sap/its/webgui/batch/json"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@s@c14_@z@c1_@customer @line @items - @f@b@l5@n/%resources%/recorded-artifacts/7aa4bd51-12ea-4070-a717-2ee002a149d4.zip"
+    recordedResponseCode="200" responseSize="95"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="1e9fb45c-819e-4fdb-a490-47ac9ae12403" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_47e33df3-9568-4850-8547-1d263c4002a5</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_47e33df3-9568-4850-8547-1d263c4002a5.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="false" encodeValue="true"
+        name="~RG_WEBGUI" recordRawValue="X" separator="=" value="X" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="sap-statistics" recordRawValue="true" separator="="
+        value="true" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-zc1.pce.ibm.com:44391/sap/bc/gui/sap/its/webgui;~sysid=ZC1;~service=3203?sap-iframe-hint=GUI"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://ierp-zc1.pce.ibm.com:44391"/>
+    <header name="accept" value="multipart/mixed"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="moin" value="${c_fbl5n_main}"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json;charset=UTF-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: multipart/mixed; boundary=SAP_RESTGUI_BATCH_STEP; charset=utf-8&#xd;
+content-length: 95&#xd;
+expires: Sat, 6 May 1995 12:00:00 GMT&#xd;
+cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0&#xd;
+pragma: no-cache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+sap-statistics: itstotal=0,itsgendiag=0,itsgenhtml=0,itsrestgui=0,itsagiparse=0,itsagiunparse=0,itsext=0,icftotal=43,icfauth=0,icfext=38,icmtotal=44,icmreqrcv=43,icmext=1,icmssl=0,wdtotal=97,wdreqrcv=44,wdext=1,wdssl=52&#xd;
+sap-perf-fesrec: 43617.000000&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[[{"post":"value/wnd[0]/usr/ctxtSO_BUDAT-LOW","content":"${FBL5N_Test data.All_Items_From_Date}","logic":"ignore"}]]]></textPostContent>
+</http-action>

@@ -1,0 +1,80 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/bc/se/m/index.html" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c09_@z@c1_@missing @z2 @documents - @z@y@f@i@n@r@e@v_@m@i@s@s@i@n@g_@d@o@c/%resources%/recorded-artifacts/278edc17-2d82-40a4-853d-d49893a450a4.zip"
+    slaProfileEnabled="false" thinkTime="6909"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="278edc17-2d82-40a4-853d-d49893a450a4">
+    <embedded-action>4c2efcd4-b7c7-4204-914d-e543ee7a23e3</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_e3031f9e-c2da-412f-aca6-e74c4121ae35.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/sap/bc/se/m/index.html"
+    path="/sap/bc/se/m/index.html" postCharset="" postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c09_@z@c1_@missing @z2 @documents - @z@y@f@i@n@r@e@v_@m@i@s@s@i@n@g_@d@o@c/%resources%/recorded-artifacts/278edc17-2d82-40a4-853d-d49893a450a4.zip"
+    recordedResponseCode="200" responseSize="22281"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="4c2efcd4-b7c7-4204-914d-e543ee7a23e3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_48881de7-c0f1-4ade-ad8c-811bd94e369d.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_48881de7-c0f1-4ade-ad8c-811bd94e369d.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot; />&lt;meta name=&quot;csrf-parameter&quot; content=&quot;moin&quot; />"
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="c_moin" refererUid="da62265e-e715-48ec-b7b2-e90a321e4fcb"
+        regExp="&lt;meta name=&quot;csrf-token&quot; content=&quot;(.*?)&quot; />&lt;meta name=&quot;csrf-parameter&quot; content=&quot;moin&quot; />"
+        regExpAdv="" setDefaultValue="true"
+        startsWithSimple="&lt;meta name=&quot;csrf-token&quot; content=&quot;"
+        template="$1$" templateAdv="$1$"
+        uid="c1d7e1f8-1ca2-4115-bac6-26402c2e5138" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <parameter encodeName="true" encodeValue="true"
+        name="sap-personas-flavor"
+        recordRawValue="9AB09B91720B1ED8B5E0E6AD6FF64788" separator="="
+        value="9AB09B91720B1ED8B5E0E6AD6FF64788" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="sap-personas-hidden" recordRawValue="X" separator="="
+        value="X" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="sap-se-csrf-parameter" recordRawValue="moin" separator="="
+        value="moin" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="sap-se-hide-splashscreen" recordRawValue="X" separator="="
+        value="X" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="sap-se-showkeys" recordRawValue="visible" separator="="
+        value="visible" valueMode="USE_VALUE"/>
+    <parameter encodeName="false" encodeValue="true" name="~transaction"
+        recordRawValue="SMEN" separator="=" value="SMEN" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 5793&#xd;
+x-from-zip: X&#xd;
+cache-control: no-cache&#xd;
+sap-cache-control: +0&#xd;
+sap-isc-uagent: 0&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 55775.000000&#xd;
+content-encoding: br</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

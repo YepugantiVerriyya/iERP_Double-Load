@@ -1,0 +1,10 @@
+GET I_LedgerCompanyCodeVH?sap-client=100&$skip=0&$top=10&$filter=Ledger%20eq%20%270L%27&search-focus=CompanyCode&search=01&$select=Ledger%2cCompanyCode%2cCompanyCodeName%2cControllingArea%2cChartOfAccounts%2cCityName%2cCurrency%2cFiscalYearVariant%2cCompanyCodeName HTTP/1.1
+sap-cancel-on-close: true
+sap-contextid-accept: header
+Accept: application/json
+x-csrf-token: 0cTkRzQsrNNkbDsetzVqmw==
+Accept-Language: en
+DataServiceVersion: 2.0
+MaxDataServiceVersion: 2.0
+X-Requested-With: XMLHttpRequest
+

@@ -1,0 +1,39 @@
+<websocket-channel-action actionType="1"
+    contentType="text/html; charset=utf-8" enabled="false"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="websocket_channel"
+    path="/sap/bc/apc/iwngw/notification_push_apc" postType="6"
+    pushType="WEBSOCKET" recordedResponseCode="403" responseSize="9314"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="58a99145-4354-450f-a318-a2ba2e0de796" useKeepAlive="false">
+    <response-matching extractionMethod="REGEXP_ONLY" regexp="" template="$1$"/>
+    <responsePageFileDescription>team/vus/@s@c07#2E2_@z@c1_@sales_@order_@v@a03_@display @s@o@l@t399/%resources%/recorded-responses/res_2ed97bed-785e-47b7-ac60-8300acbbdad5.html</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@s@c07#2E2_@z@c1_@sales_@order_@v@a03_@display @s@o@l@t399/%resources%/recorded-requests/req_2ed97bed-785e-47b7-ac60-8300acbbdad5.txt</requestContentFileDescription>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Upgrade"/>
+    <header name="Host" value="ierp-zc1.pce.ibm.com:44391"/>
+    <header name="Origin" value="https://ierp-zc1.pce.ibm.com:44391"/>
+    <header name="Pragma" value="no-cache"/>
+    <header name="Sec-WebSocket-Extensions" value="permessage-deflate; client_max_window_bits"/>
+    <header name="Sec-WebSocket-Key" value="X6hlv1Cqievl9ymcwlGn3A=="/>
+    <header name="Sec-WebSocket-Protocol" value="v10.pcp.sap.com"/>
+    <header name="Sec-WebSocket-Version" value="13"/>
+    <header name="Upgrade" value="websocket"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 403 Forbidden&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 9314&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 2653.000000&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <push-handler filecount="0"
+        filename="team/vus/@s@c07#2E2_@z@c1_@sales_@order_@v@a03_@display @s@o@l@t399/%resources%/recorded-responses/websocket_0089b27f-e4b1-4c1f-b492-4f7ac896528d_1706685200148_1707928631342_1708686663651_1708687892790_1714986620026.dat" pushType="WEBSOCKET">
+        <result-handler responseSource="MESSAGE" type="REGEXP"/>
+    </push-handler>
+</websocket-channel-action>

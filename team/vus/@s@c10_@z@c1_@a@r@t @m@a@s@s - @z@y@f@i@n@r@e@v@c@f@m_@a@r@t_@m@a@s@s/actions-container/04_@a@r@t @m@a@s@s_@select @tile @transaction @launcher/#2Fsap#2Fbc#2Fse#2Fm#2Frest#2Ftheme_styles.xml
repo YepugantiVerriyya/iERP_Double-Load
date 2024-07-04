@@ -1,0 +1,52 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/bc/se/m/rest/theme_styles"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c10_@z@c1_@a@r@t @m@a@s@s - @z@y@f@i@n@r@e@v@c@f@m_@a@r@t_@m@a@s@s/%resources%/recorded-artifacts/5e445d85-3733-472c-85cc-5ddbf8c895e0.zip"
+    slaProfileEnabled="false" thinkTime="935"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="5e445d85-3733-472c-85cc-5ddbf8c895e0">
+    <embedded-action>a7231aaf-921b-45dd-844d-a4b7d6f6ee15</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_38dadf57-ecc5-4113-9ab3-ffbbe515f609.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/sap/bc/se/m/rest/theme_styles"
+    path="/sap/bc/se/m/rest/theme_styles" postType="4"
+    recordedArtifactZipFileName="team/vus/@s@c10_@z@c1_@a@r@t @m@a@s@s - @z@y@f@i@n@r@e@v@c@f@m_@a@r@t_@m@a@s@s/%resources%/recorded-artifacts/5e445d85-3733-472c-85cc-5ddbf8c895e0.zip"
+    recordedResponseCode="404" responseSize="0"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="a7231aaf-921b-45dd-844d-a4b7d6f6ee15" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a7231aaf-921b-45dd-844d-a4b7d6f6ee15.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_22814718-d188-4a9a-8c7b-179e9a2b4971.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="false"
+        name="sessiontoken"
+        recordRawValue="%3CSESSION_TOKEN%3EFA2A6F2809201EEEBCD4FD9CED6326D0%3C/SESSION_TOKEN%3E"
+        separator="="
+        value="%3CSESSION_TOKEN%3EFA2A6F2809201EEEBCD4FD9CED6326D0%3C/SESSION_TOKEN%3E" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-zc1.pce.ibm.com:44391/sap/bc/se/m/index.html?sap-personas-flavor=9AB09B91720B1ED8B5E0E6AD6FF64788&amp;sap-personas-hidden=X&amp;sap-se-csrf-parameter=moin&amp;sap-se-hide-splashscreen=X&amp;sap-se-showkeys=visible&amp;~transaction=SMEN"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://ierp-zc1.pce.ibm.com:44391"/>
+    <header name="accept" value="text/plain, */*; q=0.01"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;123&quot;, &quot;Not:A-Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;123&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="content-type" value="text/xml"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 404&#xd;
+content-type: text/html&#xd;
+Content-Length: 0&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 19256.000000&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[<THEME_STYLES><THEME id='9AB09B91720B1ED995908417B4648265' ui5VerKey='ver196'>/* SAP Screen Personas 3.0 Theme ver196 */.se-Window{background-image:url('/sap/bc/personas3/resource/?cz${c_sap_variable}%3D%3D');background-color:#F7F7F7;}.se-UserArea{background-color:#F7F7F7;}.se-CheckBox .se-LabelTextWrapper label, .se-CheckBox .se-LabelTextWrapper bdi{color:#232323;font-family:IBM Plex Sans;}.se-Switch .se-LabelTextWrapper label, .se-Switch .se-LabelTextWrapper bdi{color:#232323;font-family:IBM Plex Sans;}.se-ComboBox input, .se-ComboBox div button, .se-ComboBox div span, .se-ComboBox span{color:#232323;font-family:IBM Plex Sans;}.se-Panel{border-style:none;border-width:1px;border-radius:0px;border-color:rgba(0,0,0,0);}.se-Panel>.sapMPanelHdr{color:#232323;font-family:IBM Plex Sans;font-weight:bold;background-color:rgba(0,0,0,0);}.se-Input .sapMInputBaseContentWrapper:not(.sapMInputBaseContentWrapperState) input.sapMInputBaseInner, .se-Input .sapMInputBaseContentWrapper:not(.sapMInputBaseContentWrapperState):not(.se-Input-ValueHelp) .se-Input-ValueHelpInner{color:#232323;}.se-Input .sapMInputBaseContentWrapper:not(.sapMInputBaseContentWrapperState) input.sapMInputBaseInner{font-family:IBM Plex Sans;}.se-Label .se-LabelText, .se-Label a, .se-Label bdi{color:#232323;font-family:IBM Plex Sans;}.se-RadioButton label, .se-RadioButton bdi{color:#232323;font-family:IBM Plex Sans;}.se-StickyNote textarea{color:#232323;font-family:IBM Plex Sans;}.se-TextEdit .sapMInputBase.sapMTextArea textarea.sapMTextAreaInner{font-family:IBM Plex Sans;}.se-TextEdit textarea:not([readonly='readonly']){color:#232323;}.se-MainWindowHeaderBar.sapMIBar{background-color:#486CA7;}.se-MainWindowHeaderBar.sapMIBar-CTX .sapMLabel{color:rgba(255,255,255,1);}.se-HeaderToolbar .se-ToolbarButton .sapMBtnContent, .se-FlexToolbar .se-ToolbarButton .sapMBtnContent{color:#232323;font-family:IBM Plex Sans;}.se-Button>span.sapMBtnInner{font-family:IBM Plex Sans;}.personasBtn.p-wrapper{background:#003D73;}.personasBtn.p-wrapper>.p-main>.shape{border-color:rgba(255,255,255,1);}.se-IconTabBar.sapMITBItem .sapMITBText, .se-IconTabBar .sapMITBItem .sapMITBText{color:#232323;font-family:IBM Plex Sans;}.se-HeaderToolbar{background:#003D73;}.se-HeaderToolbar{background:#003D73;}.se-HeaderToolbar{background:rgba(255,255,255,1);}.se-HeaderToolbar{background:rgba(255,255,255,1);}.pbtnc.pbtnc{background:#003D73;}.se-StatusBar.sapMIBar.sapMFooter-CTX button:not(.se-HToolbarButton) .sapMBtnText.sapMBtnInner .sapMBtnContent{font-family:IBM Plex Sans;}</THEME></THEME_STYLES>]]></textPostContent>
+</http-action>

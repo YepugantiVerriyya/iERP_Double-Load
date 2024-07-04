@@ -1,0 +1,54 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/bc/ui2/flp;sap-fesr-only"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c08#2E3_@z@c1_@w@b@s_@element_@closure@report/%resources%/recorded-artifacts/847a541e-a504-4e40-8bbf-2180894903f5.zip"
+    slaProfileEnabled="false" thinkTime="6391"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="847a541e-a504-4e40-8bbf-2180894903f5">
+    <embedded-action>86422e71-547a-46dd-93c9-c275081821ca</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_a88e5b4c-8311-4d91-bc9d-12e56bc3bd92.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/sap/bc/ui2/flp;sap-fesr-only"
+    path="/sap/bc/ui2/flp;sap-fesr-only" postCharset="UTF-8"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@s@c08#2E3_@z@c1_@w@b@s_@element_@closure@report/%resources%/recorded-artifacts/847a541e-a504-4e40-8bbf-2180894903f5.zip"
+    recordedResponseCode="204" responseSize="0"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="86422e71-547a-46dd-93c9-c275081821ca" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[c2FwLWZlc3Itb25seT0xJlNBUC1QZXJmLUZFU1JlYz1BMTkyMjkwRjBBMkQ0M0E3OUI0RjFEMEE0MjZBMkJCMCw0MTBGRTlFMUMxMTk0MjQxQTFEOEI1QURENzBGNkEwMiwxMDI3OCwyOTkxNCw0MTU5Nyw3NCx1bmRldGVybWluZWRfc3RhcnR1cF8wLDg2Miw2NjIyMyx3aW5fMTAsU0FQX1VJNVNBUC1QZXJmLUZFU1JlYy1vcHRGTFBfUEFHRSxGTFBATE9BRCwsY3JfMTIxLDUyNDYyLDI2NzcwMiwsLDE0MDUsLCwsLCwwLDEsMSwsMjAyNDAyMTYxMjA2NTU4MDUsc2FwLnVzaGVsbC5jb21wb25lbnRzLnBhZ2Vz]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_86422e71-547a-46dd-93c9-c275081821ca.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_893cc6bd-9516-45f9-814f-f8679a721b35.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="sap-fesr-only"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false"
+        name="SAP-Perf-FESRec"
+        recordRawValue="A192290F0A2D43A79B4F1D0A426A2BB0,410FE9E1C1194241A1D8B5ADD70F6A02,10278,29914,41597,74,undetermined_startup_0,862,66223,win_10,SAP_UI5SAP-Perf-FESRec-optFLP_PAGE,FLP@LOAD,,cr_121,52462,267702,,,1405,,,,,,0,1,1,,20240216120655805,sap.ushell.components.pages"
+        separator="="
+        value="A192290F0A2D43A79B4F1D0A426A2BB0,410FE9E1C1194241A1D8B5ADD70F6A02,10278,29914,41597,74,undetermined_startup_0,862,66223,win_10,SAP_UI5SAP-Perf-FESRec-optFLP_PAGE,FLP@LOAD,,cr_121,52462,267702,,,1405,,,,,,0,1,1,,20240216120655805,sap.ushell.components.pages" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://ierp-yc4.pce.ibm.com:44391"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/x-www-form-urlencoded;charset=utf-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 204&#xd;
+content-type: text/html&#xd;
+Content-Length: 0&#xd;
+cache-control: no-store, no-cache, must-revalidate&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 4956.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

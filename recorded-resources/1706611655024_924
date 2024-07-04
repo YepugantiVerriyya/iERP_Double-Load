@@ -1,0 +1,10 @@
+GET I_SalesDocumentItemFulfillmnt?sap-client=100&$select=SalesDocument%2CSalesDocumentItem%2CSalesDocumentType%2Cto_SalesDocumentType%2FSalesDocumentType_Text%2CShippingStatus%2CInvoicingStatus%2COverallSDProcessStatus%2COverallSDDocumentRejectionSts%2CNextPlannedProdAvailDate%2CRequestedDeliveryDate%2CBillingDocumentDate&$expand=to_SalesDocumentType&$filter=SalesDocument%20eq%20%277303980043%27 HTTP/1.1
+sap-cancel-on-close: true
+sap-contextid-accept: header
+Accept: application/json
+x-csrf-token: TvjO8479_w8g1Ss5-7Ka1w==
+Accept-Language: en
+DataServiceVersion: 2.0
+MaxDataServiceVersion: 2.0
+X-Requested-With: XMLHttpRequest
+

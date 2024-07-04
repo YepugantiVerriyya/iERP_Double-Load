@@ -1,0 +1,159 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/bc/se/rg/newsession" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c13_@z@c1_@change @w@b@s @elements - @z@y@o@t@c_@c@h@g@w@b@s/%resources%/recorded-artifacts/97e6db22-d03f-434e-8e5c-fd4cf405a8ac.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="97e6db22-d03f-434e-8e5c-fd4cf405a8ac">
+    <embedded-action>f1fa8460-0b89-4383-a430-9103cbd46e25</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_f2d3eba5-19a4-4c6e-9fb7-6c630c0f3389.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/sap/bc/se/rg/newsession"
+    path="/sap/bc/se/rg/newsession" postCharset="" postType="4"
+    recordedArtifactZipFileName="team/vus/@s@c13_@z@c1_@change @w@b@s @elements - @z@y@o@t@c_@c@h@g@w@b@s/%resources%/recorded-artifacts/97e6db22-d03f-434e-8e5c-fd4cf405a8ac.zip"
+    recordedResponseCode="200" responseSize="112"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="f1fa8460-0b89-4383-a430-9103cbd46e25" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6b460ec0-a09b-429d-845f-f76e144ed0c7</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6b460ec0-a09b-429d-845f-f76e144ed0c7.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple="="
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="c_CHGWBS_SAP"
+        refererUid="f2a00d75-9ecd-41b8-8ec3-092d64ca9c35"
+        regExp="(.*?)=" regExpAdv="" setDefaultValue="true"
+        startsWithSimple="" template="$1$" templateAdv="$1$"
+        uid="0e224154-a683-454d-b569-5f223a0d1018" valueEncoded="true"
+        valueHtmlEncoded="true" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <parameter encodeName="true" encodeValue="true" name="moin"
+        recordRawValue="566646BCFF28D144" separator="="
+        value="566646BCFF28D144" valueMode="USE_EXTRACT">
+        <variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="3"
+            matchNumberAdv="3" matchNumberSimple="1"
+            name="c_CHGWBS_moin"
+            refererUid="547ef865-bdaf-4768-b5fa-aa794736c550"
+            regExp="content=&quot;([^&amp;]*?)&quot;"
+            regExpAdv="content=&quot;([^&amp;]*?)&quot;"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="fe658943-93d0-4ec5-8d63-91fc460a632f"
+            valueEncoded="true" valueHtmlEncoded="true" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </variable-extractor>
+    </parameter>
+    <parameter encodeName="false" encodeValue="true"
+        name="~webguiScreenWidth" recordRawValue="1536" separator="="
+        value="1536" valueMode="USE_VALUE"/>
+    <parameter encodeName="false" encodeValue="true"
+        name="~webguiScreenHeight" recordRawValue="590" separator="="
+        value="590" valueMode="USE_VALUE"/>
+    <parameter encodeName="false" encodeValue="true"
+        name="~webguiUserAreaWidth" recordRawValue="1536" separator="="
+        value="1536" valueMode="USE_VALUE"/>
+    <parameter encodeName="false" encodeValue="true"
+        name="~webguiUserAreaHeight" recordRawValue="590" separator="="
+        value="590" valueMode="USE_VALUE"/>
+    <parameter encodeName="false" encodeValue="true"
+        name="~webguiDynpFontWidth" recordRawValue="10" separator="="
+        value="10" valueMode="USE_VALUE"/>
+    <parameter encodeName="false" encodeValue="true"
+        name="~webguiDynpFontHeight" recordRawValue="32" separator="="
+        value="32" valueMode="USE_VALUE"/>
+    <parameter encodeName="false" encodeValue="true"
+        name="~webguiListFontWidth" recordRawValue="8" separator="="
+        value="8" valueMode="USE_VALUE"/>
+    <parameter encodeName="false" encodeValue="true"
+        name="~webguiListFontHeight" recordRawValue="19" separator="="
+        value="19" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="rgToolbarHeight" recordRawValue="32" separator="="
+        value="32" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="rgScrollbarSize" recordRawValue="20" separator="="
+        value="20" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="rgPopupMaxWidth" recordRawValue="1526" separator="="
+        value="1526" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="rgPopupMaxHeight" recordRawValue="558" separator="="
+        value="558" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="rgTableRowHeight" recordRawValue="25" separator="="
+        value="25" valueMode="USE_VALUE"/>
+    <parameter encodeName="false" encodeValue="true" name="~transaction"
+        recordRawValue="SMEN" separator="=" value="SMEN" valueMode="USE_VALUE"/>
+    <parameter encodeName="false" encodeValue="true" name="~restgui"
+        recordRawValue="X" separator="=" value="X" valueMode="USE_VALUE"/>
+    <parameter encodeName="false" encodeValue="true" name="~rg_pmobile"
+        recordRawValue="X" separator="=" value="X" valueMode="USE_VALUE"/>
+    <parameter encodeName="false" encodeValue="true"
+        name="~rg_control_state_ver" recordRawValue="2" separator="="
+        value="2" valueMode="USE_VALUE"/>
+    <parameter encodeName="false" encodeValue="true"
+        name="~rg_batch_format_encode" recordRawValue="X" separator="="
+        value="X" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="sap-htmlrendermode" recordRawValue="standards"
+        separator="=" value="standards" valueMode="USE_VALUE"/>
+    <parameter encodeName="false" encodeValue="true"
+        name="~webgui_new_design" recordRawValue="X" separator="="
+        value="X" valueMode="USE_VALUE"/>
+    <parameter encodeName="false" encodeValue="true"
+        name="~rg_omrtmetric" recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="sap-personas-flavor"
+        recordRawValue="9AB09B91720B1ED8B5E0E6AD6FF64788" separator="="
+        value="9AB09B91720B1ED8B5E0E6AD6FF64788" valueMode="USE_EXTRACT">
+        <variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1"
+            name="c_CHGWBS_flavor"
+            refererUid="37b98b00-e0af-4abf-b742-37e0950d165a"
+            regExp="flavor=([^&amp;]*?)&amp;"
+            regExpAdv="flavor=([^&amp;]*?)&amp;" setDefaultValue="true"
+            startsWithSimple="" template="$1$" templateAdv="$1$"
+            uid="e1858576-1b6a-487d-b5f4-3df2f7bf11d2" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </variable-extractor>
+    </parameter>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/se/m/index.html?sap-personas-flavor=9AB09B91720B1ED8B5E0E6AD6FF64788&amp;sap-personas-hidden=X&amp;sap-se-csrf-parameter=moin&amp;sap-se-hide-splashscreen=X&amp;sap-se-showkeys=visible&amp;~transaction=SMEN"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;122&quot;, &quot;Not(A:Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;122&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="x-csrf-token" value="566646BCFF28D144"/>
+    <header name="content-type" value="text/plain;charset=UTF-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/plain; charset=utf-8&#xd;
+content-length: 112&#xd;
+expires: Sat, 6 May 1995 12:00:00 GMT&#xd;
+cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0&#xd;
+pragma: no-cache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+sap-perf-fesrec: 281794.000000&#xd;
+set-cookie: SAP_SESSIONID_YC4_330=vpKvUuVfL5l1BrL_sWPR-tNW6VneURHutFP6ElIVFyA%3d; path=/; secure; HttpOnly; SameSite=None; Domain=.ibm.com;SameSite=Strict; Secure</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

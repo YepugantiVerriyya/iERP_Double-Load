@@ -1,0 +1,55 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata/sap/ZFIORIANALYTICS_SRV/%24metadata"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c05#2E1_@z@c1_@sales_@order_@v@a01_@create @s@o@g@t400/%resources%/recorded-artifacts/eaad6a07-aad1-4941-bd5d-73c6e7ddb865.zip"
+    slaProfileEnabled="false" thinkTime="17988"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="eaad6a07-aad1-4941-bd5d-73c6e7ddb865">
+    <embedded-action>952f7c7b-b82d-4a16-8625-418db20f2453</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_880eaca0-8ac5-489f-9666-90cf91b22d60.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/xml"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 11 Mar 2024 12:42:55 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/sap/opu/odata/sap/ZFIORIANALYTICS_SRV/$metadata"
+    path="/sap/opu/odata/sap/ZFIORIANALYTICS_SRV/$metadata" postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c05#2E1_@z@c1_@sales_@order_@v@a01_@create @s@o@g@t400/%resources%/recorded-artifacts/eaad6a07-aad1-4941-bd5d-73c6e7ddb865.zip"
+    recordedResponseCode="200" responseSize="12988"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="952f7c7b-b82d-4a16-8625-418db20f2453" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_be20cd34-9d78-4277-957a-98a0a0d7d985.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_be20cd34-9d78-4277-957a-98a0a0d7d985.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en"/>
+    <header name="accept" value="application/xml"/>
+    <header name="maxdataserviceversion" value="3.0"/>
+    <header name="if-modified-since" value="Wed, 07 Feb 2024 16:29:51 GMT"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sap-cancel-on-close" value="true"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="sap-contextid-accept" value="header"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000757368656C6C2E72656E6465726572732E66696F72693240312E3130382E323500005341505F4532455F54415F5573657220202020202020202020202020202020206C64496E5368656C6C2D696E7075742D706F7075702D7461626C655F6974656D50726573735F32370005757368656C6C2E72656E6465726572732E66696F72693240312E3130382E323542343236354245443046464534344143384645353043343836443934373342392020200007F1EAD7EF100B40E08633046D0CBEFF1A0000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/xml&#xd;
+content-length: 1403&#xd;
+last-modified: Wed, 14 Feb 2024 18:07:38 GMT&#xd;
+cache-control: max-age=0&#xd;
+dataserviceversion: 2.0&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=,MedCacheHub=Table,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 41664.000000&#xd;
+content-encoding: br</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

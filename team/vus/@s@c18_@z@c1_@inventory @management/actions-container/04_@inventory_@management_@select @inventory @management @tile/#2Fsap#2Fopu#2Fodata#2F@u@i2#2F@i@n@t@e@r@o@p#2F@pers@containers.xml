@@ -1,0 +1,58 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata/UI2/INTEROP/PersContainers"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c18_@z@c1_@inventory @management/%resources%/recorded-artifacts/ccca3401-913c-4f05-a2a7-9e81d7b36a4c.zip"
+    slaProfileEnabled="false" thinkTime="1095"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="ccca3401-913c-4f05-a2a7-9e81d7b36a4c">
+    <embedded-action>53dfa180-c49e-4bf4-b720-5dfebddf5fc3</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_332d612c-5542-46dc-81f7-5c8b042fa816.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/sap/opu/odata/UI2/INTEROP/PersContainers"
+    path="/sap/opu/odata/UI2/INTEROP/PersContainers" postType="4"
+    recordedArtifactZipFileName="team/vus/@s@c18_@z@c1_@inventory @management/%resources%/recorded-artifacts/ccca3401-913c-4f05-a2a7-9e81d7b36a4c.zip"
+    recordedResponseCode="201" responseSize="5254"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="53dfa180-c49e-4bf4-b720-5dfebddf5fc3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_9e6a077f-a9a6-4a76-92ec-678592af0edb</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_9e6a077f-a9a6-4a76-92ec-678592af0edb.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="EN"/>
+    <header name="origin" value="https://ierp-yc4.pce.ibm.com:44391"/>
+    <header name="sap-client" value="${P_Client.ID}"/>
+    <header name="accept" value="application/json"/>
+    <header name="maxdataserviceversion" value="3.0"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;122&quot;, &quot;Not(A:Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;122&quot;"/>
+    <header name="sap-language" value="EN"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000756E646566696E6564202020202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E646566696E6564202020202020202020202020202020202020202020202020202020202020200005756E646566696E6564202020202020202020202020202020202020202020202043433833424132353845353134354546414546383242353734433335394132352020200007A7F96E87E6C943648B91682EE89199A20000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="content-type" value="application/json"/>
+    <header name="x-csrf-token" value="${c_csrf_Token}=="/>
+    <header name="dataserviceversion" value="1.0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 201&#xd;
+content-type: application/json; charset=utf-8&#xd;
+content-length: 999&#xd;
+location: https://IERP-YC4.PCE.IBM.COM:44391/sap/opu/odata/UI2/INTEROP/PersContainers(id='sap.ushell.services.UserRecents',category='U')&#xd;
+dataserviceversion: 2.0&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=,MedCacheHub=Table,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 57684.000000&#xd;
+content-encoding: br</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"__metadata":{"id":"https://IERP-YC4.PCE.IBM.COM:44391/sap/opu/odata/UI2/INTEROP/PersContainers(id='sap.ushell.services.UserRecents',category='U')","uri":"https://IERP-YC4.PCE.IBM.COM:44391/sap/opu/odata/UI2/INTEROP/PersContainers(id='sap.ushell.services.UserRecents',category='U')","type":"INTEROP.PersContainer"},"id":"sap.ushell.services.UserRecents","category":"U","validity":0,"clientExpirationTime":"\/Date(253373423400000)\/","component":"","appName":"","PersContainerItems":[{"value":"{\"recentDay\":\"2024/3/6\",\"recentUsageArray\":[{\"oItem\":{\"title\":\"Inventory Management\",\"appType\":\"Application\",\"url\":\"#iERP_ES_INVSRV-launch\",\"appId\":\"#iERP_ES_INVSRV-launch\",\"timestamp\":1709711858162,\"icon\":\"sap-icon://product\"},\"iTimestamp\":1709711858162,\"aUsageArray\":[3],\"iCount\":3},{\"oItem\":{\"appId\":\"#Action-search\",\"appType\":\"Search\",\"title\":\"Inventory Management\",\"url\":\"#Action-search&/top=20&filter={\\\"dataSource\\\":{\\\"type\\\":\\\"Category\\\",\\\"id\\\":\\\"$$APPS$$\\\",\\\"label\\\":\\\"Apps\\\",\\\"labelPlural\\\":\\\"Apps\\\"},\\\"searchTerm\\\":\\\"Inventory Management\\\",\\\"rootCondition\\\":{\\\"type\\\":\\\"Complex\\\",\\\"operator\\\":\\\"And\\\",\\\"conditions\\\":[]}}\",\"timestamp\":1709711833646,\"icon\":\"sap-icon://search\"},\"iTimestamp\":1709711833646,\"aUsageArray\":[4],\"iCount\":4,\"desktop\":true},{\"oItem\":{\"title\":\"Overview Inventory Management\",\"appType\":\"Application\",\"url\":\"#InventoryManagement-displayAnalyticsOverviewPage\",\"appId\":\"#InventoryManagement-displayAnalyticsOverviewPage\",\"timestamp\":1709710880130,\"icon\":\"sap-icon://product\"},\"iTimestamp\":1709710880130,\"aUsageArray\":[1],\"iCount\":1,\"desktop\":true},{\"oItem\":{\"title\":\"Trial Balance\",\"appType\":\"Application\",\"url\":\"#GLAccount-analyzeTrialBalance?sap-ui-tech-hint=WDA\",\"appId\":\"#GLAccount-analyzeTrialBalance\",\"timestamp\":1708419082279,\"icon\":\"sap-icon://product\"},\"iTimestamp\":1708419082279,\"aUsageArray\":[4,4,9,0,1,0],\"iCount\":18,\"desktop\":true},{\"oItem\":{\"title\":\"Slipstream Engine\",\"appType\":\"Application\",\"url\":\"#Slipstream-ECClaunch_URL?flavor=9AB09B91720B1ED8B5E0E6AD6FF64788&transaction=SMEN\",\"appId\":\"#Slipstream-ECClaunch_URL\",\"timestamp\":1708089434276,\"icon\":\"sap-icon://product\"},\"iTimestamp\":1708089434276,\"aUsageArray\":[2,0,0],\"iCount\":2,\"desktop\":true},{\"oItem\":{\"appId\":\"#Action-search\",\"appType\":\"Search\",\"title\":\"TRANSACTION LAUNCHER\",\"url\":\"#Action-search&/top=20&filter={\\\"dataSource\\\":{\\\"type\\\":\\\"Category\\\",\\\"id\\\":\\\"$$APPS$$\\\",\\\"label\\\":\\\"Apps\\\",\\\"labelPlural\\\":\\\"Apps\\\"},\\\"searchTerm\\\":\\\"TRANSACTION LAUNCHER\\\",\\\"rootCondition\\\":{\\\"type\\\":\\\"Complex\\\",\\\"operator\\\":\\\"And\\\",\\\"conditions\\\":[]}}\",\"timestamp\":1708089366008,\"icon\":\"sap-icon://search\"},\"iTimestamp\":1708089366008,\"aUsageArray\":[1,0,0],\"iCount\":1,\"desktop\":true},{\"oItem\":{\"appId\":\"#Action-search\",\"appType\":\"Search\",\"title\":\"Trial Balance\",\"url\":\"#Action-search&/top=20&filter={\\\"dataSource\\\":{\\\"type\\\":\\\"Category\\\",\\\"id\\\":\\\"$$APPS$$\\\",\\\"label\\\":\\\"Apps\\\",\\\"labelPlural\\\":\\\"Apps\\\"},\\\"searchTerm\\\":\\\"Trial Balance\\\",\\\"rootCondition\\\":{\\\"type\\\":\\\"Complex\\\",\\\"operator\\\":\\\"And\\\",\\\"conditions\\\":[]}}\",\"timestamp\":1705306456303,\"icon\":\"sap-icon://search\"},\"iTimestamp\":1705306456303,\"aUsageArray\":[1,1,4,0,0,0],\"iCount\":6,\"desktop\":true},{\"oItem\":{\"appId\":\"#Action-search\",\"appType\":\"Search\",\"title\":\"trial balance\",\"url\":\"#Action-search&/top=20&filter={\\\"dataSource\\\":{\\\"type\\\":\\\"Category\\\",\\\"id\\\":\\\"$$APPS$$\\\",\\\"label\\\":\\\"Apps\\\",\\\"labelPlural\\\":\\\"Apps\\\"},\\\"searchTerm\\\":\\\"trial balance\\\",\\\"rootCondition\\\":{\\\"type\\\":\\\"Complex\\\",\\\"operator\\\":\\\"And\\\",\\\"conditions\\\":[]}}\",\"timestamp\":1704968402808,\"icon\":\"sap-icon://search\"},\"iTimestamp\":1704968402808,\"aUsageArray\":[1,0,0,0,0,0],\"iCount\":1,\"desktop\":true},{\"oItem\":{\"appId\":\"#Action-search\",\"appType\":\"Search\",\"title\":\"trial\",\"url\":\"#Action-search&/top=20&filter={\\\"dataSource\\\":{\\\"type\\\":\\\"Category\\\",\\\"id\\\":\\\"$$APPS$$\\\",\\\"label\\\":\\\"Apps\\\",\\\"labelPlural\\\":\\\"Apps\\\"},\\\"searchTerm\\\":\\\"trial\\\",\\\"rootCondition\\\":{\\\"type\\\":\\\"Complex\\\",\\\"operator\\\":\\\"And\\\",\\\"conditions\\\":[]}}\",\"timestamp\":1704968309582,\"icon\":\"sap-icon://search\"},\"iTimestamp\":1704968309582,\"aUsageArray\":[1,0,0,0,0,0],\"iCount\":1,\"desktop\":true}]}","id":"RecentActivity","category":"I","containerId":"sap.ushell.services.UserRecents","containerCategory":"U"}]}]]></textPostContent>
+</http-action>

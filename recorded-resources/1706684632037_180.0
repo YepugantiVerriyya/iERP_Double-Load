@@ -1,0 +1,12 @@
+GET SalesOrders?sap-client=100&$skip=0&$top=20&$orderby=SalesDocument%20desc&$select=SalesDocument%2cSalesDocumentType%2cto_SalesOrderType%2fSalesOrderType_Text%2cSoldToParty%2cEndCustomer%2cEndCustomerName%2cCustomerReference%2cNetValue%2cCurrency%2cCreatedOn%2cBillingDate%2cBillingBlock%2cto_HeaderBillingBlockReason%2fBillingBlockReason_Text%2cOverallStatus%2cto_OverallSDProcessStatus%2fOverallSDProcessStatus_Text%2cRequestedDeliveryDate%2cDistributionChannel%2cto_DistributionChannel%2fDistributionChannel_Text&$expand=to_SalesOrderType%2cto_HeaderBillingBlockReason%2cto_OverallSDProcessStatus%2cto_DistributionChannel&$inlinecount=allpages HTTP/1.1
+sap-cancel-on-close: true
+sap-messages: transientOnly
+sap-contextid-accept: header
+Accept: application/json
+x-csrf-token: wYbAn5JyLfm-4EWxoFA7bg==
+Accept-Language: en
+DataServiceVersion: 2.0
+MaxDataServiceVersion: 2.0
+X-Requested-With: XMLHttpRequest
+sap-message-scope: BusinessObject
+

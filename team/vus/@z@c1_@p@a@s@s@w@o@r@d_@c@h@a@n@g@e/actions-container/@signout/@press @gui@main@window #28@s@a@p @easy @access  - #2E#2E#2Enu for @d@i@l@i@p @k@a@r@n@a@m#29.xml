@@ -1,0 +1,18 @@
+<custom-action actionType="SapPress" isHit="true"
+    name="Press GuiMainWindow (SAP Easy Access  - ...nu for DILIP KARNAM)" uid="8571a0c0-2b74-4f16-ba7d-ba7ddf7530b0">
+    <description>This action simulates a key press action on an SAP object.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/wnd[0]".&#xd;
+- key (required): The keyboard key. A String constant as "Enter", "F2" or an integer as "0" or "2". Default value is "Enter".&#xd;
+- ignoreErrors (optional): If set to "true", the action won't be in error if object is not found, type is not supported or an exception is thrown. Default value is "false".&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[0]"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="wnd[0]"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiMainWindow"/>
+    <custom-action-parameter name="key" type="TEXT" value="Enter"/>
+    <responsePageFileDescription>recorded-responses/res_8571a0c0-2b74-4f16-ba7d-ba7ddf7530b0</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/@z@c1_@p@a@s@s@w@o@r@d_@c@h@a@n@g@e/%resources%/recorded-screenshots/sc_4317b669-7faa-45bc-89c4-13b151b8fcaa.jpg</screenshotFileDescription>
+</custom-action>

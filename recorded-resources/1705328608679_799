@@ -1,0 +1,10 @@
+GET I_Ledger?sap-client=100&$orderby=IsLeadingLedger%20desc HTTP/1.1
+sap-cancel-on-close: true
+sap-contextid-accept: header
+Accept: application/json
+x-csrf-token: 0cTkRzQsrNNkbDsetzVqmw==
+Accept-Language: en
+DataServiceVersion: 2.0
+MaxDataServiceVersion: 2.0
+X-Requested-With: XMLHttpRequest
+

@@ -1,0 +1,10 @@
+GET AdminheaderSet?sap-client=330&$skip=0&$top=100&$select=RequestNum%2cRequestorId%2cRequestorName%2cRequestorMail%2cIbmManager%2cStatusDesc%2cAdminId%2cTeam%2cSubmittedDate%2cUpdatedDate&$expand=navadmin HTTP/1.1
+sap-cancel-on-close: true
+sap-contextid-accept: header
+Accept: application/json
+x-csrf-token: -Sg_sMq1OykDRE27Fo4D2g==
+Accept-Language: en
+DataServiceVersion: 2.0
+MaxDataServiceVersion: 2.0
+X-Requested-With: XMLHttpRequest
+

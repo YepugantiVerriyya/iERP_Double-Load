@@ -1,0 +1,32 @@
+<custom-action actionType="SapSetText" isHit="false"
+    name="SetText GuiTextField (User)" uid="610c58c5-7bf2-4c8c-92cf-1dedba728ec3">
+    <description>This action simulates a set text action in an SAP text field.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/".&#xd;
+- value (optional): The text value&#xd;
+- column (optional): The column index of a table or the column name of a grid.&#xd;
+- row (optional): The row index of a grid or a table.&#xd;
+- ignoreErrors (optional): If set to "true", the action won't be in error if object is not found, type is not supported or an exception is thrown. Default value is "false".&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[0]/usr/txtRSYST-BNAME"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="RSYST-BNAME"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiTextField"/>
+    <custom-action-parameter name="value" type="TEXT" value="${YC4_Test_User.Id}"/>
+    <responsePageFileDescription>recorded-responses/res_08c5e4ad-c4bf-42da-b566-f4bbbed27b74</responsePageFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarName="${YC4_Test_User.Id}"
+        extractFromVarNameAdv=""
+        extractFromVarNameSimple="${YC4_Test_User.Id}" extractType="2"
+        extractTypeAdv="0" extractTypeSimple="2" matchNumber="1"
+        matchNumberAdv="1" matchNumberSimple="1" name="Test user id"
+        regExp="(.*)" regExpAdv="" setDefaultValue="true"
+        startsWithSimple="" template="$1$" templateAdv="$1$"
+        uid="b385ab0b-92ca-40ff-8739-35e09bfb739a" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <screenshotFileDescription>team/vus/@y@c4_@c@h@a@n@g@e @u@s@e@r @i@n@i@t@i@a@l @p@a@s@s@w@o@r@d@s/%resources%/recorded-screenshots/sc_08c5e4ad-c4bf-42da-b566-f4bbbed27b74.jpg</screenshotFileDescription>
+</custom-action>

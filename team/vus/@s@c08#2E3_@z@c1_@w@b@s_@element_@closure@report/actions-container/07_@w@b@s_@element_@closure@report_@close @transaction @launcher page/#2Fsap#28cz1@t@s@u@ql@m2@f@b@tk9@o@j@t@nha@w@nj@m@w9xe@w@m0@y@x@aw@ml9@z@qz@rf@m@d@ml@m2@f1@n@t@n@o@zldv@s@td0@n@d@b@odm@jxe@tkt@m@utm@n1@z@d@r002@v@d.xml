@@ -1,0 +1,49 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap(cz1TSUQlM2FBTk9OJTNhaWNjMW9xeWM0YXAwMl9ZQzRfMDMlM2F1NTNOZldvSTd0NDBOdmJxeTktMUtmN1ZDR002VD"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c08#2E3_@z@c1_@w@b@s_@element_@closure@report/%resources%/recorded-artifacts/b9834829-38dc-4ee5-9b70-657b74016b70.zip"
+    slaProfileEnabled="false" thinkTime="17664"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="b9834829-38dc-4ee5-9b70-657b74016b70">
+    <embedded-action>5493fd45-22f9-49df-a807-b74a43b4ce37</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_8d2a3a5b-342c-4c56-a532-99fec7fb6e76.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/sap(cz1TSUQlM2FBTk9OJTNhaWNjMW9xeWM0YXAwMl9ZQzRfMDMlM2F1NTNOZldvSTd0NDBOdmJxeTktMUtmN1ZDR002VDlGT2JZb2s2eVVwLUFUVA==)/bc/se/rg"
+    path="/sap(cz${c_sap_Value}==)/bc/se/rg" postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c08#2E3_@z@c1_@w@b@s_@element_@closure@report/%resources%/recorded-artifacts/b9834829-38dc-4ee5-9b70-657b74016b70.zip"
+    recordedResponseCode="200" responseSize="116"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="5493fd45-22f9-49df-a807-b74a43b4ce37" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_027eee39-f170-44f1-9ee8-d89847770ea2.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_027eee39-f170-44f1-9ee8-d89847770ea2.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="moin"
+        recordRawValue="835D25AD4EA0467B" separator="="
+        value="${c_moin}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="sap-sessioncmd" recordRawValue="CANCEL2" separator="="
+        value="CANCEL2" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/se/m/index.html?sap-personas-flavor=9AB09B91720B1ED8B5E0E6AD6FF64788&amp;sap-personas-hidden=X&amp;sap-se-csrf-parameter=moin&amp;sap-se-hide-splashscreen=X&amp;sap-se-showkeys=visible&amp;~transaction=SMEN"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://ierp-yc4.pce.ibm.com:44391"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Fri, 16 Feb 2024 12:09:57 GMT&#xd;
+content-length: 116&#xd;
+content-type: text/html</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

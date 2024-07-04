@@ -1,0 +1,49 @@
+<websocket-channel-action actionType="1" enabled="false"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="websocket_channel"
+    path="/sap/bc/apc/sap/webgui_services" postType="6"
+    pushType="WEBSOCKET" recordedResponseCode="101" responseSize="0"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="2574221d-a4bc-4948-8e54-9522cbdeaed0" useKeepAlive="false">
+    <response-matching extractionMethod="REGEXP_ONLY" regexp="" template="$1$"/>
+    <responsePageFileDescription>team/vus/@s@c07#2E1_@z@c1_@sales_@order_@v@a03_@display @s@o@g@t400/%resources%/recorded-responses/res_2574221d-a4bc-4948-8e54-9522cbdeaed0</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@s@c07#2E1_@z@c1_@sales_@order_@v@a03_@display @s@o@g@t400/%resources%/recorded-requests/req_57d746aa-6cc2-4622-8ccf-fe2f637d6f75.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="window_id"
+        recordRawValue="FAB89E2906201EEEB080E0843AB6F340" separator="="
+        value="FAB89E2906201EEEB080E0843AB6F340" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="session_id"
+        recordRawValue="FAB89E2906201EEEB080E0843AB6F340" separator="="
+        value="FAB89E2906201EEEB080E0843AB6F340" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pr_session_id"
+        recordRawValue="FAB89E2906201EEEB080E0843AB6D340" separator="="
+        value="FAB89E2906201EEEB080E0843AB6D340" valueMode="USE_VALUE"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Upgrade"/>
+    <header name="Host" value="ierp-zc1.pce.ibm.com:44391"/>
+    <header name="Origin" value="https://ierp-zc1.pce.ibm.com:44391"/>
+    <header name="Pragma" value="no-cache"/>
+    <header name="Sec-WebSocket-Extensions" value="permessage-deflate; client_max_window_bits"/>
+    <header name="Sec-WebSocket-Key" value="ZB33A8mSkjq7rQxvpIwY3g=="/>
+    <header name="Sec-WebSocket-Protocol" value="v10.pcp.sap.com"/>
+    <header name="Sec-WebSocket-Version" value="13"/>
+    <header name="Upgrade" value="websocket"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 101 Switching Protocols&#xd;
+sec-websocket-accept: SWdhx0y4hx7Ja+toxS25GVuMPOE=&#xd;
+upgrade: WebSocket&#xd;
+connection: Upgrade&#xd;
+sec-websocket-protocol: v10.pcp.sap.com&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 9705.000000&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <push-handler filecount="0"
+        filename="team/vus/@s@c07#2E1_@z@c1_@sales_@order_@v@a03_@display @s@o@g@t400/%resources%/recorded-responses/websocket_ead93e56-c6c4-442a-8753-d75cdbdd75cf_1706685200812_1707928637467_1708686666610_1714986628285.dat" pushType="WEBSOCKET">
+        <result-handler responseSource="MESSAGE" type="REGEXP"/>
+    </push-handler>
+</websocket-channel-action>

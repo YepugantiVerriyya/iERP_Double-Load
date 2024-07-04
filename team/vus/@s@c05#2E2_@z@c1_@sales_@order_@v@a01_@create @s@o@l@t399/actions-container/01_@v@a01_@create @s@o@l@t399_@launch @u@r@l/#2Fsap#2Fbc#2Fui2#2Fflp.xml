@@ -1,0 +1,71 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/sap/bc/ui2/flp"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c05#2E2_@z@c1_@sales_@order_@v@a01_@create @s@o@l@t399/%resources%/recorded-artifacts/fe2f7094-ab34-48dd-af32-9ed9a17e2804.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="fe2f7094-ab34-48dd-af32-9ed9a17e2804">
+    <embedded-action>ed7f9d44-fc55-4ca0-a851-412658723365</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_cb7ab8c7-7208-4ec4-8b07-29a6745ef114.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/sap/bc/ui2/flp" path="/sap/bc/ui2/flp"
+    postCharset="" postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c05#2E2_@z@c1_@sales_@order_@v@a01_@create @s@o@l@t399/%resources%/recorded-artifacts/fe2f7094-ab34-48dd-af32-9ed9a17e2804.zip"
+    recordedResponseCode="200" responseSize="5719"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="ed7f9d44-fc55-4ca0-a851-412658723365" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_356b2694-ca0c-479e-8635-3657e21ed837.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_356b2694-ca0c-479e-8635-3657e21ed837.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;>" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="c_yc4_va01_sap-login-XSRF"
+        refererUid="5922041b-765a-46d4-8451-928ffbc4d42e"
+        regExp="sap-login-XSRF&quot; value=&quot;(.*?)&quot;>"
+        regExpAdv="" setDefaultValue="true"
+        startsWithSimple="sap-login-XSRF&quot; value=&quot;"
+        template="$1$" templateAdv="$1$"
+        uid="4c8cc6de-b030-4c45-961c-3d9d635d75dc" valueEncoded="true"
+        valueHtmlEncoded="true" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <parameter encodeName="true" encodeValue="true" name="saml2"
+        recordRawValue="disabled" separator="=" value="disabled" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sap-client"
+        recordRawValue="330" separator="=" value="${P_Client.ID}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sap-language"
+        recordRawValue="EN" separator="=" value="EN" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="http://www.neotys.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 5719&#xd;
+content-security-policy: default-src 'self'&#xd;
+sap-err-id: ICFLOGONREQUIRED&#xd;
+expires: 0&#xd;
+pragma: no-cache, no-store, private&#xd;
+cache-control: no-cache, no-store, private&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 59233.000000&#xd;
+set-cookie: sap-login-XSRF_YC4=20240215065043-FpC5IkTvkHFm-t2_k80jCw%3d%3d; path=/; secure; HttpOnly; SameSite=None; Domain=.ibm.com;SameSite=Strict; Secure&#xd;
+set-cookie: sap-usercontext=sap-language=EN&amp;sap-client=330; path=/; SameSite=None; secure; Domain=.ibm.com;SameSite=Strict; Secure</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

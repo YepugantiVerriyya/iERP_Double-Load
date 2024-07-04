@@ -1,0 +1,10 @@
+GET I_SalesOrderFlfmtIssueBasic?sap-client=100&$select=SalesOrder%2CIssue%2CDeliveryDocument%2CBillingDocument%2CPurchasingDocument%2CManufacturingOrder%2CRequestedDeliveryDate%2CDueDays&$orderby=DueDays%20asc,Issue%20asc&$filter=SalesOrder%20eq%20%277303980043%27%20and%20IsPotentialFutureIssue%20eq%20%270%27 HTTP/1.1
+sap-cancel-on-close: true
+sap-contextid-accept: header
+Accept: application/json
+x-csrf-token: TvjO8479_w8g1Ss5-7Ka1w==
+Accept-Language: en
+DataServiceVersion: 2.0
+MaxDataServiceVersion: 2.0
+X-Requested-With: XMLHttpRequest
+

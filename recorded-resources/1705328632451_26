@@ -1,0 +1,10 @@
+GET I_GLAccountInCompanyCodeStdVH/$count?sap-client=100&$filter=CompanyCode%20eq%20%270147%27&search-focus=GLAccount&search=11 HTTP/1.1
+sap-cancel-on-close: true
+sap-contextid-accept: header
+Accept: text/plain, */*;q=0.5
+x-csrf-token: 0cTkRzQsrNNkbDsetzVqmw==
+Accept-Language: en
+DataServiceVersion: 2.0
+MaxDataServiceVersion: 2.0
+X-Requested-With: XMLHttpRequest
+

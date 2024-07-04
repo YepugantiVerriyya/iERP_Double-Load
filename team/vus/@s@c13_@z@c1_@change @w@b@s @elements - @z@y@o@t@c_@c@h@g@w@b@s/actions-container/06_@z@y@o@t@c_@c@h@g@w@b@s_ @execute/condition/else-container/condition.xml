@@ -1,0 +1,18 @@
+<if-action name="condition" uid="f9ae5e87-a9c1-4c3c-906b-48b97dd0ff29">
+    <then-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the condition is true.</description>
+        <weighted-embedded-action uid="2d97bc39-c66f-4761-a81a-0b0f7b07d94b"/>
+    </then-container>
+    <else-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the condition is false.</description>
+        <weighted-embedded-action uid="66c4314c-fd59-4961-a1a2-76de44157eea"/>
+    </else-container>
+    <conditions match-type="1">
+        <condition operand1="${ZYOTC_CHGWBS_Test_File.File Name}"
+            operand2="2 Mass Update FIORI YC4 CHGWBS.txt" operator="EQUALS"/>
+    </conditions>
+</if-action>

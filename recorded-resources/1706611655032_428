@@ -1,0 +1,10 @@
+GET I_BillingDocument?sap-client=100&$select=BillingDocument%2CBillingDocumentType%2Cto_BillingDocumentType%2FBillingDocumentType_Text%2CBillingDocumentDate%2CAccountingPostingStatus%2CBillingDocumentIsCancelled%2CTotalNetAmount%2CTransactionCurrency%2COverallBillingStatus%2Cto_OverallBillingStatus%2FOverallBillingStatus_Text&$expand=to_BillingDocumentType%2Cto_OverallBillingStatus&$filter=BillingDocument%20eq%20%2791416566%27 HTTP/1.1
+sap-cancel-on-close: true
+sap-contextid-accept: header
+Accept: application/json
+x-csrf-token: TvjO8479_w8g1Ss5-7Ka1w==
+Accept-Language: en
+DataServiceVersion: 2.0
+MaxDataServiceVersion: 2.0
+X-Requested-With: XMLHttpRequest
+

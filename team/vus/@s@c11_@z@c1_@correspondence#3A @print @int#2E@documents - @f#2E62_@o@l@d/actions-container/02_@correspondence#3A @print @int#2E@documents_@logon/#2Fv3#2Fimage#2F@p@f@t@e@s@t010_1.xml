@@ -1,0 +1,54 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/v3/image/PFTEST010_1" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c11_@z@c1_@correspondence#3A @print @int#2E@documents - @f#2E62_@o@l@d/%resources%/recorded-artifacts/69318f61-a045-498b-b310-625236a8a153.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="69318f61-a045-498b-b310-625236a8a153">
+    <embedded-action>1c0ca870-9263-48fb-aa1b-4c549f33ff6d</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_527ac96d-56f2-461a-89c8-96dd8e417fd2.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v3/image/PFTEST010" path="/v3/image/PFTEST010"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c11_@z@c1_@correspondence#3A @print @int#2E@documents - @f#2E62_@o@l@d/%resources%/recorded-artifacts/69318f61-a045-498b-b310-625236a8a153.zip"
+    recordedResponseCode="404" responseSize="37"
+    serverUid="w3-unifiedprofile-api.dal1a.cirrus.ibm.com"
+    slaProfileEnabled="false" uid="1c0ca870-9263-48fb-aa1b-4c549f33ff6d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_8fe71bd7-0d55-4eb3-bca9-c0de783db9ba</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_8fe71bd7-0d55-4eb3-bca9-c0de783db9ba.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="type"
+        recordRawValue="bp" separator="=" value="bp" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="w3-unifiedprofile-api.dal1a.cirrus.ibm.com"/>
+    <header name="Referer" value="https://ierp-yc4.pce.ibm.com:44391/"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="image"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 404 Not Found&#xd;
+vary: Origin&#xd;
+content-type: application/json; charset=utf-8&#xd;
+content-length: 37&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="447969242"&#xd;
+set-cookie: dtCookie=v_4_srv_1_sn_B20FB08BE5A724BFDF45D86B4FE83DE0_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_0_rcs-3Acss_0; Path=/; Domain=.ibm.com&#xd;
+date: Mon, 12 Feb 2024 09:31:00 GMT&#xd;
+keep-alive: timeout=5&#xd;
+set-cookie: 1cdcdfc393d3af10db7bd6b380aff912=d60faaffce00a9f9260d1674ab0f3822; path=/; HttpOnly; Secure; SameSite=None&#xd;
+cache-control: private&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

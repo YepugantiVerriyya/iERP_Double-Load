@@ -1,0 +1,17 @@
+--changeset_517b-480d-11a9
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST trackerSet?sap-client=100 HTTP/1.1
+sap-contextid-accept: header
+Accept: application/json
+Accept-Language: en
+DataServiceVersion: 2.0
+MaxDataServiceVersion: 2.0
+X-Requested-With: XMLHttpRequest
+Content-Type: application/json
+Content-ID: id-1719568446648-169
+Content-Length: 527
+
+{"Username":"PFTEST701","Country":"United States","Market":"Not applicable","CatalogId":"Z_BC_CEOTCSVF_TIMEADMIN","CatalogTitle":"Z_BC_CEOTCSVF_TIMEADMIN","OpenMethod":"Search","SpaceTitle":"","PageTitle":"","SectionTitle":"","AppName":"CATSDA  Display Working Times","AppType":"UI5 Application","Browser":"Chrome","BrowserVersion":"126.0.0.0","YplRole":"ZBH:CECOESTMGBLTIMEADMIN","RoleDesc":"CIO : Time Recording by Time Administrator (Global)","Email":"dilip.karnam@in.ibm.com","Unit":"Not applicable","BspName":"ZSTMCATSDA"}
+--changeset_517b-480d-11a9--

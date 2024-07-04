@@ -1,0 +1,10 @@
+GET C_BillingDocument_F0797?sap-client=100&$skip=0&$top=20&$orderby=BillingDocumentDate%20desc,BillingDocument%20desc&$filter=BillingDocumentIsTemporary%20eq%20false&$select=BillingDocument%2cBillingDocumentType%2cto_BillingDocumentType%2fBillingDocumentType_Text%2cSoldToParty%2cto_SoldToParty%2fCustomerName%2cto_OverallBillingStatus%2fOverallBillingStatus_Text%2cBillingDocumentDate%2cTotalNetAmount%2cTransactionCurrency%2cSDDocumentCategory%2cUxAcPost%2cUxAcCancel%2cCreationDate%2cCreationTime%2cLastChangeDateTime%2cOverallBillingStatus%2cBillingDocumentIsCancelled%2cCancelledBillingDocument%2cAccountingTransferStatus%2cBillingIssueType%2cto_BillingIssueType%2fBillingIssueType_Text%2cSystemMessageText%2cSalesOrganization%2cBillingDocumentTypeName%2cSystemMessageIdentification%2cSystemMessageNumber%2cSystemMessageType%2cSystemMessageVariable1%2cSystemMessageVariable2%2cSystemMessageVariable3%2cSystemMessageVariable4%2cSitnNumberOfInstances&$expand=to_BillingDocumentType%2cto_SoldToParty%2cto_OverallBillingStatus%2cto_BillingIssueType&$inlinecount=allpages HTTP/1.1
+sap-cancel-on-close: true
+sap-contextid-accept: header
+Accept: application/json
+x-csrf-token: TvjO8479_w8g1Ss5-7Ka1w==
+Accept-Language: en
+DataServiceVersion: 2.0
+MaxDataServiceVersion: 2.0
+X-Requested-With: XMLHttpRequest
+

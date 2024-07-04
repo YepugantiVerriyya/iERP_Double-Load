@@ -1,0 +1,20 @@
+<custom-action actionType="SapSetText" isHit="false"
+    name="SetText GuiTextField (User)" uid="2b352c5e-0ab4-4202-b6bb-05b5dd83966a">
+    <description>This action simulates a set text action in an SAP text field.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/".&#xd;
+- value (optional): The text value&#xd;
+- column (optional): The column index of a table or the column name of a grid.&#xd;
+- row (optional): The row index of a grid or a table.&#xd;
+- ignoreErrors (optional): If set to "true", the action won't be in error if object is not found, type is not supported or an exception is thrown. Default value is "false".&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[0]/usr/txtRSYST-BNAME"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="RSYST-BNAME"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiTextField"/>
+    <custom-action-parameter name="value" type="TEXT" value="${ZC1_TestUser.Id}"/>
+    <responsePageFileDescription>recorded-responses/res_2b352c5e-0ab4-4202-b6bb-05b5dd83966a</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/@z@c1_@p@a@s@s@w@o@r@d_@c@h@a@n@g@e/%resources%/recorded-screenshots/sc_35873fd3-87bb-42b9-b56d-d633b75fb895.jpg</screenshotFileDescription>
+</custom-action>

@@ -1,0 +1,11 @@
+GET ZYOTC_CV_CATS_DA(iv_datefrom=datetime%272022-04-12T00%3a00%3a00%27,iv_dateto=datetime%272022-04-14T00%3a00%3a00%27)/Results?sap-client=100&$select=RecHrs,HoursUnitOfMeasure,Amount,Currency&$top=100&$inlinecount=allpages HTTP/1.1
+sap-cancel-on-close: true
+sap-contextid-accept: header
+Accept: application/json
+x-csrf-token: _PlFNQzuwm5vdQyXWna46Q==
+Accept-Language: en
+DataServiceVersion: 2.0
+MaxDataServiceVersion: 2.0
+X-Requested-With: XMLHttpRequest
+sap-message-scope: BusinessObject
+

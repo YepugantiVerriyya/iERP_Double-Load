@@ -1,0 +1,53 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata4/iwngw/notification/default/iwngw/notification_srv/0001/GetBadgeNumber()"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c07#2E1_@z@c1_@sales_@order_@v@a03_@display @s@o@g@t400/%resources%/recorded-artifacts/c17a1671-855d-4dcf-981d-5734b2e20c36.zip"
+    slaProfileEnabled="false" thinkTime="8943"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="c17a1671-855d-4dcf-981d-5734b2e20c36">
+    <embedded-action>e219276b-cb22-41ab-b297-2f5adde91d28</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_9b80ea1d-2ba9-4d34-bee9-51d1fd3bb668.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json;odata.metadata=minimal;charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/opu/odata4/iwngw/notification/default/iwngw/notification_srv/0001/GetBadgeNumber()"
+    path="/sap/opu/odata4/iwngw/notification/default/iwngw/notification_srv/0001/GetBadgeNumber()"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c07#2E1_@z@c1_@sales_@order_@v@a03_@display @s@o@g@t400/%resources%/recorded-artifacts/c17a1671-855d-4dcf-981d-5734b2e20c36.zip"
+    recordedResponseCode="200" responseSize="50"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="e219276b-cb22-41ab-b297-2f5adde91d28" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b3376832-f928-4029-844b-ba931679a33a</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b3376832-f928-4029-844b-ba931679a33a.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-zc1.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en"/>
+    <header name="accept" value="application/atomsvc+xml;q=0.8, application/json;odata=fullmetadata;q=0.7, application/json;q=0.5, */*;q=0.1"/>
+    <header name="maxdataserviceversion" value="3.0"/>
+    <header name="sec-ch-ua" value="&quot;Not_A Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;120&quot;, &quot;Google Chrome&quot;;v=&quot;120&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000636F6D2E69626D2E7A6D6E6773616C65736F7264657240302E302E312020202000005341505F4532455F54415F5573657220202020202020202020202020202020206F6E74726F6C5F42415349432D53616C6573446F63756D656E745F6C6976654368616E67655F33360005636F6D2E69626D2E7A6D6E6773616C65736F7264657240302E302E3120202020463133393237464330454535343539414242353733314439383930394232304520202000078543E9EF274D440B8DC1003834ABCE940000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="x-csrf-token" value="${c_x-csrf-token}=="/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json;odata.metadata=minimal;charset=utf-8&#xd;
+content-length: 50&#xd;
+odata-version: 4.0&#xd;
+cache-control: no-cache, no-store, must-revalidate&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 15865.000000&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

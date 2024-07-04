@@ -1,0 +1,41 @@
+<http-action actionType="1" contentType="text/plain"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/sap(cz1TSUQlM2FBTk9OJTNhaWNjMW9xeWM0YXAwMV9ZQzRfMDMlM2FKN3FLUWI0UTRlMjJYLXdWZ3FuQkstX1o1NzZhNkRkTU9lbXVpUXBQLUFUVA==)/bc/se/rg/upload"
+    path="/sap(${c_CHGWBS_SAP}==)/bc/se/rg/upload" postType="4"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="2d97bc39-c66f-4761-a81a-0b0f7b07d94b" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/@s@c13_@z@c1_@change @w@b@s @elements - @z@y@o@t@c_@c@h@g@w@b@s/%resources%/recorded-responses/res_2d97bc39-c66f-4761-a81a-0b0f7b07d94b</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@s@c13_@z@c1_@change @w@b@s @elements - @z@y@o@t@c_@c@h@g@w@b@s/%resources%/recorded-requests/req_f62ca5b7-4cbb-4999-be87-1812c166ad8b.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="moin"
+        recordRawValue="566646BCFF28D144" separator="="
+        value="${c_CHGWBS_moin}" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/se/m/index.html?sap-personas-flavor=${c_CHGWBS_flavor}&amp;sap-personas-hidden=X&amp;sap-se-csrf-parameter=moin&amp;sap-se-hide-splashscreen=X&amp;sap-se-showkeys=visible&amp;~transaction=SMEN"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://ierp-yc4.pce.ibm.com:44391"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;122&quot;, &quot;Not(A:Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;122&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="x-csrf-token" value="${c_CHGWBS_moin}"/>
+    <header name="content-type" value="text/plain"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/plain&#xd;
+Content-Length: 0&#xd;
+expires: Sat, 6 May 1995 12:00:00 GMT&#xd;
+cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0&#xd;
+pragma: no-cache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+sap-perf-fesrec: 519.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[Encoded(Base64):UmVmZXJlbmNlIEZpZWxkCQlGaWVsZHMgdG8gdXBkYXRlIGlmIHByb3ZpZGVkIChMMi1MNSBjb21tZXJjaWFsIFdCUyBFbGVtZW50cykJCQkJCUZpZWxkcyB0byB1cGRhdGUgaWYgcHJvdmlkZWQgKEwzLUw1IGNvbW1lcmNpYWwgV0JTIEVsZW1lbnRzKQkJDQpXQlMgRWxlbWVudAlXQlMgRWxlbWVudCBEZXNjcmlwdGlvbglTaG9ydCBJRAlQcmlvcml0eQlUYXNrIFR5cGUJUE8gQXBwcm92ZXIJU3lzdGVtIFN0YXR1cwlCYXNpYyBTdGFydCBEYXRlCUJhc2ljIEZpbmlzaCBEYXRlCVBlcnNvbiBSZXNwb25zaWJsZQ0KUFJQUy1QU1BOUglQUlBTLVBPU1QxCVBSUFMtUE9TS0kJUFJQUy1QU1BSSQlQUlBTLVVTUjAzCVBSUFMtVVNSMDEJSkVTVAlQUlRFLVBTVFJUIFlZWVlNTURECVBSVEUtUEVOREUgWVlZWU1NREQJUFJQUy1WRVJOUg0KQy4yMzkxMAkJTTIxMjYzNQkJCQkJCQkNCkMuMjM5MTAuMDAxCQlNMjEyNjM1CQkJCQkJCQ0KQy4yMzkxNgkJTTIxMjYzNQkJCQkJCQkNCkMuMjM5MTYuMDAxCQlNMjEyNjM1CQkJCQkJCQ0KQy4yMzkxNwkJTTIxMjYzNQkJCQkJCQkNCkMuMjM5MTcuMDAxCQkwMDEtODRSCQkJCQkJCQ0KQy4yMzkxNy4wMDIJCTAwMS04NFIJCQkJCQkJDQpDLjIzOTE5LjAwMQkJCQkJREUwMEU3MDIJCQkJDQpDLjIzOTE5LjAwMgkJCQkJREUwMEU3MDIJCQkJDQpDLjIzOTE5LjAwMwkJCQkJREUwMEU3MDIJCQkJDQpDLjIzOTE5LjAwMy4wMDEJCQkJCURFMDBFNzAyCQkJCQ0KQy4yMzkxOS4wMDQJCQkJCURFMDBFNzAyCQkJCQ0KQy4yMzkxOS4wMDQuMDAxCQkJCQlERTAwRTcwMgkJCQkNCkMuMjM5MUMuMDAxCQkJCQlERTAwMTU2OAkJCQkNCkMuMjM5MUMuMDAyCQkJCQlERTAwQzQ4MQkJCQkNCkMuMjM5MUMuMDAyLjAwMQkJCQkJREUwMEM0ODEJCQkJDQpDLjIzOTFDLjAwMwkJCQkJREUwMEM0ODEJCQkJDQpDLjIzOTFDLjAwNAkJCQkJREUwMEM0ODEJCQkJDQpDLjIzOTFDLjAwNQkJCQkJREUwMEM0ODEJCQkJDQpDLjIzOTFDLjAwNS4wMDEJCQkJCURFMDBDNDgxCQkJCQ0KQy4yMzkxQy4wMDYJCQkJCURFMDBDNDgxCQkJCQ0KQy4yMzkxRC4wMDEJCQkJCURFMDBNMTgxCQkJCQ0KQy4yMzkxRC4wMDIJCQkJCURFMDBNMTgxCQkJCQ0KQy4yMzkxRC4wMDMJCQkJCURFMDBNMTgxCQkJCQ0KQy4yMzkxRC4wMDQJCQkJCURFMDBNMTgxCQkJCQ0KQy4yMzkxRC4wMDUJCQkJCURFMDBNMTgxCQkJCQ0KQy4yMzkxRi4wMDEJCQkJCURFMDBFNzA1CQkJCQ0KQy4yMzkxRi4wMDEuMDAxCQkJCQlERTAwRTcwNQkJCQkNCg==]]></textPostContent>
+</http-action>

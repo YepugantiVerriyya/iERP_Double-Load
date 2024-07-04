@@ -1,0 +1,20 @@
+<if-action name="condition" uid="38401c4b-9931-41fd-bd7d-6e0bd8907f3b">
+    <then-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the condition is true.</description>
+        <weighted-embedded-action uid="6f03a7f0-faac-449a-9afd-8b2d54b3d354"/>
+        <weighted-embedded-action uid="131786ca-7cb0-43f5-bc88-99cdd1fdcc5d"/>
+    </then-container>
+    <else-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the condition is false.</description>
+        <weighted-embedded-action uid="1404f34c-c916-466b-b5a5-c2db7f2c3514"/>
+        <weighted-embedded-action uid="ffc6e45c-61ab-48d0-9f92-01aa66047315"/>
+    </else-container>
+    <conditions match-type="1">
+        <condition operand1="${VA01_Reference Orders_GT400.Order_Type}"
+            operand2="ZPBC" operator="EQUALS"/>
+    </conditions>
+</if-action>

@@ -1,0 +1,32 @@
+<virtual-user errorPolicy="GO_TO_NEXT_ITERATION"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="SC08.3_ZC1_WBS_Element_ClosureReport">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="100"
+        pacingMode="MODE_PACING_RANGE" pacingStart="90" pacingValue="10"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="75fde167-8960-424e-a05c-0e8c59c583f7"/>
+        <weighted-embedded-action uid="37d13217-1953-484f-9cd6-5412c06998de"/>
+        <weighted-embedded-action uid="fa81f0ce-9322-4adc-b10a-9d377f6551c8"/>
+        <weighted-embedded-action uid="78e15f6f-23dc-4587-b29c-ea2b825547e4"/>
+        <weighted-embedded-action uid="2b698e98-3ce7-4a02-b3ad-5ce0ee2a6b6c"/>
+        <weighted-embedded-action uid="7a5cd868-81f2-43ba-a820-7394800035c5"/>
+        <weighted-embedded-action uid="fbdaa26e-fcab-4b03-b3bb-6f3c547b55ae"/>
+        <weighted-embedded-action uid="7016affc-5c2a-4673-8c2f-87baefb80317"/>
+        <weighted-embedded-action uid="5cdda9df-3042-4231-8834-472b0579040d"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

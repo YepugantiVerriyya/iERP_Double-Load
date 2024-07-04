@@ -1,0 +1,44 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/bc/personas3/resource/" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c13_@z@c1_@change @w@b@s @elements - @z@y@o@t@c_@c@h@g@w@b@s/%resources%/recorded-artifacts/c1c1b514-a6a9-4ad4-b1f3-d1fc736fbdf5.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="c1c1b514-a6a9-4ad4-b1f3-d1fc736fbdf5">
+    <embedded-action>f08224e5-f630-459c-ba36-3841badb7923</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_26d193ab-74a5-4cd9-9c14-171fa8a4b145.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/sap/bc/personas3/resource/"
+    path="/sap/bc/personas3/resource/" postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c13_@z@c1_@change @w@b@s @elements - @z@y@o@t@c_@c@h@g@w@b@s/%resources%/recorded-artifacts/c1c1b514-a6a9-4ad4-b1f3-d1fc736fbdf5.zip"
+    recordedResponseCode="403" responseSize="0"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="f08224e5-f630-459c-ba36-3841badb7923" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f08224e5-f630-459c-ba36-3841badb7923.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1ab8ad12-b165-46c2-aa67-cf95dada4962.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true"
+        name="cz1TSUQlM2FBTk9OJTNhaWNjMW9xeWM0YXAwMl9ZQzRfMDMlM2F1NTNOVU0xbnhnc01iNTVLa3pRTTR2YVZvX1E3VDlFbkhvcDhSTlI4LUFUVA=="
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/se/m/index.html?sap-personas-flavor=${c_CHGWBS_flavor}&amp;sap-personas-hidden=X&amp;sap-se-csrf-parameter=moin&amp;sap-se-hide-splashscreen=X&amp;sap-se-showkeys=visible&amp;~transaction=SMEN"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;122&quot;, &quot;Not(A:Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;122&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 403&#xd;
+content-type: text/html&#xd;
+Content-Length: 0&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 5579.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

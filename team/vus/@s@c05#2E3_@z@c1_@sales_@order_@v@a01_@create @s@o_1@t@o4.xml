@@ -1,0 +1,35 @@
+<virtual-user errorPolicy="GO_TO_NEXT_ITERATION"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="SC05.3_ZC1_Sales_Order_VA01_Create SO_1TO4">
+    <description>Create 482 Sales Orders with 1 to 4 items</description>
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="10"
+        pacingMode="MODE_NO_PACING" pacingStart="5" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="0deff2c4-6c68-4c69-ab49-104e1bb819c6"/>
+        <weighted-embedded-action uid="8202b4d4-cc0d-4190-8995-530c8fea81e9"/>
+        <weighted-embedded-action uid="5085c9eb-721e-4b28-957d-976a4589c583"/>
+        <weighted-embedded-action uid="cb7cabd8-212e-4f68-a5f4-f4e7a8f678a6"/>
+        <weighted-embedded-action uid="450bb219-c857-41b4-add7-bcafa02f5750"/>
+        <weighted-embedded-action uid="f29e452d-64d0-4102-97d6-16e9a8a2e50c"/>
+        <weighted-embedded-action uid="6df8ca42-0b4e-4777-b8f5-77a8e5846271"/>
+        <weighted-embedded-action uid="8ee4128c-6680-4ae5-92ea-3bbc527e9480"/>
+        <weighted-embedded-action uid="b476d7a2-42e1-472a-814c-9d665a44cd98"/>
+        <weighted-embedded-action uid="9442848e-e1b0-4d26-bd73-d24979ff11f7"/>
+        <weighted-embedded-action uid="39a856d1-19bb-4a1d-a38d-dd13e841a869"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="${ThinkTime}"/>
+</virtual-user>

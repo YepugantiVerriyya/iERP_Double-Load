@@ -1,0 +1,18 @@
+--changeset_a37c-953c-457d
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST trackerSet HTTP/1.1
+sap-contextid-accept: header
+Accept: application/json
+x-csrf-token: L4gLO3S0lMGvnsFWKWS-5Q==
+Accept-Language: en
+DataServiceVersion: 2.0
+MaxDataServiceVersion: 2.0
+X-Requested-With: XMLHttpRequest
+Content-Type: application/json
+Content-ID: id-1708347325652-265
+Content-Length: 544
+
+{"Username":"PFTEST017","Country":"United States","Market":"North America: United States","CatalogId":"Z_BC_SEGENGENGBL_COMMON_ACCESS","CatalogTitle":"Z_BC_SEGENGENGBL_COMMON_ACCESS","OpenMethod":"Search","SpaceTitle":"","PageTitle":"","SectionTitle":"","AppName":"Transaction Launcher","AppType":"Modified Flavor","Browser":"Chrome","BrowserVersion":"121.0.0.0","YplRole":"ZBH:CECOEOPSGBL_FIN_FUNCT_ANAL","RoleDesc":"CoE Role - Access for the CoE Finance Functional Analyst","Email":"doug.glass@us.ibm.com","Unit":"IBM Financing","BspName":""}
+--changeset_a37c-953c-457d--

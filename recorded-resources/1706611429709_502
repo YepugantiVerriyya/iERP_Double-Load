@@ -1,0 +1,10 @@
+GET C_BillingDocumentItem_F0797(BillingDocument='91416566',BillingDocumentItem='2')/PartySet?sap-client=100&$skip=0&$top=20&$select=FunctionDescr%2cName%2cAddressLine%2cDocumentId%2cFunctionCode%2cFunctionDescr%2cPartyId%2cName%2cName2%2cAddressLine%2cStreet%2cHouseNumber%2cPostalCode%2cCity%2cCountryCode%2cAddressNumber%2cAddressPersonNumber%2cAddressType%2cItemId&$inlinecount=allpages HTTP/1.1
+sap-cancel-on-close: true
+sap-contextid-accept: header
+Accept: application/json
+x-csrf-token: TvjO8479_w8g1Ss5-7Ka1w==
+Accept-Language: en
+DataServiceVersion: 2.0
+MaxDataServiceVersion: 2.0
+X-Requested-With: XMLHttpRequest
+

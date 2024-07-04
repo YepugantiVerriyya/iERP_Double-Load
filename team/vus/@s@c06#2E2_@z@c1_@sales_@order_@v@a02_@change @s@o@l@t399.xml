@@ -1,0 +1,32 @@
+<virtual-user errorPolicy="GO_TO_NEXT_ITERATION"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="SC06.2_ZC1_Sales_Order_VA02_Change SOLT399">
+    <description>Change 7 Sales Orders with 5 to 399 items</description>
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="500"
+        pacingMode="MODE_PACING_RANGE" pacingStart="480" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="75c4f9b7-6073-44a0-944c-f16830224037"/>
+        <weighted-embedded-action uid="c5e689a4-6cc0-4c4f-9f8d-8fb14e3bae95"/>
+        <weighted-embedded-action uid="25ac57f2-2e1c-491e-b8eb-50ba92661088"/>
+        <weighted-embedded-action uid="ae1aea88-af2e-4a4c-85d6-c291351e1d1c"/>
+        <weighted-embedded-action uid="d9c02996-4db8-4d79-9038-8a30c7550f02"/>
+        <weighted-embedded-action uid="2f38501d-077e-4564-89be-964cdb9fc3c0"/>
+        <weighted-embedded-action uid="33c70dbf-8c94-4508-a61f-139ffe58c74d"/>
+        <weighted-embedded-action uid="bcd529dd-a27e-45f9-91a5-044d66fd1816"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

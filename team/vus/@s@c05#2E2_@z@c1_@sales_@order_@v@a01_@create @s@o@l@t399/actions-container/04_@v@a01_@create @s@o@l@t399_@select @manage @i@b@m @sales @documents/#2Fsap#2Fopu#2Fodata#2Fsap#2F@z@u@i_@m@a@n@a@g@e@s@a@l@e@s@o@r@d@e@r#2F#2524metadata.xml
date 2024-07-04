@@ -1,0 +1,64 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata/sap/ZUI_MANAGESALESORDER/%24metadata"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c05#2E2_@z@c1_@sales_@order_@v@a01_@create @s@o@l@t399/%resources%/recorded-artifacts/851e7c7f-490c-4c5e-84f4-3e166474647e.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="851e7c7f-490c-4c5e-84f4-3e166474647e">
+    <embedded-action>10daa747-e4b4-4514-b2ef-0d55f091b597</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_64a93c13-fd8e-4f24-9bd1-a87f1c21feb6.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/xml"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 29 May 2024 09:27:45 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/opu/odata/sap/ZUI_MANAGESALESORDER/$metadata"
+    path="/sap/opu/odata/sap/ZUI_MANAGESALESORDER/$metadata"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c05#2E2_@z@c1_@sales_@order_@v@a01_@create @s@o@l@t399/%resources%/recorded-artifacts/851e7c7f-490c-4c5e-84f4-3e166474647e.zip"
+    recordedResponseCode="200" responseSize="107995"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="10daa747-e4b4-4514-b2ef-0d55f091b597" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_57c2461c-9a2e-4d66-889b-7a2432bd0387.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_57c2461c-9a2e-4d66-889b-7a2432bd0387.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="sap-client"
+        recordRawValue="330" separator="=" value="${P_Client.ID}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="sap-value-list" recordRawValue="none" separator="="
+        value="none" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sap-language"
+        recordRawValue="EN" separator="=" value="EN" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en"/>
+    <header name="accept" value="application/xml"/>
+    <header name="maxdataserviceversion" value="3.0"/>
+    <header name="if-modified-since" value="Thu, 08 Feb 2024 00:19:59 GMT"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sap-cancel-on-close" value="true"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="sap-contextid-accept" value="header"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000757368656C6C2E72656E6465726572732E66696F72693240312E3130382E323500005341505F4532455F54415F5573657220202020202020202020202020202020206C64496E5368656C6C2D696E7075742D706F7075702D7461626C655F6974656D50726573735F32370005757368656C6C2E72656E6465726572732E66696F72693240312E3130382E323539364339453630314539323734333044393039363536433945393145413131322020200007F1EAD7EF100B40E08633046D0CBEFF1A0000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/xml&#xd;
+content-length: 8798&#xd;
+last-modified: Wed, 14 Feb 2024 18:07:38 GMT&#xd;
+cache-control: max-age=0&#xd;
+dataserviceversion: 2.0&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=,MedCacheHub=Table,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 119033.000000&#xd;
+content-encoding: br</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

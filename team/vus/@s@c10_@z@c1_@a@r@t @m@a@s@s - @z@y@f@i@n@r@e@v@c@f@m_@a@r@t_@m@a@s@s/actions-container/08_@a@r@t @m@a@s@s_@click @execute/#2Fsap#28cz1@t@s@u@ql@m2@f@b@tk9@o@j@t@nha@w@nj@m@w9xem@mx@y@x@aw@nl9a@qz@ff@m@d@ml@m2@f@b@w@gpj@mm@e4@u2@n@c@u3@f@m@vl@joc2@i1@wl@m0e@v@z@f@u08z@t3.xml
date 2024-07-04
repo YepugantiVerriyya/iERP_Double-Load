@@ -1,0 +1,55 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap(cz1TSUQlM2FBTk9OJTNhaWNjMW9xemMxYXAwNl9aQzFfMDMlM2FBWGpjMmE4U2NCU3FMVlJoc2I1WlM0eVZFU08zT3"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c10_@z@c1_@a@r@t @m@a@s@s - @z@y@f@i@n@r@e@v@c@f@m_@a@r@t_@m@a@s@s/%resources%/recorded-artifacts/fb5bb20a-2f3d-4a20-8f15-6f085b2b595f.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="fb5bb20a-2f3d-4a20-8f15-6f085b2b595f">
+    <embedded-action>16e83cec-ea74-4672-a5c9-dc1348fb4c98</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_f6b73259-3556-4de8-b0a5-fbbc21f4045d.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/sap(cz1TSUQlM2FBTk9OJTNhaWNjMW9xemMxYXAwNl9aQzFfMDMlM2FBWGpjMmE4U2NCU3FMVlJoc2I1WlM0eVZFU08zT3JkVGZ0Vk1EUGFWLUFUVA==)/bc/se/rg/batch/json"
+    path="/sap(${c_sap_variable_2})/bc/se/rg/batch/json" postType="4"
+    recordedArtifactZipFileName="team/vus/@s@c10_@z@c1_@a@r@t @m@a@s@s - @z@y@f@i@n@r@e@v@c@f@m_@a@r@t_@m@a@s@s/%resources%/recorded-artifacts/fb5bb20a-2f3d-4a20-8f15-6f085b2b595f.zip"
+    recordedResponseCode="200" responseSize="41596"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="16e83cec-ea74-4672-a5c9-dc1348fb4c98" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_605430a6-98a0-48c5-80bf-831fb791f2e8</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_605430a6-98a0-48c5-80bf-831fb791f2e8.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="moin"
+        recordRawValue="4C51BC78ECB3CA4A" separator="="
+        value="${c_moin}" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-zc1.pce.ibm.com:44391/sap/bc/se/m/index.html?sap-personas-flavor=9AB09B91720B1ED8B5E0E6AD6FF64788&amp;sap-personas-hidden=X&amp;sap-se-csrf-parameter=moin&amp;sap-se-hide-splashscreen=X&amp;sap-se-showkeys=visible&amp;~transaction=SMEN"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://ierp-zc1.pce.ibm.com:44391"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;123&quot;, &quot;Not:A-Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;123&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json;charset=UTF-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json; charset=utf-8&#xd;
+content-length: 4886&#xd;
+expires: Sat, 6 May 1995 12:00:00 GMT&#xd;
+cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0&#xd;
+pragma: no-cache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+sap-perf-fesrec: 265453.000000&#xd;
+content-encoding: br&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[[{"post":"action/3/wnd[0]/tbar[1]/btn[8]"},{"post":"recalculate"},{"get":"mobile/state/json","ord":"get-state"},{"get":"personas/state/xml/PERSONAS/THEME"},{"get":"personas/state/xml/PERSONAS/CONTEXT"},{"get":"personas/state/xml/PERSONAS/MDUI"}]]]></textPostContent>
+</http-action>

@@ -1,0 +1,10 @@
+GET ZYOTCEN_CAEQ_HDRSTGSet?sap-client=330&$skip=0&$top=100&$select=RequestNo%2cReqtypeDesc%2cActivityId%2cMachType%2cSerialNo%2cIerpStatus%2cResultDesc%2cStatusDesc%2cRequestType%2cStatus HTTP/1.1
+sap-cancel-on-close: true
+sap-contextid-accept: header
+Accept: application/json
+x-csrf-token: -Sg_sMq1OykDRE27Fo4D2g==
+Accept-Language: en
+DataServiceVersion: 2.0
+MaxDataServiceVersion: 2.0
+X-Requested-With: XMLHttpRequest
+

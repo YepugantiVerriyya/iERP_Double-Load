@@ -1,0 +1,54 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap(cz1TSUQlM2FBTk9OJTNhaWNjMW9xeWM0YXAwMV9ZQzRfMDMlM2F1NTNOLWR1U1laTGJmQnFKWlRDM0NhSVoyR0k3VD"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c08#2E2_@z@c1_@internal@order_@closure@report/%resources%/recorded-artifacts/5f289508-eca2-4001-842e-d2e0a0ad44a6.zip"
+    slaProfileEnabled="false" thinkTime="5933"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="5f289508-eca2-4001-842e-d2e0a0ad44a6">
+    <embedded-action>b6960efa-bc22-4a09-8845-f691cacff7d4</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_7364b122-6d85-4e5b-b004-3312fff927af.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/sap(cz1TSUQlM2FBTk9OJTNhaWNjMW9xeWM0YXAwMV9ZQzRfMDMlM2F1NTNOLWR1U1laTGJmQnFKWlRDM0NhSVoyR0k3VDlINEhvcXhVNHdtLUFUVA==)/bc/se/rg/batch/json"
+    path="/sap(cz${c_sap_Value}==)/bc/se/rg/batch/json" postType="4"
+    recordedArtifactZipFileName="team/vus/@s@c08#2E2_@z@c1_@internal@order_@closure@report/%resources%/recorded-artifacts/5f289508-eca2-4001-842e-d2e0a0ad44a6.zip"
+    recordedResponseCode="200" responseSize="55704"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="b6960efa-bc22-4a09-8845-f691cacff7d4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_eaaf0231-63a5-4675-b629-275180b2c9e8</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_eaaf0231-63a5-4675-b629-275180b2c9e8.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="moin"
+        recordRawValue="F430D757C3D3930A" separator="="
+        value="${c_moin}" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/se/m/index.html?sap-personas-flavor=9AB09B91720B1ED8B5E0E6AD6FF64788&amp;sap-personas-hidden=X&amp;sap-se-csrf-parameter=moin&amp;sap-se-hide-splashscreen=X&amp;sap-se-showkeys=visible&amp;~transaction=SMEN"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://ierp-yc4.pce.ibm.com:44391"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json;charset=UTF-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json; charset=utf-8&#xd;
+content-length: 5864&#xd;
+expires: Sat, 6 May 1995 12:00:00 GMT&#xd;
+cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0&#xd;
+pragma: no-cache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+sap-perf-fesrec: 29276.000000&#xd;
+content-encoding: br</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[[{"post":"focus/wnd[0]/usr/radRB_ORD"},{"post":"action/5/wnd[0]/usr/radRB_ORD"},{"post":"recalculate"},{"get":"mobile/state/json","ord":"get-state"},{"get":"personas/state/xml/PERSONAS/THEME"},{"get":"personas/state/xml/PERSONAS/CONTEXT"},{"get":"personas/state/xml/PERSONAS/MDUI"}]]]></textPostContent>
+</http-action>

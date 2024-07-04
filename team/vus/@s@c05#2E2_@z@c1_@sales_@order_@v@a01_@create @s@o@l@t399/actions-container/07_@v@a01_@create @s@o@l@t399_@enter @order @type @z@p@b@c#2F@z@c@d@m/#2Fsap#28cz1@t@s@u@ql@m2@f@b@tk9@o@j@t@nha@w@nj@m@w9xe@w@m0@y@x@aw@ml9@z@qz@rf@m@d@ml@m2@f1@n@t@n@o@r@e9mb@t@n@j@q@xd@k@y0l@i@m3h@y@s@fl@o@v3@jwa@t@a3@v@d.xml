@@ -1,0 +1,58 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap(cz1TSUQlM2FBTk9OJTNhaWNjMW9xeWM0YXAwMl9ZQzRfMDMlM2F1NTNORE9mbTNJQXdKY0lIM3hYSFlOV3JwaTA3VD"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c05#2E2_@z@c1_@sales_@order_@v@a01_@create @s@o@l@t399/%resources%/recorded-artifacts/be7d172b-4afc-4312-b2a1-5ddeb563ab16.zip"
+    slaProfileEnabled="false" thinkTime="17765"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="be7d172b-4afc-4312-b2a1-5ddeb563ab16">
+    <embedded-action>ac076a8e-9c82-4661-8762-8f5d407bf8d2</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_2bea2149-1f7e-4e91-9631-c63275697c69.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="multipart/mixed; boundary=SAP_RESTGUI_BATCH_STEP; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/sap(cz1TSUQlM2FBTk9OJTNhaWNjMW9xeWM0YXAwMl9ZQzRfMDMlM2F1NTNORE9mbTNJQXdKY0lIM3hYSFlOV3JwaTA3VDlIR1JJcGlid0RPLUFUVA==)/bc/gui/sap/its/webgui/batch/json"
+    path="/sap(${c_yc4_va01_action})/bc/gui/sap/its/webgui/batch/json"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@s@c05#2E2_@z@c1_@sales_@order_@v@a01_@create @s@o@l@t399/%resources%/recorded-artifacts/be7d172b-4afc-4312-b2a1-5ddeb563ab16.zip"
+    recordedResponseCode="200" responseSize="95"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="ac076a8e-9c82-4661-8762-8f5d407bf8d2" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_84f4e02d-52f3-40c9-aef5-82658c895baa</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_84f4e02d-52f3-40c9-aef5-82658c895baa.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="false" encodeValue="true"
+        name="~RG_WEBGUI" recordRawValue="X" separator="=" value="X" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="sap-statistics" recordRawValue="true" separator="="
+        value="true" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/gui/sap/its/webgui;~sysid=YC4;~service=3203?sap-iframe-hint=GUI"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://ierp-yc4.pce.ibm.com:44391"/>
+    <header name="accept" value="multipart/mixed"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="moin" value="${c_yc4_va01_main}"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json;charset=UTF-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: multipart/mixed; boundary=SAP_RESTGUI_BATCH_STEP; charset=utf-8&#xd;
+content-length: 95&#xd;
+expires: Sat, 6 May 1995 12:00:00 GMT&#xd;
+cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0&#xd;
+pragma: no-cache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+sap-statistics: itstotal=1,itsgendiag=0,itsgenhtml=1,itsrestgui=0,itsagiparse=0,itsagiunparse=0,itsext=0,icftotal=1,icfauth=0,icfext=47,icmtotal=10,icmreqrcv=3,icmext=7,icmssl=0,wdtotal=69,wdreqrcv=3,wdext=7,wdssl=59&#xd;
+sap-perf-fesrec: 1525.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[[{"post":"value/wnd[0]/usr/ctxtVBAK-AUART","content":"${VA01_Reference Orders_LT399.Order_Type}","logic":"ignore"}]]]></textPostContent>
+</http-action>

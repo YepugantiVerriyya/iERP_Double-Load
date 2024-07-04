@@ -1,0 +1,66 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata/sap/ZUI_MANAGESALESORDER/SAP__Currencies"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@c05#2E1_@z@c1_@sales_@order_@v@a01_@create @s@o@g@t400/%resources%/recorded-artifacts/2f1ffdf6-2bb0-4766-b89f-fa1f3f32e4a8.zip"
+    slaProfileEnabled="false" thinkTime="16"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="2f1ffdf6-2bb0-4766-b89f-fa1f3f32e4a8">
+    <embedded-action>57d9d5cc-095f-4514-94a8-9c660262b34b</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_65b8eb94-6119-4cb4-ad2a-6280c194e9fb.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/opu/odata/sap/ZUI_MANAGESALESORDER/SAP__Currencies"
+    path="/sap/opu/odata/sap/ZUI_MANAGESALESORDER/SAP__Currencies"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@s@c05#2E1_@z@c1_@sales_@order_@v@a01_@create @s@o@g@t400/%resources%/recorded-artifacts/2f1ffdf6-2bb0-4766-b89f-fa1f3f32e4a8.zip"
+    recordedResponseCode="200" responseSize="75000"
+    serverUid="ierp-zc1.pce.ibm.com" slaProfileEnabled="false"
+    uid="57d9d5cc-095f-4514-94a8-9c660262b34b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_98e1017a-b777-4214-a6fd-1aaf2ef057ee</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_98e1017a-b777-4214-a6fd-1aaf2ef057ee.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="sap-client"
+        recordRawValue="330" separator="=" value="${P_Client.ID}" valueMode="USE_VALUE"/>
+    <parameter encodeName="false" encodeValue="true" name="$skip"
+        recordRawValue="0" separator="=" value="0" valueMode="USE_VALUE"/>
+    <parameter encodeName="false" encodeValue="true" name="$top"
+        recordRawValue="5000" separator="=" value="5000" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sap-client"
+        recordRawValue="330" separator="=" value="${P_Client.ID}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sap-language"
+        recordRawValue="EN" separator="=" value="EN" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ierp-yc4.pce.ibm.com:44391/sap/bc/ui2/flp?saml2=disabled&amp;sap-client=${P_Client.ID}&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en"/>
+    <header name="accept" value="application/json"/>
+    <header name="maxdataserviceversion" value="2.0"/>
+    <header name="sec-ch-ua" value="&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sap-cancel-on-close" value="true"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000636F6D2E69626D2E7A6D6E6773616C65736F7264657240302E302E312020202000005341505F4532455F54415F557365722020202020202020202020202020202020734F72646572732D2D6C6973745265706F727446696C7465722D62746E476F5F70726573735F33310005636F6D2E69626D2E7A6D6E6773616C65736F7264657240302E302E312020202044423230443033323544424434433631393933383542443832453532323435462020200007F1EAD7EF100B40E08633046D0CBEFF1A0000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="dataserviceversion" value="2.0"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json; charset=utf-8&#xd;
+content-length: 3809&#xd;
+dataserviceversion: 2.0&#xd;
+sap-metadata-last-modified: Wed, 14 Feb 2024 18:07:38 GMT&#xd;
+cache-control: max-age=86400&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=,MedCacheHub=Table,MedCacheBEP=,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 42909.000000&#xd;
+content-encoding: br</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

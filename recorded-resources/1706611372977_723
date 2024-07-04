@@ -1,0 +1,10 @@
+GET C_BillingDocument_F0797('91416566')/to_Item?sap-client=100&$skip=0&$top=20&$orderby=BillingDocumentItem%20asc&$select=BillingDocumentItem%2cBillingDocumentItemText%2cMaterial%2cto_Material%2fMaterial_Text%2cBillingQuantity%2cBillingQuantityUnit%2cItemNetAmountOfBillingDoc%2cTransactionCurrency%2cTaxAmount&$expand=to_Material&$inlinecount=allpages HTTP/1.1
+sap-cancel-on-close: true
+sap-contextid-accept: header
+Accept: application/json
+x-csrf-token: TvjO8479_w8g1Ss5-7Ka1w==
+Accept-Language: en
+DataServiceVersion: 2.0
+MaxDataServiceVersion: 2.0
+X-Requested-With: XMLHttpRequest
+

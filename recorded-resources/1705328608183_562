@@ -1,0 +1,10 @@
+GET I_Ledger?sap-client=100&$skip=0&$top=300&$orderby=Ledger%20asc&$select=Ledger%2cLedger_Text%2cIsLeadingLedger%2cLedgerApplication%2cLedgerSubApplication%2cAccountingValuationView%2cLedgerType%2cExtensionLedgerType%2cReferenceLedger%2cLedger_Text HTTP/1.1
+sap-cancel-on-close: true
+sap-contextid-accept: header
+Accept: application/json
+x-csrf-token: 0cTkRzQsrNNkbDsetzVqmw==
+Accept-Language: en
+DataServiceVersion: 2.0
+MaxDataServiceVersion: 2.0
+X-Requested-With: XMLHttpRequest
+
